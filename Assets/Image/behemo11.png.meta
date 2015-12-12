@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 0494867f4a9425843bb24e41652efdbe
+timeCreated: 1449920336
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: behemo11_0
+    21300002: behemo11_walkdown1
+    21300004: behemo11_walkdown2
+    21300006: behemo11_walkleft0
+    21300008: behemo11_walkleft1
+    21300010: behemo11_walkleft2
+    21300012: behemo11_walkup0
+    21300014: behemo11_walkup1
+    21300016: behemo11_walkdown0
+    21300018: behemo11_walkright0
+    21300020: behemo11_walkright1
+    21300022: behemo11_walkright2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 35
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: behemo11_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 288
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkdown1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 288
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkdown2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 288
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkleft0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkleft1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkleft2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 94
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkup0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkup1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkdown0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkright0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 95
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkright1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: behemo11_walkright2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 97
+        width: 95
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
