@@ -84,7 +84,7 @@ namespace Dreammancer
 
         virtual protected void OnLightStay(Light2D l, GameObject g)
         {
-            if (g.GetInstanceID() == id)
+            if (g.GetInstanceID() == id && m_AffectLightTable.ContainsKey(l))
             {
                 Color color = m_AffectLightTable[l];
                 if(!color.Equals(l.LightColor))
@@ -100,7 +100,7 @@ namespace Dreammancer
 
         virtual protected void OnLightExit(Light2D l, GameObject g)
         {
-            if (g.GetInstanceID() == id)
+            if (g.GetInstanceID() == id && m_AffectLightTable.ContainsKey(l))
             {
                 m_FadeInColor = ColorUtil.colorAddRGB(m_FadeInColor, m_AffectLightTable[l]);
                 //m_FadeInColor = ColorUtil.clampColor(m_FadeInColor, 0.0f, 1.0f);

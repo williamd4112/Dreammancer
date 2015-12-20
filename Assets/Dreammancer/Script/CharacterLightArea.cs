@@ -17,6 +17,7 @@ namespace Dreammancer
         // Update is called once per frame
         void LateUpdate()
         {
+            Debug.Log(m_LightArea != null);
             m_LightArea.transform.position = transform.position;
         }
 
