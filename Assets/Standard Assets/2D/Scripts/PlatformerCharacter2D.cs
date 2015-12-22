@@ -27,6 +27,11 @@ namespace UnityStandardAssets._2D
             set { m_BaseVelocity = value; }
         }
 
+        public bool FacingRight
+        {
+            get { return m_FacingRight; }
+        }
+
         private void Awake()
         {
             // Setting up references.
