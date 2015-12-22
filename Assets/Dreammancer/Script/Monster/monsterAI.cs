@@ -30,11 +30,11 @@ public class monsterAI : MonoBehaviour {
 
 	public float move(string dir){
 		float h = 0;
-		if (dir == "right") {
+		if (dir == "forward") {
 			h = Mathf.Lerp(0, 1, Time.time);
 		}
-		else if(dir == "left"){
-			h = Mathf.Lerp(-1, 0, Time.time);
+		else if(dir == "backward"){
+			h = Mathf.Lerp(0, -1, Time.time);
 		}		
 		return h;
 	}
