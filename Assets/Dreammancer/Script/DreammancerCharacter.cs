@@ -12,6 +12,8 @@ namespace Dreammancer
         private float m_DashForce = 800.0f;
         [SerializeField]
         private float m_DashTime = 0.5f;
+        [SerializeField]
+        private GameObject m_DashLaserTemplate;
         private bool m_IsDash = false;
 
         private Collider2D m_Collider;
@@ -59,8 +61,14 @@ namespace Dreammancer
 
         public void OnTrapEnter(Trap trap)
         {
-            DamageHandler handler = m_DamageHandlers[trap.damage.Type];
-            handler.OnDamageTrigger(trap.damage);
+            if(m_DamageHandlers.ContainsKey(trap.damage.Type))
+            {
+                m_DamageHandlers[trap.damage.Type].OnDamageTrigger(trap.damage);
+            }
+            else
+            {
+                Debug.Log("Unhandled Damage Type: " + trap.damage.Type);
+            }
         }
 
         public void OnTrapStay(Trap trap)
