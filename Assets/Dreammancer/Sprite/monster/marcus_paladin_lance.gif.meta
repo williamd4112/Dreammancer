@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 04cf8cd700db423418f6c96695870f09
+timeCreated: 1449925317
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: marcus_paladin_lance_0
+    21300002: marcus_paladin_lance_1
+    21300004: marcus_paladin_lance_2
+    21300006: marcus_paladin_lance_3
+    21300008: marcus_paladin_lance_4
+    21300010: marcus_paladin_lance_5
+    21300012: marcus_paladin_lance_6
+    21300014: marcus_paladin_lance_7
+    21300016: marcus_paladin_lance_8
+    21300018: marcus_paladin_lance_9
+    21300020: marcus_paladin_lance_10
+    21300022: marcus_paladin_lance_11
+    21300024: marcus_paladin_lance_12
+    21300026: marcus_paladin_lance_13
+    21300028: marcus_paladin_lance_14
+    21300030: marcus_paladin_lance_15
+    21300032: marcus_paladin_lance_16
+    21300034: marcus_paladin_lance_17
+    21300036: marcus_paladin_lance_18
+    21300038: marcus_paladin_lance_19
+    21300040: marcus_paladin_lance_20
+    21300042: marcus_paladin_lance_21
+    21300044: marcus_paladin_lance_22
+    21300046: marcus_paladin_lance_23
+    21300048: marcus_paladin_lance_24
+    21300050: marcus_paladin_lance_25
+    21300052: marcus_paladin_lance_26
+    21300054: marcus_paladin_lance_27
+    21300056: marcus_paladin_lance_28
+    21300058: marcus_paladin_lance_29
+    21300060: marcus_paladin_lance_30
+    21300062: marcus_paladin_lance_31
+    21300064: marcus_paladin_lance_32
+    21300066: marcus_paladin_lance_33
+    21300068: marcus_paladin_lance_34
+    21300070: marcus_paladin_lance_35
+    21300072: marcus_paladin_lance_36
+    21300074: marcus_paladin_lance_37
+    21300076: marcus_paladin_lance_38
+    21300078: marcus_paladin_lance_39
+    21300080: marcus_paladin_lance_40
+    21300082: marcus_paladin_lance_41
+    21300084: marcus_paladin_lance_42
+    21300086: marcus_paladin_lance_43
+    21300088: marcus_paladin_lance_44
+    21300090: marcus_paladin_lance_45
+    21300092: marcus_paladin_lance_46
+    21300094: marcus_paladin_lance_47
+    21300096: marcus_paladin_lance_48
+    21300098: marcus_paladin_lance_49
+    21300100: marcus_paladin_lance_50
+    21300102: marcus_paladin_lance_51
+    21300104: marcus_paladin_lance_52
+    21300106: marcus_paladin_lance_53
+    21300108: marcus_paladin_lance_54
+    21300110: marcus_paladin_lance_55
+    21300112: marcus_paladin_lance_56
+    21300114: marcus_paladin_lance_57
+    21300116: marcus_paladin_lance_58
+    21300118: marcus_paladin_lance_59
+    21300120: marcus_paladin_lance_60
+    21300122: marcus_paladin_lance_61
+    21300124: marcus_paladin_lance_62
+    21300126: marcus_paladin_lance_63
+    21300128: marcus_paladin_lance_64
+    21300130: marcus_paladin_lance_65
+    21300132: marcus_paladin_lance_66
+    21300134: marcus_paladin_lance_67
+    21300136: marcus_paladin_lance_68
+    21300138: marcus_paladin_lance_69
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 35
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: marcus_paladin_lance_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 662
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 662
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 662
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 661
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 661
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 663
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 659
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 597
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 588
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 587
+        width: 75
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 587
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 587
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_12
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 587
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 587
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 494
+        width: 79
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 496
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 494
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 494
+        width: 74
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 492
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 493
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 439
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_27
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 439
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 440
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_29
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 440
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_30
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 437
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_31
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 436
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_32
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 435
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_33
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 433
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 369
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_35
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 369
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_36
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 369
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_37
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 369
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_38
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 367
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 298
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_40
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 297
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 297
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_42
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 297
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_43
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 297
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_44
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 298
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 227
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 233
+        width: 74
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_47
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 235
+        width: 74
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_48
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 231
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_50
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 236
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_51
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 235
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_52
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 150
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_53
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 152
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_54
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 156
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_55
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 154
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_56
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 155
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_57
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 158
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_58
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 160
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_59
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 86
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_60
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 89
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_61
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 90
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_62
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 90
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_63
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 92
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_65
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_66
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_67
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_68
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marcus_paladin_lance_69
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
