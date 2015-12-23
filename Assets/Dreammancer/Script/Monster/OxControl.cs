@@ -54,21 +54,20 @@ namespace UnityStandardAssets._2D
         }
 		private void walk_chase(bool crouch){
 			float h = 0;
-			if(Mathf.Abs(player.transform.position.x - this.transform.position.x) < 20.0f){
+			if(Mathf.Abs(player.transform.position.x - this.transform.position.x) < 20.0f && Mathf.Abs(player.transform.position.y - this.transform.position.y) < 6.0f){
 				if (player.transform.position.x < this.transform.position.x) {
 					if(dir == 1){
-						h = dir * monster.move ("backward");
+						dir = monster.toggleDir(dir);
+
 					}
-					else{
-						h = dir * monster.move ("forward");
-					}
+
+					h = dir * monster.move ("forward");
 				} else {
-					if(dir == 1){
-						h = dir * monster.move ("forward");
+					if(dir == -1){
+						dir = monster.toggleDir(dir);
 					}
-					else{
-						h = dir * monster.move ("backward");
-					}
+
+					h = dir * monster.move ("forward");
 				}
 			}
 
