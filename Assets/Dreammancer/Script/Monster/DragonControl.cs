@@ -50,7 +50,15 @@ namespace UnityStandardAssets._2D
 			// Pass all parameters to the character control script.
 			
 			m_Jump = false;
+
 		}
+
+		void OnCollisionEnter2D(Collision2D collision) {
+			Debug.Log (collision.gameObject);
+			dir = monster.toggleDir(dir);
+
+		}
+
 		private void fly(bool crouch){
 			float h = 0;
 			h = dir * monster.move("forward");
