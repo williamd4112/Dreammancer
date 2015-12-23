@@ -7,6 +7,10 @@ namespace Dreammancer
     {
         [SerializeField]
         private Transform m_Target;
+        public Transform Target
+        {
+            set { m_Target = value; }
+        }
 
         private float m_TargetLastScaleX;
 
@@ -17,15 +21,23 @@ namespace Dreammancer
         }
 
         // Update is called once per frame
-        void LateUpdate()
+        void Update()
         {
-            if(m_TargetLastScaleX > 0 && m_Target.localScale.x < 0)
+            //if(m_TargetLastScaleX > 0 && m_Target.localScale.x < 0)
+            //{
+            //    transform.Rotate(new Vector3(0, 0, -180));
+            //}
+            //else if (m_TargetLastScaleX < 0 && m_Target.localScale.x > 0)
+            //{
+            //    transform.Rotate(new Vector3(0, 0, 180));
+            //}
+            if(m_Target.localScale.x >= 0)
             {
-                transform.Rotate(new Vector3(0, 0, -180));
+                transform.eulerAngles = new Vector3(0, 0, 270);
             }
-            else if (m_TargetLastScaleX < 0 && m_Target.localScale.x > 0)
+            else
             {
-                transform.Rotate(new Vector3(0, 0, 180));
+                transform.eulerAngles = new Vector3(0, 0, 90);
             }
 
             m_TargetLastScaleX = m_Target.localScale.x;

@@ -7,6 +7,10 @@ namespace Dreammancer
     {
         [SerializeField]
         private Light2D m_LightArea;
+        public Light2D LightArea
+        {
+            get { return m_LightArea; }
+        }
 
         // Use this for initialization
         void Start()

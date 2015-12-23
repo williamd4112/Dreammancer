@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Dasher : MonoBehaviour {
+public class Light2DDamageListener : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

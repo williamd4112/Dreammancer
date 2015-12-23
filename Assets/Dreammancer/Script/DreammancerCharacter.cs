@@ -8,12 +8,25 @@ namespace Dreammancer
 {
     public class DreammancerCharacter : MonoBehaviour, Trappable
     {
+        const int k_MaxDashEnergy = 100;
+
         [SerializeField]
         private float m_DashForce = 800.0f;
         [SerializeField]
         private float m_DashTime = 0.5f;
         [SerializeField]
+        private int m_DashEnergy = 0;
+        public int DashEnergy
+        {
+            get { return m_DashEnergy; }
+        }
+
+        [SerializeField]
+        private AudioClip m_DashSound;
+
+        [SerializeField]
         private GameObject m_DashLaserTemplate;
+        private GameObject m_DashLaserInstance = null;
         private bool m_IsDash = false;
 
         private Collider2D m_Collider;
@@ -21,8 +34,20 @@ namespace Dreammancer
         private Rigidbody2D m_Rigidbody;
         private Animator m_Animator;
         private CarryableObject m_CarryableObject;
+        private CharacterLightArea m_LightArea;
+        private Health m_Health;
+        public Health Health
+        {
+            get { return m_Health; }
+        }
+  
         private Dictionary<Damage.DamageType, DamageHandler> m_DamageHandlers;
- 
+        
+        public void increaseEnergy(int v)
+        {
+            m_DashEnergy = Mathf.Clamp(m_DashEnergy + v, 0, k_MaxDashEnergy);
+        }
+
         // Use this for initialization
         void Start()
         {
@@ -31,6 +56,9 @@ namespace Dreammancer
             m_Animator = GetComponent<Animator>();
             m_Character = GetComponent<PlatformerCharacter2D>();
             m_CarryableObject = GetComponent<CarryableObject>();
+            m_LightArea = GetComponent<CharacterLightArea>();
+            m_Health = GetComponent<Health>();
+            m_Health.RegisterHealthChangeEvent(OnHealthChange);
 
             m_DamageHandlers = new Dictionary<Damage.DamageType, DamageHandler>();
             foreach (DamageHandler handler in GetComponents<DamageHandler>())
@@ -46,9 +74,21 @@ namespace Dreammancer
         {
             m_Character.BaseVelocity = m_CarryableObject.CarrierVelocity;
 
-            if(Input.GetKeyDown(KeyCode.E) && !m_IsDash)
+            if(Input.GetKeyDown(KeyCode.E) && !m_IsDash && m_DashEnergy >= k_MaxDashEnergy)
             {
                 m_IsDash = true;
+                if(m_DashLaserInstance == null)
+                {
+                    m_DashLaserInstance = Instantiate(m_DashLaserTemplate, transform.position, m_DashLaserTemplate.transform.rotation) as GameObject;
+                }
+
+                m_DashLaserInstance.GetComponent<Follow>().FollowPos = transform;
+                m_DashLaserInstance.GetComponent<LightFlipFollow>().Target = transform;
+                m_DashLaserInstance.GetComponent<Light2D>().LightBeamRange = 0;
+                m_DashLaserInstance.GetComponent<Light2D>().LightColor = m_LightArea.LightArea.LightColor;
+                m_DashLaserInstance.GetComponent<LightTrail>().ResetDiff();
+                m_DashEnergy = 0;
+                AudioSource.PlayClipAtPoint(m_DashSound, transform.position);
                 StartCoroutine(CountDown(m_DashTime));
             }
 
@@ -56,7 +96,18 @@ namespace Dreammancer
             {
                 m_Character.BaseVelocity += new Vector2((m_Character.FacingRight) ? m_DashForce : -m_DashForce, 0);
             }
+
+            if (m_DashLaserInstance != null)
+            {
+                m_DashLaserInstance.SetActive(m_IsDash);
+                m_DashLaserInstance.GetComponent<Light2D>().LightColor = m_LightArea.LightArea.LightColor;
+            }
             m_Animator.SetBool("Dash", m_IsDash);
+        }
+
+        public void OnHealthChange(int hp)
+        {
+            Debug.Log("HP : " + hp);
         }
 
         public void OnTrapEnter(Trap trap)

@@ -24,11 +24,15 @@ namespace Dreammancer
         void LateUpdate()
         {
             m_Diff = Mathf.Abs((transform.position - m_LastPos).x);
-            Debug.LogFormat(transform.position + "," + m_LastPos + ":"+ m_Diff);
             m_LastPos = transform.position;
            
             m_Light2D.LightBeamRange = Mathf.Lerp(m_Light2D.LightBeamRange, m_TrailFactor * m_Diff, Time.deltaTime);
 
+        }
+
+        public void ResetDiff()
+        {
+            m_Diff = 0;
         }
     }
 }

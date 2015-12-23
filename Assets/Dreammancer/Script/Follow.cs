@@ -7,6 +7,10 @@ namespace Dreammancer
     {
         [SerializeField]
         private Transform m_FollowPosition;
+        public Transform FollowPos
+        {
+            set { m_FollowPosition = value; }
+        }
 
         [SerializeField]
         private bool m_FollowRotation = false;
