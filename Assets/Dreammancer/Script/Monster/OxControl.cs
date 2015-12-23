@@ -58,7 +58,6 @@ namespace UnityStandardAssets._2D
 				if (player.transform.position.x < this.transform.position.x) {
 					if(dir == 1){
 						dir = monster.toggleDir(dir);
-
 					}
 
 					h = dir * monster.move ("forward");
