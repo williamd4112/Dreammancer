@@ -82,7 +82,7 @@ namespace UnityStandardAssets._2D
 
 					}					
 					h = dir * monster.move ("forward");
-					;
+					
 				} else {
 
 					if(dir == -1){
