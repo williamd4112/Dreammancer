@@ -8,11 +8,16 @@ namespace Dreammancer
     public class ColorReactor : MonoBehaviour
     {
         [SerializeField]
-        [Range(2, 3)]
-        private int m_Partitions;
+        [Range(2, 5)]
+        private int m_Partitions = 2;
 
         private ColorEvent[,,] m_ColorEvents;
         private SpriteRenderer m_Renderer;
+
+        public ColorReactor()
+        {
+            m_ColorEvents = new ColorEvent[m_Partitions, m_Partitions, m_Partitions];
+        }
 
         public void RegistetColorEvent(ColorEvent e, Color c)
         {
@@ -30,8 +35,6 @@ namespace Dreammancer
 
         void Start()
         {
-            m_ColorEvents = new ColorEvent[m_Partitions, m_Partitions, m_Partitions];
-            RegistetColorEvent(OnColorChange, Color.black);
             m_Renderer = GetComponent<SpriteRenderer>();
         }
 
@@ -48,13 +51,9 @@ namespace Dreammancer
             
             if(m_ColorEvents[r, g, b] != null)
             {
+                Debug.LogFormat("<{0}, {1}, {2}>", r, g, b);
                 m_ColorEvents[r, g, b].Invoke();
             }
-        }
-
-        void OnColorChange()
-        {
-            Debug.Log("Color events");
         }
     }
 

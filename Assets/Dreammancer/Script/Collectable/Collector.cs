@@ -30,13 +30,9 @@ namespace Dreammancer
                 {
                     case CollectableType.SMALL_ENERGY:
                         m_Character.increaseEnergy(10);
-                        collect.PlaySound();
-                        Destroy(collision.gameObject);
                         break;
                     case CollectableType.SMALL_LIFE:
                         m_Character.Health.increaseHealth(10);
-                        collect.PlaySound();
-                        Destroy(collision.gameObject);
                         break;
                     default:
                         break;

@@ -95,6 +95,12 @@ namespace Dreammancer
             if(m_IsDash)
             {
                 m_Character.BaseVelocity += new Vector2((m_Character.FacingRight) ? m_DashForce : -m_DashForce, 0);
+                m_Rigidbody.gravityScale = 0;
+                m_Rigidbody.velocity = new Vector2(m_Rigidbody.velocity.x, 0);
+            }
+            else
+            {
+                m_Rigidbody.gravityScale = 3;
             }
 
             if (m_DashLaserInstance != null)
@@ -111,8 +117,8 @@ namespace Dreammancer
         }
 
         public void OnTrapEnter(Trap trap)
-        {
-            if(m_DamageHandlers.ContainsKey(trap.damage.Type))
+        {       
+            if (m_DamageHandlers.ContainsKey(trap.damage.Type))
             {
                 m_DamageHandlers[trap.damage.Type].OnDamageTrigger(trap.damage);
             }

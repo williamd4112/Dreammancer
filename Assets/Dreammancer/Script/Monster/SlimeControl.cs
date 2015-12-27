@@ -37,19 +37,6 @@ namespace UnityStandardAssets._2D
             //shield = GameObject.Find("CharacterLight").GetComponent<Light2D>();
         }
 
-        private void Update()
-        {
-            if (!m_Jump)
-            {
-                // Read the jump input in Update so button presses aren't missed.
-                //m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
-                //m_Jump = monster.jump();
-
-            }
-            //dir = monster.toggleDir (dir);
-        }
-
-
         private void FixedUpdate()
         {            
             // Read the inputs.
@@ -63,7 +50,8 @@ namespace UnityStandardAssets._2D
         {
             bool sprint = goCrazy();
             float h = 0;
-            if (Mathf.Abs(player.transform.position.x - this.transform.position.x) < 20.0f && Mathf.Abs(player.transform.position.y - this.transform.position.y) < 6.0f)
+            if (Mathf.Abs(player.transform.position.x - this.transform.position.x) < 20.0f &&
+                Mathf.Abs(player.transform.position.y - this.transform.position.y) < 6.0f)
             {
                 if (player.transform.position.x < this.transform.position.x)
                 {
@@ -91,17 +79,16 @@ namespace UnityStandardAssets._2D
                         h = h * speed_up;
                     }
                 }
-            }  
+            }
             m_Character.Move(h, crouch, m_Jump);            
         }
 
         private bool goCrazy() {
                         
-            Debug.Log(m_sprite.color);            
-            Debug.Log(ColorUtil.colorSubRGB(originColor, errorLight));
+            //Debug.Log(m_sprite.color);            
+            //Debug.Log(ColorUtil.colorSubRGB(originColor, errorLight));
             if (ColorUtil.colorSubRGB(originColor, errorLight) == m_sprite.color)
-            {
-                Debug.Log("hit");                
+            {           
                 return true;
             }
             return false;

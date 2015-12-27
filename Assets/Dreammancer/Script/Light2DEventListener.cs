@@ -12,7 +12,10 @@ namespace Dreammancer
         private bool EnablePhysicEffect = true;
 
         [SerializeField]
-        private AudioClip hitSound;
+        protected AudioClip hitSound;
+
+        [SerializeField]
+        protected GameObject m_RipEffectAnimation;
 
         [SerializeField]
         private float m_FadeInSpeed = 10.0f;
@@ -23,6 +26,7 @@ namespace Dreammancer
         protected int id = 0;
         private bool isDetected = false;
         private bool isEffect = false;
+        private bool isAnimPlaying = false;
         private Color m_OriginColor = Color.black;
         private Color m_FadeInColor = Color.black;
         private Dictionary<Light2D, Color> m_AffectLightTable;
@@ -31,6 +35,10 @@ namespace Dreammancer
         private int m_NormalLayer;
 
         private SpriteRenderer m_Renderer;
+        private SpriteRenderer[] m_ChildRenderers;
+        [SerializeField]
+        private bool m_IsRecurrsive = true;
+
         private Collider2D m_Collider;
 
         public bool GetIsEffect()
@@ -42,6 +50,7 @@ namespace Dreammancer
         {
             id = gameObject.GetInstanceID();
             m_Renderer = GetComponent<SpriteRenderer>();
+            m_ChildRenderers = GetComponentsInChildren<SpriteRenderer>();
             m_Collider = GetComponent<Collider2D>();
 
             m_OriginColor = m_Renderer.color;
@@ -59,11 +68,21 @@ namespace Dreammancer
         void Update()
         {
             if (isDetected)
+            {
                 m_Renderer.color = Color.Lerp(
                     m_Renderer.color, m_FadeInColor, Time.deltaTime * m_FadeInSpeed);
+                foreach (SpriteRenderer renderer in m_ChildRenderers)
+                    renderer.color = Color.Lerp(
+                        renderer.color, m_FadeInColor, Time.deltaTime * m_FadeInSpeed);
+            }
             else
+            { 
                 m_Renderer.color = Color.Lerp(
                     m_Renderer.color, m_OriginColor, Time.deltaTime * m_FadeOutSpeed);
+                foreach (SpriteRenderer renderer in m_ChildRenderers)
+                    renderer.color = Color.Lerp(
+                        renderer.color, m_OriginColor, Time.deltaTime * m_FadeOutSpeed);
+            }
 
             if(EnablePhysicEffect)
                 isEffect = checkReachLimit();
@@ -77,8 +96,8 @@ namespace Dreammancer
             {
                 m_AffectLightTable.Add(l, l.LightColor);
                 m_FadeInColor = ColorUtil.colorSubRGB(m_FadeInColor, l.LightColor);
-                //m_FadeInColor = ColorUtil.clampColor(m_FadeInColor, 0, 1);
                 AudioSource.PlayClipAtPoint(hitSound, transform.position, 0.1f);
+                isAnimPlaying = false;
             }
         }
 
@@ -91,8 +110,8 @@ namespace Dreammancer
                 {
                     m_FadeInColor = ColorUtil.colorAddRGB(m_FadeInColor, color);
                     m_FadeInColor = ColorUtil.colorSubRGB(m_FadeInColor, l.LightColor);
-                    //m_FadeInColor = ColorUtil.clampColor(m_FadeInColor, 0, 1);
                     m_AffectLightTable[l] = l.LightColor;
+                    isAnimPlaying = false;
                 }
                 isDetected = true;
             }
@@ -103,7 +122,6 @@ namespace Dreammancer
             if (g.GetInstanceID() == id && m_AffectLightTable.ContainsKey(l))
             {
                 m_FadeInColor = ColorUtil.colorAddRGB(m_FadeInColor, m_AffectLightTable[l]);
-                //m_FadeInColor = ColorUtil.clampColor(m_FadeInColor, 0.0f, 1.0f);
                 m_AffectLightTable.Remove(l);
             }
         }
@@ -112,6 +130,13 @@ namespace Dreammancer
         {
             Color clampColor = ColorUtil.clampColor(m_FadeInColor, 0, 1);
             bool b = ColorUtil.colorCompareRGB(Color.black, clampColor) && isDetected;
+
+            if (m_RipEffectAnimation != null && b && !isAnimPlaying)
+            {
+                GameObject.Instantiate(m_RipEffectAnimation, transform.position, transform.rotation);
+                isAnimPlaying = true;
+            }
+
             setHidden(b);
             return b;
         }
