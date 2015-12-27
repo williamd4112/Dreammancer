@@ -51,7 +51,6 @@ namespace Dreammancer
             
             if(m_ColorEvents[r, g, b] != null)
             {
-                Debug.LogFormat("<{0}, {1}, {2}>", r, g, b);
                 m_ColorEvents[r, g, b].Invoke();
             }
         }

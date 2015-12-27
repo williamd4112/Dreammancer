@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: f830a413c8f3c41658a33b5b81670418
+timeCreated: 1451182530
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx1_gameobjects_0
+    21300002: mmx1_gameobjects_1
+    21300004: mmx1_gameobjects_2
+    21300006: mmx1_gameobjects_3
+    21300008: mmx1_gameobjects_4
+    21300010: mmx1_gameobjects_5
+    21300012: mmx1_gameobjects_6
+    21300014: mmx1_gameobjects_7
+    21300016: mmx1_gameobjects_8
+    21300018: mmx1_gameobjects_9
+    21300020: mmx1_gameobjects_10
+    21300022: mmx1_gameobjects_11
+    21300024: mmx1_gameobjects_12
+    21300026: mmx1_gameobjects_13
+    21300028: mmx1_gameobjects_14
+    21300030: mmx1_gameobjects_15
+    21300032: mmx1_gameobjects_16
+    21300034: mmx1_gameobjects_17
+    21300036: mmx1_gameobjects_18
+    21300038: mmx1_gameobjects_19
+    21300040: mmx1_gameobjects_20
+    21300042: mmx1_gameobjects_21
+    21300044: mmx1_gameobjects_22
+    21300046: mmx1_gameobjects_23
+    21300048: mmx1_gameobjects_24
+    21300050: mmx1_gameobjects_25
+    21300052: mmx1_gameobjects_26
+    21300054: mmx1_gameobjects_27
+    21300056: mmx1_gameobjects_28
+    21300058: mmx1_gameobjects_29
+    21300060: mmx1_gameobjects_30
+    21300062: mmx1_gameobjects_31
+    21300064: mmx1_gameobjects_32
+    21300066: mmx1_gameobjects_33
+    21300068: mmx1_gameobjects_34
+    21300070: mmx1_gameobjects_35
+    21300072: mmx1_gameobjects_36
+    21300074: mmx1_gameobjects_37
+    21300076: mmx1_gameobjects_38
+    21300078: mmx1_gameobjects_39
+    21300080: mmx1_gameobjects_40
+    21300082: mmx1_gameobjects_41
+    21300084: mmx1_gameobjects_42
+    21300086: mmx1_gameobjects_43
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx1_gameobjects_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 273
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 273
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 273
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 273
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 243
+        width: 16
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 243
+        width: 16
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_6
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 243
+        width: 16
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 243
+        width: 16
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_8
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 243
+        width: 16
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 205
+        width: 96
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 231
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 205
+        width: 96
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 202
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_13
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 203
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 202
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 179
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 102
+        width: 96
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 154
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 154
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_19
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 154
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_20
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 154
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_21
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 143
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 142
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 142
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_24
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 142
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_25
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 115
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 114
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_27
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 115
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_28
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 114
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 89
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_30
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 90
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 90
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_32
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 89
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 44
+        width: 160
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_34
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 44
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 21
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_36
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 15
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 11
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_38
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_39
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 5
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 5
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_42
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 25
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_gameobjects_43
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 25
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

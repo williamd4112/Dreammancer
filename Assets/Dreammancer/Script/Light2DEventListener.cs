@@ -30,6 +30,7 @@ namespace Dreammancer
         private Color m_OriginColor = Color.black;
         private Color m_FadeInColor = Color.black;
         private Dictionary<Light2D, Color> m_AffectLightTable;
+        private Light2DEvent m_JointEvents;
 
         private int m_HiddenLayer;
         private int m_NormalLayer;
@@ -53,7 +54,10 @@ namespace Dreammancer
             m_ChildRenderers = GetComponentsInChildren<SpriteRenderer>();
             m_Collider = GetComponent<Collider2D>();
 
-            m_OriginColor = m_Renderer.color;
+            if (m_Renderer != null)
+                m_OriginColor = m_Renderer.color;
+            else
+                m_OriginColor = m_ChildRenderers[0].color;
             m_FadeInColor = m_OriginColor;
             m_AffectLightTable = new Dictionary<Light2D, Color>();
 
@@ -69,19 +73,25 @@ namespace Dreammancer
         {
             if (isDetected)
             {
-                m_Renderer.color = Color.Lerp(
-                    m_Renderer.color, m_FadeInColor, Time.deltaTime * m_FadeInSpeed);
-                foreach (SpriteRenderer renderer in m_ChildRenderers)
-                    renderer.color = Color.Lerp(
-                        renderer.color, m_FadeInColor, Time.deltaTime * m_FadeInSpeed);
+                if(m_Renderer != null)
+                    m_Renderer.color = Color.Lerp(
+                        m_Renderer.color, m_FadeInColor, Time.deltaTime * m_FadeInSpeed);
+                if (m_IsRecurrsive)
+                    foreach (SpriteRenderer renderer in m_ChildRenderers)
+                    {
+                        renderer.color = Color.Lerp(
+                            renderer.color, m_FadeInColor, Time.deltaTime * m_FadeInSpeed);
+                    }
             }
             else
-            { 
-                m_Renderer.color = Color.Lerp(
-                    m_Renderer.color, m_OriginColor, Time.deltaTime * m_FadeOutSpeed);
-                foreach (SpriteRenderer renderer in m_ChildRenderers)
-                    renderer.color = Color.Lerp(
-                        renderer.color, m_OriginColor, Time.deltaTime * m_FadeOutSpeed);
+            {
+                if (m_Renderer != null)
+                    m_Renderer.color = Color.Lerp(
+                        m_Renderer.color, m_OriginColor, Time.deltaTime * m_FadeOutSpeed);
+                if (m_IsRecurrsive)
+                    foreach (SpriteRenderer renderer in m_ChildRenderers)
+                        renderer.color = Color.Lerp(
+                            renderer.color, m_OriginColor, Time.deltaTime * m_FadeOutSpeed);
             }
 
             if(EnablePhysicEffect)
@@ -114,6 +124,9 @@ namespace Dreammancer
                     isAnimPlaying = false;
                 }
                 isDetected = true;
+
+                if (m_JointEvents != null)
+                    m_JointEvents.Invoke(l, g);
             }
         }
 
@@ -129,7 +142,7 @@ namespace Dreammancer
         bool checkReachLimit()
         {
             Color clampColor = ColorUtil.clampColor(m_FadeInColor, 0, 1);
-            bool b = ColorUtil.colorCompareRGB(Color.black, clampColor) && isDetected;
+            bool b = ColorUtil.colorCompareQuantRGB(Color.black, clampColor, 127) && isDetected;
 
             if (m_RipEffectAnimation != null && b && !isAnimPlaying)
             {
@@ -156,9 +169,19 @@ namespace Dreammancer
             if (gameObject.layer != layer)
                 setLayerRecursively(layer);
 
-            Color color = m_Renderer.color;
-            color.a = (b) ? FADEOUT_INTENSITY : 1.0f;
-            m_Renderer.color = color;
+            if (m_Renderer != null)
+            {
+                Color color = m_Renderer.color;
+                color.a = (b) ? FADEOUT_INTENSITY : 1.0f;
+                m_Renderer.color = color;
+            }
+            if (m_IsRecurrsive)
+                foreach (SpriteRenderer renderer in m_ChildRenderers)
+                {
+                    Color color = renderer.color;
+                    color.a = (b) ? FADEOUT_INTENSITY : 1.0f;
+                    renderer.color = color;
+                }
         }
     }
 }

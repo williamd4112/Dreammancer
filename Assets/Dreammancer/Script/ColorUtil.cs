@@ -38,6 +38,25 @@ namespace Dreammancer
             return (a.r == b.r && a.g == b.g && a.b == b.b);
         }
 
+        public static bool colorCompareQuantRGB(Color a, Color b, int partitionSize)
+        {
+            a = ColorUtil.quantinize(ColorUtil.floatTo255(a), partitionSize);
+            b = ColorUtil.quantinize(ColorUtil.floatTo255(b), partitionSize);
+
+            int maxLevel = 255 / partitionSize;
+            int ar, ag, ab;
+            ar = Mathf.Clamp(Mathf.FloorToInt(a.r), 0, maxLevel - 1);
+            ag = Mathf.Clamp(Mathf.FloorToInt(a.g), 0, maxLevel - 1);
+            ab = Mathf.Clamp(Mathf.FloorToInt(a.b), 0, maxLevel - 1);
+
+            int br, bg, bb;
+            br = Mathf.Clamp(Mathf.FloorToInt(b.r), 0, maxLevel - 1);
+            bg = Mathf.Clamp(Mathf.FloorToInt(b.g), 0, maxLevel - 1);
+            bb = Mathf.Clamp(Mathf.FloorToInt(b.b), 0, maxLevel - 1);
+
+            return ar == br && ag == bg && ab == bb;
+        }
+
         public static Color floatTo255(Color c)
         {
             return clampColor(c, 0, 1) * 255.0f;

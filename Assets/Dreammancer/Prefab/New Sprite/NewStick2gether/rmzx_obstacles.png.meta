@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 9414bea4c8f5f4d4598823a94cf0b05d
+timeCreated: 1451183694
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rmzx_obstacles_0
+    21300002: rmzx_obstacles_1
+    21300004: rmzx_obstacles_2
+    21300006: rmzx_obstacles_3
+    21300008: rmzx_obstacles_4
+    21300010: rmzx_obstacles_5
+    21300012: rmzx_obstacles_6
+    21300014: rmzx_obstacles_7
+    21300016: rmzx_obstacles_8
+    21300018: rmzx_obstacles_9
+    21300020: rmzx_obstacles_10
+    21300022: rmzx_obstacles_11
+    21300024: rmzx_obstacles_12
+    21300026: rmzx_obstacles_13
+    21300028: rmzx_obstacles_14
+    21300030: rmzx_obstacles_15
+    21300032: rmzx_obstacles_16
+    21300034: rmzx_obstacles_17
+    21300036: rmzx_obstacles_18
+    21300038: rmzx_obstacles_19
+    21300040: rmzx_obstacles_20
+    21300042: rmzx_obstacles_21
+    21300044: rmzx_obstacles_22
+    21300046: rmzx_obstacles_23
+    21300048: rmzx_obstacles_24
+    21300050: rmzx_obstacles_25
+    21300052: rmzx_obstacles_26
+    21300054: rmzx_obstacles_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rmzx_obstacles_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 294
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 294
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 294
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 320
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 250
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 249
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 251
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_7
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 255
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 263
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 263
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 262
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 264
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 256
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_13
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 256
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_14
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 255
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 193
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 193
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 193
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 194
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_19
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 207
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 209
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 194
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_22
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 154
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 42
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 42
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 42
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_26
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 42
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rmzx_obstacles_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 124
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
