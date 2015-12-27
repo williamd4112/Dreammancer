@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: ecb3f1f652805412da17807539fa90e0
+timeCreated: 1451214518
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: x3_de_voux_0
+    21300002: x3_de_voux_1
+    21300004: x3_de_voux_2
+    21300006: x3_de_voux_3
+    21300008: x3_de_voux_4
+    21300010: x3_de_voux_5
+    21300012: x3_de_voux_6
+    21300014: x3_de_voux_7
+    21300016: x3_de_voux_8
+    21300018: x3_de_voux_9
+    21300020: x3_de_voux_10
+    21300022: x3_de_voux_11
+    21300024: x3_de_voux_12
+    21300026: x3_de_voux_13
+    21300028: x3_de_voux_14
+    21300030: x3_de_voux_15
+    21300032: x3_de_voux_16
+    21300034: x3_de_voux_17
+    21300036: x3_de_voux_18
+    21300038: x3_de_voux_19
+    21300040: x3_de_voux_20
+    21300042: x3_de_voux_21
+    21300044: x3_de_voux_22
+    21300046: x3_de_voux_23
+    21300048: x3_de_voux_24
+    21300050: x3_de_voux_25
+    21300052: x3_de_voux_26
+    21300054: x3_de_voux_27
+    21300056: x3_de_voux_28
+    21300058: x3_de_voux_29
+    21300060: x3_de_voux_30
+    21300062: x3_de_voux_31
+    21300064: x3_de_voux_32
+    21300066: x3_de_voux_33
+    21300068: x3_de_voux_34
+    21300070: x3_de_voux_35
+    21300072: x3_de_voux_36
+    21300074: x3_de_voux_37
+    21300076: x3_de_voux_38
+    21300078: x3_de_voux_39
+    21300080: x3_de_voux_40
+    21300082: x3_de_voux_41
+    21300084: x3_de_voux_42
+    21300086: x3_de_voux_43
+    21300088: x3_de_voux_44
+    21300090: x3_de_voux_45
+    21300092: x3_de_voux_46
+    21300094: x3_de_voux_47
+    21300096: x3_de_voux_48
+    21300098: x3_de_voux_49
+    21300100: x3_de_voux_50
+    21300102: x3_de_voux_51
+    21300104: x3_de_voux_52
+    21300106: x3_de_voux_53
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: x3_de_voux_0
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 270
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_1
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 270
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 359
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_3
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 359
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_4
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 270
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 270
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 270
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 270
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 270
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 270
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 270
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_11
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 270
+        width: 125
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_12
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 270
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_13
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 270
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 270
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_15
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 270
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 145
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_17
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 145
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_18
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 234
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_19
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 234
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_20
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 145
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_21
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 145
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 145
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 145
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 145
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_26
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 145
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_27
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 145
+        width: 125
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_28
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 145
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_29
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 145
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_30
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 145
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_31
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 145
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 93
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 97
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_35
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 76
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_36
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 37
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_37
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 39
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_38
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 39
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_39
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_40
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 93
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_41
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 97
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_42
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 76
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_43
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 37
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_44
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 39
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_45
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 39
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 43
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_47
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 43
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_48
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 30
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_49
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 26
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_50
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 43
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_51
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 43
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_52
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 30
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: x3_de_voux_53
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 26
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

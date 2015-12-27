@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 5558896b176c64515b4079e7b3010b43
+timeCreated: 1451210484
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx3_atareeter_0
+    21300002: mmx3_atareeter_1
+    21300004: mmx3_atareeter_2
+    21300006: mmx3_atareeter_3
+    21300008: mmx3_atareeter_4
+    21300010: mmx3_atareeter_5
+    21300012: mmx3_atareeter_6
+    21300014: mmx3_atareeter_7
+    21300016: mmx3_atareeter_8
+    21300018: mmx3_atareeter_9
+    21300020: mmx3_atareeter_10
+    21300022: mmx3_atareeter_11
+    21300024: mmx3_atareeter_12
+    21300026: mmx3_atareeter_13
+    21300028: mmx3_atareeter_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx3_atareeter_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 29
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 29
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 29
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 29
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 6
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 6
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 5
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 11
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 14
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 8
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx3_atareeter_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

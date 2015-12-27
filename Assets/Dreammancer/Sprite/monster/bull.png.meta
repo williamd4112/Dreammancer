@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: 030b056a59cc44aa4a0b1b86749b4054
+timeCreated: 1451213820
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bull_0
+    21300002: bull_1
+    21300004: bull_2
+    21300006: bull_3
+    21300008: bull_4
+    21300010: bull_5
+    21300012: bull_6
+    21300014: bull_7
+    21300016: bull_8
+    21300018: bull_9
+    21300020: bull_10
+    21300022: bull_11
+    21300024: bull_12
+    21300026: bull_13
+    21300028: bull_14
+    21300030: bull_15
+    21300032: bull_16
+    21300034: bull_17
+    21300036: bull_18
+    21300038: bull_19
+    21300040: bull_20
+    21300042: bull_21
+    21300044: bull_22
+    21300046: bull_23
+    21300048: bull_24
+    21300050: bull_25
+    21300052: bull_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bull_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 241
+        width: 129
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 241
+        width: 129
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 241
+        width: 129
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 241
+        width: 129
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_4
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 241
+        width: 129
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_5
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 241
+        width: 129
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_6
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 241
+        width: 129
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_7
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 241
+        width: 125
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 130
+        width: 129
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 130
+        width: 137
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 130
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 130
+        width: 139
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_12
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 130
+        width: 150
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_13
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 130
+        width: 149
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_14
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 130
+        width: 150
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 16
+        width: 328
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_16
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 16
+        width: 164
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 16
+        width: 168
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_18
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 16
+        width: 193
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_19
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 16
+        width: 118
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_20
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 74
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_21
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 72
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_22
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 68
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_23
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 41
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_24
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 26
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_25
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 24
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bull_26
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 26
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
