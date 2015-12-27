@@ -31,6 +31,7 @@ namespace Dreammancer
         private Color m_FadeInColor = Color.black;
         private Dictionary<Light2D, Color> m_AffectLightTable;
         private Light2DEvent m_JointEvents;
+        private Light2DEvent m_JointExitEvents;
 
         private int m_HiddenLayer;
         private int m_NormalLayer;
@@ -136,6 +137,9 @@ namespace Dreammancer
             {
                 m_FadeInColor = ColorUtil.colorAddRGB(m_FadeInColor, m_AffectLightTable[l]);
                 m_AffectLightTable.Remove(l);
+
+                if (m_JointExitEvents != null)
+                    m_JointExitEvents.Invoke(l, g);
             }
         }
 
