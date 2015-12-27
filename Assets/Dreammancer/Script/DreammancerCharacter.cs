@@ -13,7 +13,9 @@ namespace Dreammancer
         [SerializeField]
         private float m_DashForce = 800.0f;
         [SerializeField]
-        private float m_DashTime = 0.5f;
+        private float m_DashUnitTime = 0.01f;
+        [SerializeField]
+        private float m_DashChargeRate = 0.1f;
         [SerializeField]
         private int m_DashEnergy = 0;
         public int DashEnergy
@@ -67,14 +69,16 @@ namespace Dreammancer
             Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Hidden"), true);
             Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Default"), LayerMask.NameToLayer("Hidden"), true);
             //Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Hidden"), LayerMask.NameToLayer("Hidden"), true);
+
+            StartCoroutine(Recharge(m_DashChargeRate));
         }
 
         // Update is called once per frame
         void FixedUpdate()
         {
             m_Character.BaseVelocity = m_CarryableObject.CarrierVelocity;
-
-            if(Input.GetKeyDown(KeyCode.E) && !m_IsDash && m_DashEnergy >= k_MaxDashEnergy)
+            
+            if(Input.GetKeyDown(KeyCode.E) && !m_IsDash && m_DashEnergy > 0)
             {
                 m_IsDash = true;
                 if(m_DashLaserInstance == null)
@@ -87,9 +91,10 @@ namespace Dreammancer
                 m_DashLaserInstance.GetComponent<Light2D>().LightBeamRange = 0;
                 m_DashLaserInstance.GetComponent<Light2D>().LightColor = m_LightArea.LightArea.LightColor;
                 m_DashLaserInstance.GetComponent<LightTrail>().ResetDiff();
-                m_DashEnergy = 0;
+                
                 AudioSource.PlayClipAtPoint(m_DashSound, transform.position);
-                StartCoroutine(CountDown(m_DashTime));
+                StartCoroutine(CountDown(m_DashUnitTime * m_DashEnergy));
+                m_DashEnergy = 0;
             }
 
             if(m_IsDash)
@@ -142,6 +147,13 @@ namespace Dreammancer
         {
             yield return new WaitForSeconds(t);
             m_IsDash = false;
+        }
+
+        IEnumerator Recharge(float t)
+        {
+            yield return new WaitForSeconds(t);
+            increaseEnergy(1);
+            StartCoroutine(Recharge(t));
         }
 
     }

@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 3ab31cc5424ae41819a065d92c6f3a31
+timeCreated: 1451181747
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx4-bossdoor_0
+    21300002: mmx4-bossdoor_1
+    21300004: mmx4-bossdoor_2
+    21300006: mmx4-bossdoor_3
+    21300008: mmx4-bossdoor_4
+    21300010: mmx4-bossdoor_5
+    21300012: mmx4-bossdoor_6
+    21300014: mmx4-bossdoor_7
+    21300016: mmx4-bossdoor_8
+    21300018: mmx4-bossdoor_9
+    21300020: mmx4-bossdoor_10
+    21300022: mmx4-bossdoor_11
+    21300024: mmx4-bossdoor_12
+    21300026: mmx4-bossdoor_13
+    21300028: mmx4-bossdoor_14
+    21300030: mmx4-bossdoor_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx4-bossdoor_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 159
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 159
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 159
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 159
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 159
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 85
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 85
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 85
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 85
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 85
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 52
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 63
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 7
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx4-bossdoor_15
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 7
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

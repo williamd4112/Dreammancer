@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: c5b05c5c574504b6f8897b63b8834966
+timeCreated: 1451181517
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MM8_Astromanstagemisc_0
+    21300002: MM8_Astromanstagemisc_1
+    21300004: MM8_Astromanstagemisc_2
+    21300006: MM8_Astromanstagemisc_3
+    21300008: MM8_Astromanstagemisc_4
+    21300010: MM8_Astromanstagemisc_5
+    21300012: MM8_Astromanstagemisc_6
+    21300014: MM8_Astromanstagemisc_7
+    21300016: MM8_Astromanstagemisc_8
+    21300018: MM8_Astromanstagemisc_9
+    21300020: MM8_Astromanstagemisc_10
+    21300022: MM8_Astromanstagemisc_11
+    21300024: MM8_Astromanstagemisc_12
+    21300026: MM8_Astromanstagemisc_13
+    21300028: MM8_Astromanstagemisc_14
+    21300030: MM8_Astromanstagemisc_15
+    21300032: MM8_Astromanstagemisc_16
+    21300034: MM8_Astromanstagemisc_17
+    21300036: MM8_Astromanstagemisc_18
+    21300038: MM8_Astromanstagemisc_19
+    21300040: MM8_Astromanstagemisc_20
+    21300042: MM8_Astromanstagemisc_21
+    21300044: MM8_Astromanstagemisc_22
+    21300046: MM8_Astromanstagemisc_23
+    21300048: MM8_Astromanstagemisc_24
+    21300050: MM8_Astromanstagemisc_25
+    21300052: MM8_Astromanstagemisc_26
+    21300054: MM8_Astromanstagemisc_27
+    21300056: MM8_Astromanstagemisc_28
+    21300058: MM8_Astromanstagemisc_29
+    21300060: MM8_Astromanstagemisc_30
+    21300062: MM8_Astromanstagemisc_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MM8_Astromanstagemisc_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 225
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 225
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 225
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 225
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 225
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 227
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 226
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 221
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 153
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 151
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_10
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 151
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 152
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 154
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_13
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 152
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 137
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 137
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 137
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 137
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 50
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 50
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 50
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 17
+        width: 32
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_22
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 61
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 67
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_24
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 67
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 17
+        width: 32
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 61
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 67
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_28
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 67
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_29
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_30
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MM8_Astromanstagemisc_31
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 3
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

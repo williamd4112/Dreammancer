@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 8ae70f94d3cb4477db69d1bd889fc257
+timeCreated: 1451181091
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx1-w-spark_0
+    21300002: mmx1-w-spark_1
+    21300004: mmx1-w-spark_2
+    21300006: mmx1-w-spark_3
+    21300008: mmx1-w-spark_4
+    21300010: mmx1-w-spark_5
+    21300012: mmx1-w-spark_6
+    21300014: mmx1-w-spark_7
+    21300016: mmx1-w-spark_8
+    21300018: mmx1-w-spark_9
+    21300020: mmx1-w-spark_10
+    21300022: mmx1-w-spark_11
+    21300024: mmx1-w-spark_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx1-w-spark_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 29
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 29
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 39
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 21
+        width: 19
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 21
+        width: 19
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 4
+        width: 16
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 4
+        width: 16
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 4
+        width: 19
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 4
+        width: 19
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 7
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1-w-spark_12
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 7
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
