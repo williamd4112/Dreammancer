@@ -30,8 +30,11 @@ namespace Dreammancer
         private Color m_OriginColor = Color.black;
         private Color m_FadeInColor = Color.black;
         private Dictionary<Light2D, Color> m_AffectLightTable;
-        private Light2DEvent m_JointEvents;
-        private Light2DEvent m_JointExitEvents;
+        private float m_Energy = 0.0f;
+        public float Energy
+        {
+            get { return m_Energy; }
+        }
 
         private int m_HiddenLayer;
         private int m_NormalLayer;
@@ -107,6 +110,7 @@ namespace Dreammancer
             {
                 m_AffectLightTable.Add(l, l.LightColor);
                 m_FadeInColor = ColorUtil.colorSubRGB(m_FadeInColor, l.LightColor);
+                m_Energy += l.LightColor.a;
                 AudioSource.PlayClipAtPoint(hitSound, transform.position, 0.1f);
                 isAnimPlaying = false;
             }
@@ -125,9 +129,6 @@ namespace Dreammancer
                     isAnimPlaying = false;
                 }
                 isDetected = true;
-
-                if (m_JointEvents != null)
-                    m_JointEvents.Invoke(l, g);
             }
         }
 
@@ -136,10 +137,8 @@ namespace Dreammancer
             if (g.GetInstanceID() == id && m_AffectLightTable.ContainsKey(l))
             {
                 m_FadeInColor = ColorUtil.colorAddRGB(m_FadeInColor, m_AffectLightTable[l]);
+                m_Energy -= l.LightColor.a;
                 m_AffectLightTable.Remove(l);
-
-                if (m_JointExitEvents != null)
-                    m_JointExitEvents.Invoke(l, g);
             }
         }
 

@@ -8,13 +8,19 @@ namespace Dreammancer
     {
         private class ColorList
         {
-            static private Color[] colors = {Color.red, Color.green, Color.blue};
+            private Color[] colors;
+
             private int m_cursor = 0;
             
             public int Cursor
             {
                 get { return m_cursor; }
                 set { m_cursor = value; }
+            }
+
+            public ColorList(Color[] colors)
+            {
+                this.colors = colors;
             }
 
             public Color SelectedColor
@@ -37,6 +43,11 @@ namespace Dreammancer
         }
 
         [SerializeField]
+        private Color[] colors = {new Color(1.0f, 0.0f, 0.0f, 0.5f),
+                                            new Color(0.0f, 1.0f, 0.0f, 0.5f),
+                                            new Color(0.0f, 0.0f, 1.0f, 0.5f)};
+
+        [SerializeField]
         private float m_ColorSwitchThreshold = 2.0f;
 
         [SerializeField]
@@ -51,7 +62,7 @@ namespace Dreammancer
         {
             m_Character = GetComponent<DreammancerCharacter>();
             m_LightArea = GetComponent<CharacterLightArea>();
-            m_ColorList = new ColorList();
+            m_ColorList = new ColorList(colors);
             m_ColorList.Cursor = m_StartLightIndex;
             m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
         }

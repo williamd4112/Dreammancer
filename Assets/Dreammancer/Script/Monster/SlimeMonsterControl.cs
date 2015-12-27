@@ -34,6 +34,7 @@ namespace Dreammancer
             if (isInRange())
             {
                 m_MonsterCharacter.Move(dir * acc, false);
+                Debug.Log(acc);
             }
         }
 
