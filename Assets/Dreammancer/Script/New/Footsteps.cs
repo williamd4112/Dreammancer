@@ -112,6 +112,7 @@ namespace Dreammancer{
 			// create the new audio source component on the game object and set up its properties
 			AudioSource source = gameObject.AddComponent<AudioSource>();
 			source.pitch = 2;
+			source.volume = 0.1f;
 			source.clip = clip;
 			source.loop = true;
 			source.Play();
