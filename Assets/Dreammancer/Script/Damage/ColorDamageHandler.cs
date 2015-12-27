@@ -5,8 +5,12 @@ namespace Dreammancer
 {
     [RequireComponent(typeof(ColorReactor))]
     [RequireComponent(typeof(Health))]
+    [RequireComponent(typeof(Light2DEventListener))]
     public class ColorDamageHandler : MonoBehaviour
     {
+        [SerializeField]
+        private float m_DamageEnergyThreshold = 1.0f;
+
         [SerializeField]
         private Color m_OnDamageColor;
 
@@ -15,12 +19,14 @@ namespace Dreammancer
 
         private ColorReactor m_ColorReactor;
         private Health m_Health;
+        private Light2DEventListener m_LightEventListener;
 
         // Use this for initialization
         void Start()
         {
             m_ColorReactor = GetComponent<ColorReactor>();
             m_Health = GetComponent<Health>();
+            m_LightEventListener = GetComponent<Light2DEventListener>();
 
             m_ColorReactor.RegistetColorEvent(OnColorDamage, m_OnDamageColor);
         }
@@ -33,7 +39,8 @@ namespace Dreammancer
 
         public void OnColorDamage()
         {
-            m_Health.decreaseHealth(m_DamageAmount);
+            if(m_LightEventListener.Energy >= m_DamageEnergyThreshold)
+                m_Health.decreaseHealth(m_DamageAmount);
         }
 
         

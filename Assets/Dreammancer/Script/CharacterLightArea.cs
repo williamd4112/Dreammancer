@@ -28,6 +28,13 @@ namespace Dreammancer
         {
             m_LightArea.LightColor = c;
         }
+
+        public void SetColorEnergy(float a)
+        {
+            Color c = m_LightArea.LightColor;
+            c.a = a;
+            m_LightArea.LightColor = c;
+        }
     }
 }
 
