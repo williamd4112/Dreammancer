@@ -39,8 +39,7 @@ namespace Dreammancer
 
         public void OnColorDamage()
         {
-            if(m_LightEventListener.Energy >= m_DamageEnergyThreshold)
-                m_Health.decreaseHealth(m_DamageAmount);
+            m_Health.decreaseHealth(m_DamageAmount);
         }
 
         

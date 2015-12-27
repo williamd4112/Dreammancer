@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityStandardAssets._2D;
-using UnityStandardAssets.CrossPlatformInput;
 using System;
 
 namespace Dreammancer
@@ -103,17 +102,17 @@ namespace Dreammancer
                 m_Character.BaseVelocity += new Vector2((m_Character.FacingRight) ? m_DashForce : -m_DashForce, 0);
                 m_Rigidbody.gravityScale = 0;
                 m_Rigidbody.velocity = new Vector2(m_Rigidbody.velocity.x, 0);
-                m_LightArea.SetColorEnergy(1.0f);
+                m_LightArea.LightArea.tag = "Laser";
             }
             else
             {
                 m_Rigidbody.gravityScale = 3;
-                m_LightArea.SetColorEnergy(0.5f);
+                m_LightArea.LightArea.tag = "Untagged";
             }
 
             if (m_DashLaserInstance != null)
             {
-                m_DashLaserInstance.SetActive(m_IsDash);
+                m_DashLaserInstance.GetComponent<Light2D>().enabled = m_IsDash;
                 m_DashLaserInstance.GetComponent<Light2D>().LightColor = m_LightArea.LightArea.LightColor;
             }
             m_Animator.SetBool("Dash", m_IsDash);
@@ -121,7 +120,6 @@ namespace Dreammancer
 
         public void OnHealthChange(int hp)
         {
-            Debug.Log("HP : " + hp);
         }
 
         public void OnTrapEnter(Trap trap)
@@ -144,11 +142,6 @@ namespace Dreammancer
         public void OnTrapExit(Trap trap)
         {
             
-        }
-
-        public bool GetDashInput()
-        {
-            return true;
         }
 
         IEnumerator CountDown(float t)

@@ -30,11 +30,7 @@ namespace Dreammancer
         private Color m_OriginColor = Color.black;
         private Color m_FadeInColor = Color.black;
         private Dictionary<Light2D, Color> m_AffectLightTable;
-        private float m_Energy = 0.0f;
-        public float Energy
-        {
-            get { return m_Energy; }
-        }
+        private Light2DEvent m_LaserHitEvents;
 
         private int m_HiddenLayer;
         private int m_NormalLayer;
@@ -49,6 +45,11 @@ namespace Dreammancer
         public bool GetIsEffect()
         {
             return isEffect;
+        }
+
+        public void RegisterLaserEvent(Light2DEvent e)
+        {
+            m_LaserHitEvents += e;
         }
 
         void Start()
@@ -108,11 +109,14 @@ namespace Dreammancer
         {
             if (g.GetInstanceID() == id)
             {
-                m_AffectLightTable.Add(l, l.LightColor);
-                m_FadeInColor = ColorUtil.colorSubRGB(m_FadeInColor, l.LightColor);
-                m_Energy += l.LightColor.a;
-                AudioSource.PlayClipAtPoint(hitSound, transform.position, 0.1f);
-                isAnimPlaying = false;
+                if (!l.CompareTag("Laser"))
+                {
+                    m_AffectLightTable.Add(l, l.LightColor);
+                    m_FadeInColor = ColorUtil.colorSubRGB(m_FadeInColor, l.LightColor);
+
+                    AudioSource.PlayClipAtPoint(hitSound, transform.position, 0.1f);
+                    isAnimPlaying = false;
+                }
             }
         }
 
@@ -121,7 +125,7 @@ namespace Dreammancer
             if (g.GetInstanceID() == id && m_AffectLightTable.ContainsKey(l))
             {
                 Color color = m_AffectLightTable[l];
-                if(!color.Equals(l.LightColor))
+                if (!color.Equals(l.LightColor))
                 {
                     m_FadeInColor = ColorUtil.colorAddRGB(m_FadeInColor, color);
                     m_FadeInColor = ColorUtil.colorSubRGB(m_FadeInColor, l.LightColor);
@@ -129,6 +133,7 @@ namespace Dreammancer
                     isAnimPlaying = false;
                 }
                 isDetected = true;
+
             }
         }
 
@@ -137,7 +142,7 @@ namespace Dreammancer
             if (g.GetInstanceID() == id && m_AffectLightTable.ContainsKey(l))
             {
                 m_FadeInColor = ColorUtil.colorAddRGB(m_FadeInColor, m_AffectLightTable[l]);
-                m_Energy -= l.LightColor.a;
+
                 m_AffectLightTable.Remove(l);
             }
         }
