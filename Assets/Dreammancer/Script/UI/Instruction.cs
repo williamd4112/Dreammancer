@@ -22,11 +22,7 @@ namespace Dreammancer
 		}
 		
 		void OnTriggerEnter2D(Collider2D other){
-			//Debug.Log ("HIT");
 			if (other.gameObject.tag == "Player") {
-				//Debug.Log ("HIT PLAYER");
-				//Debug.Log ("hey");
-				//Destroy (this.gameObject);
 				m_Text.text = m_Message;
 			}
 			
