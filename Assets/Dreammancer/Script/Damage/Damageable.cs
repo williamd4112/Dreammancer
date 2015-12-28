@@ -3,6 +3,8 @@ using System.Collections;
 
 namespace Dreammancer
 {
+    public delegate void DestroyEvent();
+
     [RequireComponent(typeof(Health))]
     public class Damageable : MonoBehaviour
     {
@@ -20,6 +22,12 @@ namespace Dreammancer
         private int m_HitDelay;
 
         private Health m_Health;
+        private DestroyEvent m_DestroyEvents;
+
+        public void RegisterDestroyEvent(DestroyEvent e)
+        {
+            m_DestroyEvents += e;
+        }
 
         // Use this for initialization
         void Start()
@@ -49,6 +57,12 @@ namespace Dreammancer
                 {
                     GameObject.Instantiate(m_DestroyAnim, transform.position, transform.rotation);
                     AudioSource.PlayClipAtPoint(m_DestroySound, transform.position);
+                    if (m_DestroyEvents != null)
+                    {
+                        Debug.Log("Drop!");
+                        m_DestroyEvents.Invoke();
+                    }
+                       
                     Destroy(gameObject);
                 }
                 m_HitDelay = m_HitDelayMax;

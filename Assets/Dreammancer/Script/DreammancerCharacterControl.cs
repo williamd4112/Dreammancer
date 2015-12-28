@@ -56,6 +56,7 @@ namespace Dreammancer
         private DreammancerCharacter m_Character;
         private CharacterLightArea m_LightArea;
         private ColorList m_ColorList;
+        private bool hasSwitch;
 
         // Use this for initialization
         void Start()
@@ -71,15 +72,26 @@ namespace Dreammancer
         void Update()
         {
             float mouseY = CrossPlatformInputManager.GetAxis("Mouse Y");
-            if (mouseY > m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.DownArrow))
+            if(!hasSwitch)
             {
-                m_ColorList.NextColor();
-                m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
+                if (mouseY > m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    m_ColorList.NextColor();
+                    m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
+                }
+                else if (mouseY < -m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    m_ColorList.PreColor();
+                    m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
+                }
             }
-            else if (mouseY < -m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.UpArrow))
+            else
             {
-                m_ColorList.PreColor();
-                m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
+                if (mouseY > m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.DownArrow) ||
+                    mouseY < -m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    hasSwitch = false;
+                }
             }
         }
     }

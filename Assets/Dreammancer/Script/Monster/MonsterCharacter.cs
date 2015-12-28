@@ -85,9 +85,30 @@ namespace Dreammancer
 
         }
 
-        public void Fly(float h)
+        public void aimFly(float x, float y)
         {
            
+            m_Anim.SetFloat("Speed", Mathf.Abs(x));
+            // If the input is moving the player right and the player is facing left...
+            if (x > 0 && !m_FacingRight)
+            {
+                // ... flip the player.
+                Flip();
+            }
+            // Otherwise if the input is moving the player left and the player is facing right...
+             else if (x < 0 && m_FacingRight)
+            {
+                // ... flip the player.
+                Flip();
+            }
+            m_Rigidbody.velocity = Vector2.right * x * m_Speed + Vector2.up * y * m_Speed;
+            //m_Rigidbody.velocity = Vector2.up * y * m_Speed;
+
+        }
+
+        public void Fly(float h)
+        {
+
             m_Anim.SetFloat("Speed", Mathf.Abs(h));
             // If the input is moving the player right and the player is facing left...
             if (h > 0 && !m_FacingRight)
@@ -96,13 +117,35 @@ namespace Dreammancer
                 Flip();
             }
             // Otherwise if the input is moving the player left and the player is facing right...
-             else if (h < 0 && m_FacingRight)
+            else if (h < 0 && m_FacingRight)
             {
                 // ... flip the player.
                 Flip();
             }
             m_Rigidbody.velocity = Vector2.right * h * m_Speed;
-             
+
+
+        }
+
+        public void drift(float x, float y)
+        {
+
+            m_Anim.SetFloat("Speed", Mathf.Abs(x));
+            // If the input is moving the player right and the player is facing left...
+            if (x > 0 && !m_FacingRight)
+            {
+                // ... flip the player.
+                Flip();
+            }
+            // Otherwise if the input is moving the player left and the player is facing right...
+            else if (x < 0 && m_FacingRight)
+            {
+                // ... flip the player.
+                Flip();
+            }
+            m_Rigidbody.velocity = Vector2.right * x * m_Speed + Vector2.up * y * m_Speed;
+            
+
 
         }
 
