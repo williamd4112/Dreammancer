@@ -19,6 +19,7 @@ namespace Dreammancer
         {
             id = gameObject.GetInstanceID();
             m_Health = GetComponent<Health>();
+        
             Light2D.RegisterEventListener(LightEventListenerType.OnStay, OnLightStay);
             Light2D.RegisterEventListener(LightEventListenerType.OnEnter, OnLightEnter);
             Light2D.RegisterEventListener(LightEventListenerType.OnExit, OnLightExit);
@@ -44,7 +45,11 @@ namespace Dreammancer
             if (g.GetInstanceID() == id && l.CompareTag("Laser"))
             {
                 if(ColorUtil.colorCompareQuantRGB(l.LightColor, m_DamageColor, 127))
+                {
                     m_Health.decreaseHealth(m_DamageAmount);
+                    Debug.Log("Hurt");
+                }
+                    
             }
         }
 

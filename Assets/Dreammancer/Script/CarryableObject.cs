@@ -34,15 +34,31 @@ namespace Dreammancer
         {
             m_Grounded = false;
 
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, m_GroundCheckRadius, m_WhatIsGround);
+            //Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, m_GroundCheckRadius, m_WhatIsGround);
+            //Vector2 v = Vector2.zero;
+            //for (int i = 0; i < colliders.Length; i++)
+            //{
+            //    GameObject obj = colliders[i].gameObject;
+            //    if (colliders[i].gameObject != gameObject)
+            //    {
+            //        Debug.Log("On " + obj.name);
+            //        m_Grounded = true;
+
+            //        Rigidbody2D rigidbody = obj.GetComponent<Rigidbody2D>();
+            //        if (rigidbody != null)
+            //        {
+            //            v += rigidbody.velocity;
+            //        }
+            //    }
+            //}
             Vector2 v = Vector2.zero;
-            for (int i = 0; i < colliders.Length; i++)
+            RaycastHit2D hit = Physics2D.Raycast(m_GroundCheck.position, Vector2.down, m_GroundCheckRadius, m_WhatIsGround);
+            if(hit)
             {
-                GameObject obj = colliders[i].gameObject;
-                if (colliders[i].gameObject != gameObject)
+                GameObject obj = hit.collider.gameObject;
+                if(obj != gameObject)
                 {
                     m_Grounded = true;
-
                     Rigidbody2D rigidbody = obj.GetComponent<Rigidbody2D>();
                     if (rigidbody != null)
                     {
