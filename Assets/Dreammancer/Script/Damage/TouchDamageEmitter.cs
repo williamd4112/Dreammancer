@@ -21,7 +21,7 @@ namespace Dreammancer
 
         }
 
-        void OnCollisionEnter(Collision2D other)
+        void OnCollisionEnter2D(Collision2D other)
         {
             Health health = other.gameObject.GetComponent<Health>();
             if(health != null)
