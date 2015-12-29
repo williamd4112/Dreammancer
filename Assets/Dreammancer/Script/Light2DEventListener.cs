@@ -23,6 +23,9 @@ namespace Dreammancer
         [SerializeField]
         private float m_FadeOutSpeed = 5.0f;
 
+        [SerializeField]
+        private int m_DamageAmountHitByWhite = 10;
+
         protected int id = 0;
         private bool isDetected = false;
         private bool isEffect = false;
@@ -124,6 +127,13 @@ namespace Dreammancer
         {
             if (g.GetInstanceID() == id && m_AffectLightTable.ContainsKey(l))
             {
+                if(l.LightColor.Equals(Color.white))
+                {
+                    Health health = null;
+                    if ((health = GetComponent<Health>()) != null)
+                        health.decreaseHealth(m_DamageAmountHitByWhite);
+                }
+
                 Color color = m_AffectLightTable[l];
                 if (!color.Equals(l.LightColor))
                 {

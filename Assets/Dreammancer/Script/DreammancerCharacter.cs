@@ -28,9 +28,17 @@ namespace Dreammancer
         [SerializeField]
         private AudioClip m_DashSound;
 
+        [SerializeField]
+        private float m_DamageBackoffForce = 3.0f;
+        [SerializeField]
+        private float m_RecoverFromDamageSpeed = 2.0f;
+        [SerializeField]
+        private int m_DamageAmountHitByWhite = 10;
+
         private bool m_IsDash = false;
         private float m_OriginGravityScale;
 
+        private int id;
         private Collider2D m_Collider;
         private PlatformerCharacter2D m_Character;
         private Rigidbody2D m_Rigidbody;
@@ -43,6 +51,8 @@ namespace Dreammancer
         {
             get { return m_Health; }
         }
+
+        private Vector2 m_AdditionalVelocity = Vector2.zero;
   
         private Dictionary<Damage.DamageType, DamageHandler> m_DamageHandlers;
         
@@ -54,6 +64,7 @@ namespace Dreammancer
         // Use this for initialization
         void Start()
         {
+            id = gameObject.GetInstanceID();
             m_Collider = GetComponent<Collider2D>();
             m_Rigidbody = GetComponent<Rigidbody2D>();
             m_Animator = GetComponent<Animator>();
@@ -62,6 +73,7 @@ namespace Dreammancer
             m_LightArea = GetComponent<CharacterLightArea>();
             m_DashControl = GetComponent<DashControl>();
             m_Health = GetComponent<Health>();
+            m_Health.RegisterHealthEvent(OnHeathChange);
 
             m_DamageHandlers = new Dictionary<Damage.DamageType, DamageHandler>();
             foreach (DamageHandler handler in GetComponents<DamageHandler>())
@@ -71,6 +83,10 @@ namespace Dreammancer
             Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Default"), LayerMask.NameToLayer("Hidden"), true);
             //Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Hidden"), LayerMask.NameToLayer("Hidden"), true);
 
+            Light2D.RegisterEventListener(LightEventListenerType.OnStay, OnLightStay);
+            Light2D.RegisterEventListener(LightEventListenerType.OnEnter, OnLightEnter);
+            Light2D.RegisterEventListener(LightEventListenerType.OnExit, OnLightExit);
+
             m_OriginGravityScale = m_Rigidbody.gravityScale;
             StartCoroutine(Recharge(m_DashChargeRate));
         }
@@ -78,7 +94,8 @@ namespace Dreammancer
         // Update is called once per frame
         void FixedUpdate()
         {
-            m_Character.BaseVelocity = m_CarryableObject.CarrierVelocity;
+            m_Character.BaseVelocity = m_CarryableObject.CarrierVelocity + m_AdditionalVelocity;
+            m_AdditionalVelocity = Vector2.Lerp(m_AdditionalVelocity, Vector2.zero, Time.deltaTime * m_RecoverFromDamageSpeed);
 
             // Trigger dash
             if (Input.GetKeyDown(KeyCode.E) || 
@@ -137,6 +154,35 @@ namespace Dreammancer
         public void OnTrapExit(Trap trap)
         {
             
+        }
+
+        void OnLightEnter(Light2D l, GameObject g)
+        {
+
+        }
+
+        void OnLightStay(Light2D l, GameObject g)
+        {
+            if(id == g.GetInstanceID() && ColorUtil.colorCompareQuantRGB(l.LightColor, Color.white, 127))
+            {
+                m_Health.decreaseHealth(m_DamageAmountHitByWhite);
+            }
+        }
+
+        void OnLightExit(Light2D l, GameObject g)
+        {
+
+        }
+
+        public void OnHeathChange(int hp, int diff)
+        {
+            if(diff < 0 && !m_Animator.GetBool("Damage"))
+            {
+                m_Animator.SetTrigger("Damage");
+
+                Vector2 backDir = new Vector2(transform.right.x, transform.right.y) * ((m_Character.FacingRight) ? -1.0f : 1.0f);
+                m_AdditionalVelocity += backDir * m_DamageBackoffForce;
+            }
         }
 
         IEnumerator CountDown(float t)

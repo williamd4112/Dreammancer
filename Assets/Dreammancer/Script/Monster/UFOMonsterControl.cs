@@ -10,9 +10,8 @@ namespace Dreammancer
         private MonsterCharacter m_MonsterCharacter;
         private Transform m_Target;
         private BoxCollider2D m_BoxCollider;
-        //private bool startFly;
-        private Vector3 DisToTarget;
-
+        
+        private Vector3 DisToTarget;        
         // Use this for initialization
         void Start()
         {
@@ -29,10 +28,10 @@ namespace Dreammancer
         {
             Vector2 dir = (m_Target.position - transform.position).normalized;
 
-            //Debug.Log(isInRange() + " " + startFly);
+			float acc = 1.0f;
             if (isInRange())
             {
-                m_MonsterCharacter.drift(dir.x , dir.y);
+				m_MonsterCharacter.drift(dir.x * acc, dir.y * acc);
             }
         }
         private bool isInRange()
