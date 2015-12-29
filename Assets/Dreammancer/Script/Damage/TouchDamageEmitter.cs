@@ -7,6 +7,9 @@ namespace Dreammancer
     public class TouchDamageEmitter : MonoBehaviour
     {
         [SerializeField]
+        private string m_DamageTag = "Player";
+
+        [SerializeField]
         private int m_DamageAmount;
 
         // Use this for initialization
@@ -24,7 +27,16 @@ namespace Dreammancer
         void OnCollisionEnter2D(Collision2D other)
         {
             Health health = other.gameObject.GetComponent<Health>();
-            if(health != null)
+            if (health != null && other.gameObject.CompareTag(m_DamageTag))
+            {
+                health.decreaseHealth(m_DamageAmount);
+            }
+        }
+
+        void OnCollisionStay2D(Collision2D other)
+        {
+            Health health = other.gameObject.GetComponent<Health>();
+            if(health != null && other.gameObject.CompareTag(m_DamageTag))
             {
                 health.decreaseHealth(m_DamageAmount);
             }

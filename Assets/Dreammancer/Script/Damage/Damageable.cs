@@ -33,7 +33,7 @@ namespace Dreammancer
         void Start()
         {
             m_Health = GetComponent<Health>();
-            m_Health.RegisterHealthChangeEvent(OnHealthChange);
+            m_Health.RegisterHealthEvent(OnHealthChange);
 
             m_HitDelay = m_HitDelayMax;
         }
@@ -44,9 +44,9 @@ namespace Dreammancer
 
         }
 
-        void OnHealthChange(int hp)
+        void OnHealthChange(int hp, int diff)
         {
-            if(m_HitDelay <= 0)
+            if(m_HitDelay <= 0 && diff < 0)
             {
                 if (hp > 0)
                 {
@@ -62,8 +62,11 @@ namespace Dreammancer
                         Debug.Log("Drop!");
                         m_DestroyEvents.Invoke();
                     }
-                       
-                    Destroy(gameObject);
+                    
+                    if(CompareTag("Player"))
+                        Application.LoadLevel(Application.loadedLevelName);
+                    else
+                        Destroy(gameObject);
                 }
                 m_HitDelay = m_HitDelayMax;
             }

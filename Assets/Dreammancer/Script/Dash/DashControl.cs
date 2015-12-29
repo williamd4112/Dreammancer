@@ -3,6 +3,7 @@ using System.Collections;
 
 namespace Dreammancer
 {
+    [RequireComponent(typeof(Health))]
     public class DashControl : MonoBehaviour
     {
         [SerializeField]
@@ -15,6 +16,8 @@ namespace Dreammancer
         private Follow m_Follow;
         private LightFlipFollow m_Flipfollow;
         private LightTrail m_Trail;
+        private Health m_Health;
+        private bool m_LastImmortalFlag = false;
 
         // Use this for initialization
         void Start()
@@ -24,6 +27,7 @@ namespace Dreammancer
             m_Follow = m_DashLaser.GetComponent<Follow>();
             m_Flipfollow = m_DashLaser.GetComponent<LightFlipFollow>();
             m_Trail = m_DashLaser.GetComponent<LightTrail>();
+            m_Health = GetComponent<Health>();
         }
 
         // Update is called once per frame
@@ -47,6 +51,22 @@ namespace Dreammancer
             m_DashLaser.SetActive(e);
             m_Laser.LightColor = c;
             m_HeadLaser.LightColor = c;
+
+            if (!m_LastImmortalFlag && e)
+            {
+                m_Health.EnterImmortal();
+            }
+                
+            if(e)
+            {
+                Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Default"), true);
+            }
+            else
+            {
+                Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Default"), false);
+            }
+
+            m_LastImmortalFlag = e;
         }
     }
 }

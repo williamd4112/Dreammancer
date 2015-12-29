@@ -23,6 +23,7 @@ namespace Dreammancer
         {
             get { return m_DashEnergy; }
         }
+        private Coroutine m_CountdownRoutine;
 
         [SerializeField]
         private AudioClip m_DashSound;
@@ -61,7 +62,6 @@ namespace Dreammancer
             m_LightArea = GetComponent<CharacterLightArea>();
             m_DashControl = GetComponent<DashControl>();
             m_Health = GetComponent<Health>();
-            m_Health.RegisterHealthChangeEvent(OnHealthChange);
 
             m_DamageHandlers = new Dictionary<Damage.DamageType, DamageHandler>();
             foreach (DamageHandler handler in GetComponents<DamageHandler>())
@@ -80,16 +80,21 @@ namespace Dreammancer
         {
             m_Character.BaseVelocity = m_CarryableObject.CarrierVelocity;
 
+            // Trigger dash
             if (Input.GetKeyDown(KeyCode.E) || 
                 CrossPlatformInputManager.GetAxis("Mouse Y") < 0.01f 
-                && CrossPlatformInputManager.GetAxis("Mouse X") > 0.8f && !m_IsDash && m_DashEnergy > 0)
+                && CrossPlatformInputManager.GetAxis("Mouse X") > 0.8f && !m_IsDash && m_DashEnergy > 0 && !m_IsDash)
             {
                 m_IsDash = true;
                 m_DashControl.ResetColor(m_LightArea.LightArea.LightColor);
                 
                 AudioSource.PlayClipAtPoint(m_DashSound, transform.position);
-                StartCoroutine(CountDown(m_DashUnitTime * m_DashEnergy));
+                m_CountdownRoutine = StartCoroutine(CountDown(m_DashUnitTime * m_DashEnergy));
                 m_DashEnergy = 0;
+            }
+            else if(m_IsDash)
+            {
+                m_IsDash = Input.GetKey(KeyCode.E);
             }
 
             if(m_IsDash)
@@ -97,20 +102,19 @@ namespace Dreammancer
                 m_Character.BaseVelocity += new Vector2((m_Character.FacingRight) ? m_DashForce : -m_DashForce, 0);
                 m_Rigidbody.gravityScale = 0;
                 m_Rigidbody.velocity = new Vector2(m_Rigidbody.velocity.x, 0);
-                //m_LightArea.LightArea.tag = "Laser";
             }
             else
             {
                 m_Rigidbody.gravityScale = m_OriginGravityScale;
-                //m_LightArea.LightArea.tag = "Untagged";
+                if(m_CountdownRoutine != null)
+                {
+                    StopCoroutine(m_CountdownRoutine);
+                    m_CountdownRoutine = null;
+                }
             }
 
             m_DashControl.UpdateDashLaser(m_IsDash, m_LightArea.LightArea.LightColor);
             m_Animator.SetBool("Dash", m_IsDash);
-        }
-
-        public void OnHealthChange(int hp)
-        {
         }
 
         public void OnTrapEnter(Trap trap)
