@@ -15,7 +15,6 @@ namespace Dreammancer{
 		private CamShake m_Cs;
 		// Use this for initialization
 		void Start () {
-			bossLife = 5;
 			m_ani = this.GetComponent<Animator> ();
 			bp_ani = this.transform.parent.GetComponent<Animator> ();
 			isDead = false;

@@ -1,0 +1,1761 @@
+fileFormatVersion: 2
+guid: 95474b75a12a146b1954cb265126c45c
+timeCreated: 1451404685
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx1_iOS_specialeffects_0
+    21300002: mmx1_iOS_specialeffects_1
+    21300004: mmx1_iOS_specialeffects_2
+    21300006: mmx1_iOS_specialeffects_3
+    21300008: mmx1_iOS_specialeffects_4
+    21300010: mmx1_iOS_specialeffects_5
+    21300012: mmx1_iOS_specialeffects_6
+    21300014: mmx1_iOS_specialeffects_7
+    21300016: mmx1_iOS_specialeffects_8
+    21300018: mmx1_iOS_specialeffects_9
+    21300020: mmx1_iOS_specialeffects_10
+    21300022: mmx1_iOS_specialeffects_11
+    21300024: mmx1_iOS_specialeffects_12
+    21300026: mmx1_iOS_specialeffects_13
+    21300028: mmx1_iOS_specialeffects_14
+    21300030: mmx1_iOS_specialeffects_15
+    21300032: mmx1_iOS_specialeffects_16
+    21300034: mmx1_iOS_specialeffects_17
+    21300036: mmx1_iOS_specialeffects_18
+    21300038: mmx1_iOS_specialeffects_19
+    21300040: mmx1_iOS_specialeffects_20
+    21300042: mmx1_iOS_specialeffects_21
+    21300044: mmx1_iOS_specialeffects_22
+    21300046: mmx1_iOS_specialeffects_23
+    21300048: mmx1_iOS_specialeffects_24
+    21300050: mmx1_iOS_specialeffects_25
+    21300052: mmx1_iOS_specialeffects_26
+    21300054: mmx1_iOS_specialeffects_27
+    21300056: mmx1_iOS_specialeffects_28
+    21300058: mmx1_iOS_specialeffects_29
+    21300060: mmx1_iOS_specialeffects_30
+    21300062: mmx1_iOS_specialeffects_31
+    21300064: mmx1_iOS_specialeffects_32
+    21300066: mmx1_iOS_specialeffects_33
+    21300068: mmx1_iOS_specialeffects_34
+    21300070: mmx1_iOS_specialeffects_35
+    21300072: mmx1_iOS_specialeffects_36
+    21300074: mmx1_iOS_specialeffects_37
+    21300076: mmx1_iOS_specialeffects_38
+    21300078: mmx1_iOS_specialeffects_39
+    21300080: mmx1_iOS_specialeffects_40
+    21300082: mmx1_iOS_specialeffects_41
+    21300084: mmx1_iOS_specialeffects_42
+    21300086: mmx1_iOS_specialeffects_43
+    21300088: mmx1_iOS_specialeffects_44
+    21300090: mmx1_iOS_specialeffects_45
+    21300092: mmx1_iOS_specialeffects_46
+    21300094: mmx1_iOS_specialeffects_47
+    21300096: mmx1_iOS_specialeffects_48
+    21300098: mmx1_iOS_specialeffects_49
+    21300100: mmx1_iOS_specialeffects_50
+    21300102: mmx1_iOS_specialeffects_51
+    21300104: mmx1_iOS_specialeffects_52
+    21300106: mmx1_iOS_specialeffects_53
+    21300108: mmx1_iOS_specialeffects_54
+    21300110: mmx1_iOS_specialeffects_55
+    21300112: mmx1_iOS_specialeffects_56
+    21300114: mmx1_iOS_specialeffects_57
+    21300116: mmx1_iOS_specialeffects_58
+    21300118: mmx1_iOS_specialeffects_59
+    21300120: mmx1_iOS_specialeffects_60
+    21300122: mmx1_iOS_specialeffects_61
+    21300124: mmx1_iOS_specialeffects_62
+    21300126: mmx1_iOS_specialeffects_63
+    21300128: mmx1_iOS_specialeffects_64
+    21300130: mmx1_iOS_specialeffects_65
+    21300132: mmx1_iOS_specialeffects_66
+    21300134: mmx1_iOS_specialeffects_67
+    21300136: mmx1_iOS_specialeffects_68
+    21300138: mmx1_iOS_specialeffects_69
+    21300140: mmx1_iOS_specialeffects_70
+    21300142: mmx1_iOS_specialeffects_71
+    21300144: mmx1_iOS_specialeffects_72
+    21300146: mmx1_iOS_specialeffects_73
+    21300148: mmx1_iOS_specialeffects_74
+    21300150: mmx1_iOS_specialeffects_75
+    21300152: mmx1_iOS_specialeffects_76
+    21300154: mmx1_iOS_specialeffects_77
+    21300156: mmx1_iOS_specialeffects_78
+    21300158: mmx1_iOS_specialeffects_79
+    21300160: mmx1_iOS_specialeffects_80
+    21300162: mmx1_iOS_specialeffects_81
+    21300164: mmx1_iOS_specialeffects_82
+    21300166: mmx1_iOS_specialeffects_83
+    21300168: mmx1_iOS_specialeffects_84
+    21300170: mmx1_iOS_specialeffects_85
+    21300172: mmx1_iOS_specialeffects_86
+    21300174: mmx1_iOS_specialeffects_87
+    21300176: mmx1_iOS_specialeffects_88
+    21300178: mmx1_iOS_specialeffects_89
+    21300180: mmx1_iOS_specialeffects_90
+    21300182: mmx1_iOS_specialeffects_91
+    21300184: mmx1_iOS_specialeffects_92
+    21300186: mmx1_iOS_specialeffects_93
+    21300188: mmx1_iOS_specialeffects_94
+    21300190: mmx1_iOS_specialeffects_95
+    21300192: mmx1_iOS_specialeffects_96
+    21300194: mmx1_iOS_specialeffects_97
+    21300196: mmx1_iOS_specialeffects_98
+    21300198: mmx1_iOS_specialeffects_99
+    21300200: mmx1_iOS_specialeffects_100
+    21300202: mmx1_iOS_specialeffects_101
+    21300204: mmx1_iOS_specialeffects_102
+    21300206: mmx1_iOS_specialeffects_103
+    21300208: mmx1_iOS_specialeffects_104
+    21300210: mmx1_iOS_specialeffects_105
+    21300212: mmx1_iOS_specialeffects_106
+    21300214: mmx1_iOS_specialeffects_107
+    21300216: mmx1_iOS_specialeffects_108
+    21300218: mmx1_iOS_specialeffects_109
+    21300220: mmx1_iOS_specialeffects_110
+    21300222: mmx1_iOS_specialeffects_111
+    21300224: mmx1_iOS_specialeffects_112
+    21300226: mmx1_iOS_specialeffects_113
+    21300228: mmx1_iOS_specialeffects_114
+    21300230: mmx1_iOS_specialeffects_115
+    21300232: mmx1_iOS_specialeffects_116
+    21300234: mmx1_iOS_specialeffects_117
+    21300236: mmx1_iOS_specialeffects_118
+    21300238: mmx1_iOS_specialeffects_119
+    21300240: mmx1_iOS_specialeffects_120
+    21300242: mmx1_iOS_specialeffects_121
+    21300244: mmx1_iOS_specialeffects_122
+    21300246: mmx1_iOS_specialeffects_123
+    21300248: mmx1_iOS_specialeffects_124
+    21300250: mmx1_iOS_specialeffects_125
+    21300252: mmx1_iOS_specialeffects_126
+    21300254: mmx1_iOS_specialeffects_127
+    21300256: mmx1_iOS_specialeffects_128
+    21300258: mmx1_iOS_specialeffects_129
+    21300260: mmx1_iOS_specialeffects_130
+    21300262: mmx1_iOS_specialeffects_131
+    21300264: mmx1_iOS_specialeffects_132
+    21300266: mmx1_iOS_specialeffects_133
+    21300268: mmx1_iOS_specialeffects_134
+    21300270: mmx1_iOS_specialeffects_135
+    21300272: mmx1_iOS_specialeffects_136
+    21300274: mmx1_iOS_specialeffects_137
+    21300276: mmx1_iOS_specialeffects_138
+    21300278: mmx1_iOS_specialeffects_139
+    21300280: mmx1_iOS_specialeffects_140
+    21300282: mmx1_iOS_specialeffects_141
+    21300284: mmx1_iOS_specialeffects_142
+    21300286: mmx1_iOS_specialeffects_143
+    21300288: mmx1_iOS_specialeffects_144
+    21300290: mmx1_iOS_specialeffects_145
+    21300292: mmx1_iOS_specialeffects_146
+    21300294: mmx1_iOS_specialeffects_147
+    21300296: mmx1_iOS_specialeffects_148
+    21300298: mmx1_iOS_specialeffects_149
+    21300300: mmx1_iOS_specialeffects_150
+    21300302: mmx1_iOS_specialeffects_151
+    21300304: mmx1_iOS_specialeffects_152
+    21300306: mmx1_iOS_specialeffects_153
+    21300308: mmx1_iOS_specialeffects_154
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx1_iOS_specialeffects_0
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 614
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 615
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 614
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 636
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 626
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 630
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 608
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 606
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_8
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 606
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 621
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_10
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 622
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 537
+        width: 96
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_12
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 601
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_13
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 625
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_14
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 597
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_15
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 617
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_16
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 617
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_17
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 613
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 538
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_19
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 601
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_20
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 593
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 529
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_22
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 567
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 581
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_24
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 585
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_25
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 577
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 581
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_27
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 585
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_28
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 585
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_29
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 549
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 567
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_31
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 581
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_32
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 581
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_33
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 537
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_34
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 562
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_35
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 573
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_36
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 553
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_37
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 569
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_38
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 540
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_39
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 565
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_40
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 568
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_41
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 569
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_42
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 537
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_43
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 561
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_44
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 556
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_45
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 553
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_46
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 533
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_47
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 548
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_48
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_49
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 548
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_50
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 546
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_51
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 552
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_52
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 533
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_53
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 536
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_54
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 533
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_55
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 377
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 393
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_57
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 381
+        width: 128
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_58
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 493
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_59
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 496
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_60
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 496
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_61
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 493
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_62
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 422
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_63
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 481
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_64
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 481
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_65
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 409
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_66
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 421
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_67
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 413
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_68
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 421
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_69
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 409
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_70
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 344
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 344
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 200
+        width: 128
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_73
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 315
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_74
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 315
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_75
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 307
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_76
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 311
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_77
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 311
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_78
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 311
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_80
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 304
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_81
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 307
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_82
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 287
+        width: 109
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_83
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 300
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_84
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 300
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 286
+        width: 118
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_86
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 287
+        width: 108
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_87
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 303
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_88
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 260
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_89
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 244
+        width: 128
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_90
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 260
+        width: 112
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_91
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 299
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_92
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 299
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_93
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 291
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_94
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_95
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 276
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_96
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 264
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_97
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 256
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_98
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 256
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_99
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 259
+        width: 98
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_100
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 259
+        width: 104
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_101
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 259
+        width: 112
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_102
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 260
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_103
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 240
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_104
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 248
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_105
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 236
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 236
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_107
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 240
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_108
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 225
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_109
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 225
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_110
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 232
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_111
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 232
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_112
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 228
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_113
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 220
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_114
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 220
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_115
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_116
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 149
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_117
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 159
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_118
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 153
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_119
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 148
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_120
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 147
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 188
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_123
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_124
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 156
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_125
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_126
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 98
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_127
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_128
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 102
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_129
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 86
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_130
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 90
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_131
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_132
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 99
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_133
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_134
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_135
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 98
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_136
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 100
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_137
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 77
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_138
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 21
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_139
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 10
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_140
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 21
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_141
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 73
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_142
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 73
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_143
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 25
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_144
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 61
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_145
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 61
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_146
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 36
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_147
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 45
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_148
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_149
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 45
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_150
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 33
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_151
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 33
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_152
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 21
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_153
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 21
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx1_iOS_specialeffects_154
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 17
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

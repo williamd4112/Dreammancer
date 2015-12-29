@@ -14,6 +14,7 @@ namespace Dreammancer{
 		public GameObject m_Cam;
 
 
+
 		// Use this for initialization
 		void Start () {
 			m_animator = this.GetComponent<Animator> ();
@@ -43,6 +44,7 @@ namespace Dreammancer{
 				this.transform.parent.GetComponent<BossState>().bossHurt();
 				//c_animator.SetBool("Hurt",true);
 				//m_Cam.GetComponent<CamShake>().shakeAndBake();
+				isTri = true;
 			}
 		}
 

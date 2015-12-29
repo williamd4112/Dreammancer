@@ -26,6 +26,7 @@ namespace Dreammancer{
 		public Queue buList;
 		public Queue boList;
 		public float transparent;
+		private float m_Co;
 
 		// Use this for initialization
 		void Start () {
@@ -36,6 +37,8 @@ namespace Dreammancer{
 			buCount = 0;
 			buList = new Queue ();
 			boList = new Queue ();
+			m_Co = 50f / 255f;
+			Debug.Log (m_Co);
 		}
 		
 		// Update is called once per frame
@@ -58,12 +61,13 @@ namespace Dreammancer{
 					m_Bullet.GetComponent<Rigidbody2D> ().velocity += Vector2.left * bulSpeed;
 					RanNum = Random.Range(0,3);
 					Rand = (int)RanNum;
+
 					if (Rand == 0) {
-						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(1,0,0,transparent);
+						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(1,m_Co,m_Co,transparent);
 					} else if (Rand == 1) {
-						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(0,1,0,transparent);
+						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
 					} else if (Rand == 2) {
-						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(0,0,1,transparent);
+						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,m_Co,1,transparent);
 					}
 					//m_Bullet.GetComponent<SpriteRenderer>().color.a = 0.8f;
 					//Debug.Log("Bullet Color:" + m_Bullet.GetComponent<SpriteRenderer>().color);
@@ -77,11 +81,11 @@ namespace Dreammancer{
 						RanNum = Random.Range(0,3);
 						Rand = (int)RanNum;
 						if (Rand == 0) {
-							m_Bullet.GetComponent<SpriteRenderer> ().color = Color.red;
+							m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(1,m_Co,m_Co,transparent);
 						} else if (Rand == 1) {
-							m_Bullet.GetComponent<SpriteRenderer> ().color = Color.blue;
+							m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
 						} else if (Rand == 2) {
-							m_Bullet.GetComponent<SpriteRenderer> ().color = Color.green;
+							m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,m_Co,1,transparent);
 						}
 					}
 				}
@@ -149,11 +153,11 @@ namespace Dreammancer{
 					RanNum = Random.Range (0, 3);
 					Rand = (int)RanNum;
 					if (Rand == 0) {
-						m_Board.GetComponent<SpriteRenderer> ().color = Color.red;
+						m_Board.GetComponent<SpriteRenderer> ().color = new Color(1,m_Co,m_Co,transparent);
 					} else if (Rand == 1) {
-						m_Board.GetComponent<SpriteRenderer> ().color = Color.blue;
+						m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
 					} else if (Rand == 2) {
-						m_Board.GetComponent<SpriteRenderer> ().color = Color.green;
+						m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,m_Co,1,transparent);
 					}
 				} else {
 					if (boList.Count != 0) {
@@ -164,11 +168,11 @@ namespace Dreammancer{
 						RanNum = Random.Range (0, 3);
 						Rand = (int)RanNum;
 						if (Rand == 0) {
-							m_Board.GetComponent<SpriteRenderer> ().color = Color.red;
+							m_Board.GetComponent<SpriteRenderer> ().color = new Color(1,m_Co,m_Co,transparent);
 						} else if (Rand == 1) {
-							m_Board.GetComponent<SpriteRenderer> ().color = Color.blue;
+							m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
 						} else if (Rand == 2) {
-							m_Board.GetComponent<SpriteRenderer> ().color = Color.green;
+							m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,m_Co,1,transparent);
 						}
 					}
 				}
@@ -184,7 +188,7 @@ namespace Dreammancer{
 		}
 
 		IEnumerator shootBo(){
-			yield return new WaitForSeconds (1.5f);
+			yield return new WaitForSeconds (2f);
 			//Debug.Log ("in IsBo");
 			isBo = false;
 			boSho = true;

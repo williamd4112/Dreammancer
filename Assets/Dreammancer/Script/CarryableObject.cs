@@ -56,8 +56,11 @@ namespace Dreammancer
             if(hit)
             {
                 GameObject obj = hit.collider.gameObject;
+				//Debug.Log(obj.name);
                 if(obj != gameObject)
                 {
+					//Debug.Log(obj.name);
+					//Debug.Break();
                     m_Grounded = true;
                     Rigidbody2D rigidbody = obj.GetComponent<Rigidbody2D>();
                     if (rigidbody != null)
