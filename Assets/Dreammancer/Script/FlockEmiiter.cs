@@ -9,6 +9,8 @@ namespace Dreammancer
         private GameObject m_Template;
         [SerializeField]
         private float m_Delay = 1.0f;
+        [SerializeField]
+        private Transform m_Target;
 
         private bool m_Ready = true;
 
@@ -22,7 +24,13 @@ namespace Dreammancer
         void Update()
         {
             if (m_Ready)
-                GameObject.Instantiate(m_Template, transform.position, transform.rotation);
+            {
+                GameObject dummy = GameObject.Instantiate(m_Template, transform.position, transform.rotation) as GameObject;
+                dummy.GetComponent<BirdsMonsterControl>().SetTarget(m_Target);
+                
+                m_Ready = false;
+                StartCoroutine(Timer(m_Delay));
+            }
         }
 
         IEnumerator Timer(float t)
