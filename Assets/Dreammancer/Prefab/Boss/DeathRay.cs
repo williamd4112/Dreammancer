@@ -30,7 +30,7 @@ namespace Dreammancer{
 			float RanNum;
 			int Rand;
 			Light2D[] sr;
-			if (!isRay) {
+			if (!isRay && (!this.GetComponent<BossState>().isDead)) {
 				StartCoroutine ("GenDeath");
 				isRay = true;
 			}
@@ -78,7 +78,7 @@ namespace Dreammancer{
 		}
 
 		IEnumerator GenDeath(){
-			yield return new WaitForSeconds (3);
+			yield return new WaitForSeconds (10);
 			shootR = true;
 		}
 

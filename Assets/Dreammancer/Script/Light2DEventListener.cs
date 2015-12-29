@@ -114,7 +114,7 @@ namespace Dreammancer
                     m_AffectLightTable.Add(l, l.LightColor);
                     m_FadeInColor = ColorUtil.colorSubRGB(m_FadeInColor, l.LightColor);
 
-                    AudioSource.PlayClipAtPoint(hitSound, transform.position, 0.1f);
+                    AudioSource.PlayClipAtPoint(hitSound, transform.position, 10f);
                     isAnimPlaying = false;
                 }
             }

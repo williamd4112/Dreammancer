@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 013f1b40a64e64c149abd1d862f91200
+timeCreated: 1451196862
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx5_sigmahead_0
+    21300002: mmx5_sigmahead_1
+    21300004: mmx5_sigmahead_2
+    21300006: mmx5_sigmahead_3
+    21300008: mmx5_sigmahead_4
+    21300010: mmx5_sigmahead_5
+    21300012: mmx5_sigmahead_6
+    21300014: mmx5_sigmahead_7
+    21300016: mmx5_sigmahead_8
+    21300018: mmx5_sigmahead_9
+    21300020: mmx5_sigmahead_10
+    21300022: mmx5_sigmahead_11
+    21300024: mmx5_sigmahead_12
+    21300026: mmx5_sigmahead_13
+    21300028: mmx5_sigmahead_14
+    21300030: mmx5_sigmahead_15
+    21300032: mmx5_sigmahead_16
+    21300034: mmx5_sigmahead_17
+    21300036: mmx5_sigmahead_18
+    21300038: mmx5_sigmahead_19
+    21300040: mmx5_sigmahead_20
+    21300042: mmx5_sigmahead_21
+    21300044: mmx5_sigmahead_22
+    21300046: mmx5_sigmahead_23
+    21300048: mmx5_sigmahead_24
+    21300050: mmx5_sigmahead_25
+    21300052: mmx5_sigmahead_26
+    21300054: mmx5_sigmahead_27
+    21300056: mmx5_sigmahead_28
+    21300058: mmx5_sigmahead_29
+    21300060: mmx5_sigmahead_30
+    21300062: mmx5_sigmahead_31
+    21300064: mmx5_sigmahead_32
+    21300066: mmx5_sigmahead_33
+    21300068: mmx5_sigmahead_34
+    21300070: mmx5_sigmahead_35
+    21300072: mmx5_sigmahead_36
+    21300074: mmx5_sigmahead_37
+    21300076: mmx5_sigmahead_38
+    21300078: mmx5_sigmahead_39
+    21300080: mmx5_sigmahead_40
+    21300082: mmx5_sigmahead_41
+    21300084: mmx5_sigmahead_42
+    21300086: mmx5_sigmahead_43
+    21300088: mmx5_sigmahead_44
+    21300090: mmx5_sigmahead_45
+    21300092: mmx5_sigmahead_46
+    21300094: mmx5_sigmahead_47
+    21300096: mmx5_sigmahead_48
+    21300098: mmx5_sigmahead_49
+    21300100: mmx5_sigmahead_50
+    21300102: mmx5_sigmahead_51
+    21300104: mmx5_sigmahead_52
+    21300106: mmx5_sigmahead_53
+    21300108: mmx5_sigmahead_54
+    21300110: mmx5_sigmahead_55
+    21300112: mmx5_sigmahead_56
+    21300114: mmx5_sigmahead_57
+    21300116: mmx5_sigmahead_58
+    21300118: mmx5_sigmahead_59
+    21300120: mmx5_sigmahead_60
+    21300122: mmx5_sigmahead_61
+    21300124: mmx5_sigmahead_62
+    21300126: mmx5_sigmahead_63
+    21300128: mmx5_sigmahead_64
+    21300130: mmx5_sigmahead_65
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx5_sigmahead_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 734
+        width: 278
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1379
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1377
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1382
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_4
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1376
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_5
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1345
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1343
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1348
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_8
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1342
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1310
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1308
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1313
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_12
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1307
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_13
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1290
+        width: 126
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1251
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_15
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1249
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1254
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_17
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1248
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_18
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1216
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1214
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_20
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1219
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_21
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1213
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_22
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1196
+        width: 126
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_23
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1145
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_24
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1141
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_25
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1037
+        width: 118
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_26
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 974
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_27
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 875
+        width: 55
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 541
+        width: 158
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_29
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 541
+        width: 158
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_30
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 541
+        width: 156
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_31
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 541
+        width: 158
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 364
+        width: 158
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 364
+        width: 158
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_34
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 364
+        width: 158
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_35
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 364
+        width: 158
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 291
+        width: 258
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_37
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 347
+        width: 162
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_38
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 291
+        width: 258
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 277
+        width: 128
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 277
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_41
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 255
+        width: 128
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 255
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_43
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 168
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_44
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 171
+        width: 71
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_45
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 171
+        width: 61
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_46
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 220
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_47
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 220
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_48
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 155
+        width: 128
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_49
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 155
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_50
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 55
+        width: 128
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_51
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 55
+        width: 128
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_52
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 55
+        width: 128
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_53
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 55
+        width: 128
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_54
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 55
+        width: 128
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_55
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 17
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 18
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_57
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 17
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_58
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 20
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_59
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 26
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_60
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 25
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_61
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 25
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_62
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 25
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_63
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 25
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_64
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 5
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx5_sigmahead_65
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 5
+        width: 124
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
