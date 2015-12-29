@@ -57,14 +57,14 @@ namespace Dreammancer
                 m_Health.EnterImmortal();
             }
                 
-            if(e)
-            {
-                //Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Default"), true);
-            }
-            else
-            {
-                //Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Default"), false);
-            }
+            //if(e)
+            //{
+            //    Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Default"), true);
+            //}
+            //else
+            //{
+            //    Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Default"), false);
+            //}
 
             m_LastImmortalFlag = e;
         }

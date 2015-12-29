@@ -7,20 +7,19 @@ namespace Dreammancer
     {
         [SerializeField]
         private Vector3 m_DetectRadius = new Vector3(20.0f, 0.0f, 0.0f);
-        private MonsterCharacter m_MonsterCharacter;
-        private Transform m_Target;
-        private BoxCollider2D m_BoxCollider;
+		private PlatformerUFO2D m_PlatformerUFO2D;
+        private Transform m_Target;        
         
         private Vector3 DisToTarget;        
         // Use this for initialization
         void Start()
         {
             //startFly = false;
-            m_MonsterCharacter = GetComponent<MonsterCharacter>();
+			m_PlatformerUFO2D = GetComponent<PlatformerUFO2D>();
 
             //m_MonsterCharacter = GetComponent<MonsterCharacter>();
             m_Target = GameObject.FindGameObjectWithTag("Player").transform;
-            m_BoxCollider = GetComponent<BoxCollider2D>();
+           
         }
 
         // Update is called once per frame
@@ -31,8 +30,9 @@ namespace Dreammancer
 			float acc = 1.0f;
             if (isInRange())
             {
-				m_MonsterCharacter.drift(dir.x * acc, dir.y * acc);
-            }
+				//m_PlatformerUFO2D.drift(dir.x * acc, dir.y * acc);
+				m_PlatformerUFO2D.drift(dir.x, m_Target);
+			}
         }
         private bool isInRange()
         {
@@ -44,6 +44,7 @@ namespace Dreammancer
             return false;
             //return Vector3.Distance(transform.position, m_Target.position) < m_DetectRadius;
         }
+
     }
 
 }

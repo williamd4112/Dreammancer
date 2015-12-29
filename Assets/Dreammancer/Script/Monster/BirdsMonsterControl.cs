@@ -30,8 +30,7 @@ namespace Dreammancer
         void FixedUpdate()
         {
             Vector2 dir = (m_Target.position - transform.position).normalized;
-                
-            Debug.Log(isInRange()+" "+startFly);      
+                 
             if (isInRange() && !startFly)
             {
                 
