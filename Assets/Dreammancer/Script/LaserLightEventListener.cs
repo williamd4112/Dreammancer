@@ -42,6 +42,10 @@ namespace Dreammancer
 
         void OnLightStay(Light2D l, GameObject g)
         {
+            if (g.GetInstanceID() == id)
+            {
+                Debug.Log("Light : " + l.tag);
+            }
             if (g.GetInstanceID() == id && l.CompareTag("Laser"))
             {
                 if(ColorUtil.colorCompareQuantRGB(l.LightColor, m_DamageColor, 127))

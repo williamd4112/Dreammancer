@@ -29,10 +29,10 @@ namespace Dreammancer
                 switch(collect.Type)
                 {
                     case CollectableType.SMALL_ENERGY:
-                        m_Character.increaseEnergy(10);
+                        m_Character.increaseEnergy(50);
                         break;
                     case CollectableType.SMALL_LIFE:
-                        m_Character.Health.increaseHealth(10);
+                        m_Character.Health.increaseHealth(50);
                         break;
                     default:
                         break;

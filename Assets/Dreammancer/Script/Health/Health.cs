@@ -33,7 +33,8 @@ namespace Dreammancer
         public void increaseHealth(int hp)
         {
             m_Health = Mathf.Clamp(m_Health + hp, 0, m_MaxHealth);
-            m_HealthEvents.Invoke(m_Health, hp);
+            if (m_HealthEvents != null)
+                m_HealthEvents.Invoke(m_Health, hp);
         }
 
         public void decreaseHealth(int hp)
@@ -42,7 +43,8 @@ namespace Dreammancer
             else if (m_HasImmortalTime) EnterImmortal();
    
             m_Health = Mathf.Clamp(m_Health - hp, 0, m_MaxHealth);
-            m_HealthEvents.Invoke(m_Health, -hp);
+            if(m_HealthEvents != null)
+                m_HealthEvents.Invoke(m_Health, -hp);
         }
 
         public void RegisterHealthEvent(HealthChangeEvent e)
