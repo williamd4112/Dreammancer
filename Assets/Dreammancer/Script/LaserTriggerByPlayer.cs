@@ -7,13 +7,20 @@ namespace Dreammancer
     public class LaserTriggerByPlayer : MonoBehaviour
     {
         [SerializeField]
-        private GameObject m_ToTrigger;
+        public Transform[] m_ToTriggers;
         
+        void Start()
+        {
+         
+        }
+
         void OnTriggerEnter2D(Collider2D other)
         {
             if(other.CompareTag("Player"))
             {
-                m_ToTrigger.SetActive(true);
+                foreach(Transform g in m_ToTriggers)
+                    g.gameObject.SetActive(true);
+                Destroy(gameObject);
             }
         }
     }
