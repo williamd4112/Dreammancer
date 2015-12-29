@@ -18,8 +18,6 @@ namespace Dreammancer
         private int m_DamageAmount;
         [SerializeField]
         private bool m_SelfDestroy = false;
-        [SerializeField]
-        private bool m_Relocateable= false;
 
         private GameObject m_EffectInstance = null;
 
@@ -46,11 +44,6 @@ namespace Dreammancer
                         ShowEffect();
                     }
                 }
-            }
-
-            if(m_Relocateable)
-            {
-
             }
             
             if (m_SelfDestroy)
