@@ -91,28 +91,31 @@ namespace Dreammancer
             StartCoroutine(Recharge(m_DashChargeRate));
         }
 
+        void Update()
+        {
+            // Trigger dash
+            if (Input.GetKeyDown(KeyCode.E) ||
+                CrossPlatformInputManager.GetAxis("Mouse Y") < 0.01f
+                && CrossPlatformInputManager.GetAxis("Mouse X") > 0.8f && !m_IsDash && m_DashEnergy > 0 && !m_IsDash)
+            {
+                m_IsDash = true;
+                m_DashControl.ResetColor(m_LightArea.LightArea.LightColor);
+
+                AudioSource.PlayClipAtPoint(m_DashSound, transform.position);
+                m_CountdownRoutine = StartCoroutine(CountDown(m_DashUnitTime * m_DashEnergy));
+                m_DashEnergy = 0;
+            }
+            else if (m_IsDash)
+            {
+                m_IsDash = Input.GetKey(KeyCode.E);
+            }
+        }
+
         // Update is called once per frame
         void FixedUpdate()
         {
             m_Character.BaseVelocity = m_CarryableObject.CarrierVelocity + m_AdditionalVelocity;
             m_AdditionalVelocity = Vector2.Lerp(m_AdditionalVelocity, Vector2.zero, Time.deltaTime * m_RecoverFromDamageSpeed);
-
-            // Trigger dash
-            if (Input.GetKeyDown(KeyCode.E) || 
-                CrossPlatformInputManager.GetAxis("Mouse Y") < 0.01f 
-                && CrossPlatformInputManager.GetAxis("Mouse X") > 0.8f && !m_IsDash && m_DashEnergy > 0 && !m_IsDash)
-            {
-                m_IsDash = true;
-                m_DashControl.ResetColor(m_LightArea.LightArea.LightColor);
-                
-                AudioSource.PlayClipAtPoint(m_DashSound, transform.position);
-                m_CountdownRoutine = StartCoroutine(CountDown(m_DashUnitTime * m_DashEnergy));
-                m_DashEnergy = 0;
-            }
-            else if(m_IsDash)
-            {
-                m_IsDash = Input.GetKey(KeyCode.E);
-            }
 
             if(m_IsDash)
             {
