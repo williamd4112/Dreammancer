@@ -2,22 +2,25 @@
 using System.Collections;
 
 namespace Dreammancer
-{
-    public class UFOMonsterControl : MonoBehaviour
+{    
+    public class BirdsMonsterControl : MonoBehaviour
     {
         [SerializeField]
         private Vector3 m_DetectRadius = new Vector3(20.0f, 0.0f, 0.0f);
-        private MonsterCharacter m_MonsterCharacter;
+        private MonsterCharacter[] m_MonsterCharacters;
         private Transform m_Target;
         private BoxCollider2D m_BoxCollider;
-        
-        private Vector3 DisToTarget;        
+        private bool startFly;
+        private Vector3 DisToTarget;
+       
+        [SerializeField]
+        private float speed;
         // Use this for initialization
         void Start()
         {
-            //startFly = false;
-            m_MonsterCharacter = GetComponent<MonsterCharacter>();
-
+            startFly = false;
+            m_MonsterCharacters = GetComponentsInChildren<MonsterCharacter>();
+            
             //m_MonsterCharacter = GetComponent<MonsterCharacter>();
             m_Target = GameObject.FindGameObjectWithTag("Player").transform;
             m_BoxCollider = GetComponent<BoxCollider2D>();
@@ -27,12 +30,19 @@ namespace Dreammancer
         void FixedUpdate()
         {
             Vector2 dir = (m_Target.position - transform.position).normalized;
-
-			float acc = 1.0f;
-            if (isInRange())
+                
+            Debug.Log(isInRange()+" "+startFly);      
+            if (isInRange() && !startFly)
             {
-				m_MonsterCharacter.drift(dir.x * acc, dir.y * acc);
-            }
+                
+                DisToTarget = m_Target.position - transform.position;
+                foreach (MonsterCharacter m_MonsterCharacter in m_MonsterCharacters) { 
+                    m_MonsterCharacter.aimFly(dir.x * speed, dir.y * speed);
+                }
+                Destroy(gameObject, 5);
+                startFly = true;
+            }         
+
         }
         private bool isInRange()
         {
