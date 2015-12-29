@@ -31,7 +31,7 @@ namespace Dreammancer{
 		}
 		
 		// Update is called once per frame
-		void LateUpdate () {
+		void Update () {
 			
 			//for each backgrounds
 			for(int i = 0;i < backgrounds.Length ; i++){

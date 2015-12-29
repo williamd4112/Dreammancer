@@ -13,7 +13,7 @@ public class BackGround : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void LateUpdate () {
+	void Update () {
 		temp = new Vector3 (Player.transform.position.x, this.transform.position.y, this.transform.position.z);
 		this.transform.position = temp;
 	}
