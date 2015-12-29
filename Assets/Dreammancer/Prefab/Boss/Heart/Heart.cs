@@ -9,8 +9,9 @@ namespace Dreammancer{
 		private SpriteRenderer m_sr;
 		private Color tempColor;
 		private Animator b_animator;
-		private Animator c_animator;
+		//private Animator c_animator;
 		private bool isTri;
+		public GameObject m_Cam;
 
 
 		// Use this for initialization
@@ -18,7 +19,7 @@ namespace Dreammancer{
 			m_animator = this.GetComponent<Animator> ();
 			m_sr = this.GetComponent<SpriteRenderer> ();
 			b_animator = this.transform.parent.GetComponent<Animator> ();
-			c_animator = Camera.main.GetComponent<Animator> ();
+			//c_animator = Camera.main.GetComponent<Animator> ();
 			isTri = false;
 		}
 		
@@ -35,11 +36,13 @@ namespace Dreammancer{
 			//Debug.Log (tempColor);
 			if((ColorUtil.colorCompareRGB(tempColor,Color.black)) && (!isTri) && 
 			   m_animator.GetCurrentAnimatorStateInfo(0).shortNameHash == Animator.StringToHash("HeartIdle")){
-				int i = 0;
-				Debug.Log ("times:" + i);
+				//int i = 0;
+				//Debug.Log ("times:" + i);
 				m_animator.SetBool("Explo",true);
-				b_animator.SetBool("Hurt",true);
-				c_animator.SetBool("Hurt",true);
+				//b_animator.SetBool("Hurt",true);
+				this.transform.parent.GetComponent<BossState>().bossHurt();
+				//c_animator.SetBool("Hurt",true);
+				//m_Cam.GetComponent<CamShake>().shakeAndBake();
 			}
 		}
 
@@ -48,7 +51,7 @@ namespace Dreammancer{
 			this.transform.parent.GetComponent<ShootHeart> ().startBuild = true;
 			m_animator.SetBool ("Explo", false);
 			b_animator.SetBool ("Hurt", false);
-			c_animator.SetBool ("Hurt", false);
+			//c_animator.SetBool ("Hurt", false);
 			isTri = false;
 			Destroy (this.gameObject);
 		}

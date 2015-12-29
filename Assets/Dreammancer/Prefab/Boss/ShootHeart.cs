@@ -30,7 +30,7 @@ namespace Dreammancer{
 
 				if (makeHeart) {
 					m_heart = Instantiate (Heart, HeartPo.transform.position, Quaternion.identity) as GameObject;
-					m_heart.transform.localScale = m_heart.transform.localScale * 4;
+					m_heart.transform.localScale = m_heart.transform.localScale * 2;
 					m_heart.transform.parent = this.gameObject.transform;
 					RanNum = Random.Range (0, 3);
 					Rand = (int)RanNum;

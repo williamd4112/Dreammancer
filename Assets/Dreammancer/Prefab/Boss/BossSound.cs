@@ -15,12 +15,16 @@ namespace Dreammancer{
 		}
 
 		public void PlayHurt(){
-			Debug.Log("PlayingHU");
+			//Debug.Log("PlayingHU");
 			audio.PlayOneShot (sound [0], 1f);
 		}
 
 		public void PlayRay(){
 			audio.PlayOneShot (sound [1], 1f);
+		}
+
+		public void PlayDie(){
+			audio.PlayOneShot (sound [2], 1f);
 		}
 	}
 }
