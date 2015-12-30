@@ -1,0 +1,903 @@
+fileFormatVersion: 2
+guid: 89c60514b5ac244518c1c49c029a33e0
+timeCreated: 1451464517
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dynamox56sheet_0
+    21300002: Dynamox56sheet_1
+    21300004: Dynamox56sheet_2
+    21300006: Dynamox56sheet_3
+    21300008: Dynamox56sheet_4
+    21300010: Dynamox56sheet_5
+    21300012: Dynamox56sheet_6
+    21300014: Dynamox56sheet_7
+    21300016: Dynamox56sheet_8
+    21300018: Dynamox56sheet_9
+    21300020: Dynamox56sheet_10
+    21300022: Dynamox56sheet_11
+    21300024: Dynamox56sheet_12
+    21300026: Dynamox56sheet_13
+    21300028: Dynamox56sheet_14
+    21300030: Dynamox56sheet_15
+    21300032: Dynamox56sheet_16
+    21300034: Dynamox56sheet_17
+    21300036: Dynamox56sheet_18
+    21300038: Dynamox56sheet_19
+    21300040: Dynamox56sheet_20
+    21300042: Dynamox56sheet_21
+    21300044: Dynamox56sheet_22
+    21300046: Dynamox56sheet_23
+    21300048: Dynamox56sheet_24
+    21300050: Dynamox56sheet_25
+    21300052: Dynamox56sheet_26
+    21300054: Dynamox56sheet_27
+    21300056: Dynamox56sheet_28
+    21300058: Dynamox56sheet_29
+    21300060: Dynamox56sheet_30
+    21300062: Dynamox56sheet_31
+    21300064: Dynamox56sheet_32
+    21300066: Dynamox56sheet_33
+    21300068: Dynamox56sheet_34
+    21300070: Dynamox56sheet_35
+    21300072: Dynamox56sheet_36
+    21300074: Dynamox56sheet_37
+    21300076: Dynamox56sheet_38
+    21300078: Dynamox56sheet_39
+    21300080: Dynamox56sheet_40
+    21300082: Dynamox56sheet_41
+    21300084: Dynamox56sheet_42
+    21300086: Dynamox56sheet_43
+    21300088: Dynamox56sheet_44
+    21300090: Dynamox56sheet_45
+    21300092: Dynamox56sheet_46
+    21300094: Dynamox56sheet_47
+    21300096: Dynamox56sheet_48
+    21300098: Dynamox56sheet_49
+    21300100: Dynamox56sheet_50
+    21300102: Dynamox56sheet_51
+    21300104: Dynamox56sheet_52
+    21300106: Dynamox56sheet_53
+    21300108: Dynamox56sheet_54
+    21300110: Dynamox56sheet_55
+    21300112: Dynamox56sheet_56
+    21300114: Dynamox56sheet_57
+    21300116: Dynamox56sheet_58
+    21300118: Dynamox56sheet_59
+    21300120: Dynamox56sheet_60
+    21300122: Dynamox56sheet_61
+    21300124: Dynamox56sheet_62
+    21300126: Dynamox56sheet_63
+    21300128: Dynamox56sheet_64
+    21300130: Dynamox56sheet_65
+    21300132: Dynamox56sheet_66
+    21300134: Dynamox56sheet_67
+    21300136: Dynamox56sheet_68
+    21300138: Dynamox56sheet_69
+    21300140: Dynamox56sheet_70
+    21300142: Dynamox56sheet_71
+    21300144: Dynamox56sheet_72
+    21300146: Dynamox56sheet_73
+    21300148: Dynamox56sheet_74
+    21300150: Dynamox56sheet_75
+    21300152: Dynamox56sheet_76
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Dynamox56sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 864
+        width: 8
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 864
+        width: 21
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 860
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 850
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 841
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 843
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 841
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 844
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_8
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 844
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_9
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 844
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_10
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 844
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_11
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 844
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_12
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 844
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 756
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 758
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 759
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 761
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 761
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_18
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 761
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_19
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 761
+        width: 67
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_20
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 761
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_21
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 757
+        width: 97
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_22
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 757
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 679
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_24
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 678
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_25
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 677
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 677
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_27
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 673
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_28
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 676
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_29
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 676
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_30
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 676
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_31
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 676
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 580
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_33
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 587
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_34
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 579
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 578
+        width: 36
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_36
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 581
+        width: 51
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 583
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 479
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_39
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 482
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 481
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_41
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 481
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 481
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_43
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 482
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_44
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 483
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_45
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 392
+        width: 131
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_46
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 359
+        width: 170
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_47
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 403
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_48
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 404
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_49
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 399
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 282
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_51
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 318
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_52
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 282
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_53
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 282
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_54
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 282
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_55
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 282
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_56
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 282
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_57
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 282
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_58
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 282
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_59
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 282
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_60
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 282
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_61
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 282
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_62
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 178
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 178
+        width: 51
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_64
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 178
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_65
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 178
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_66
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 176
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_67
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 175
+        width: 83
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_68
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 176
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_69
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 177
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_70
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 92
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 89
+        width: 126
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_72
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 89
+        width: 158
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_73
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 89
+        width: 190
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_74
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 94
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_75
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 8
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dynamox56sheet_76
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 8
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
