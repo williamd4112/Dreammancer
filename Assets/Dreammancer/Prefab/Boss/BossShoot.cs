@@ -38,7 +38,7 @@ namespace Dreammancer{
 			buList = new Queue ();
 			boList = new Queue ();
 			m_Co = 50f / 255f;
-			Debug.Log (m_Co);
+			//Debug.Log (m_Co);
 		}
 		
 		// Update is called once per frame
