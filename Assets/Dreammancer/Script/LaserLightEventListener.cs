@@ -51,7 +51,6 @@ namespace Dreammancer
                 if(ColorUtil.colorCompareQuantRGB(l.LightColor, m_DamageColor, 127))
                 {
                     m_Health.decreaseHealth(m_DamageAmount);
-                    Debug.Log("Hurt");
                 }
                     
             }
