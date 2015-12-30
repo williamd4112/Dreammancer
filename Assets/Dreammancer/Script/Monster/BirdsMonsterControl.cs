@@ -8,13 +8,20 @@ namespace Dreammancer
         [SerializeField]
         private Vector3 m_DetectRadius = new Vector3(20.0f, 0.0f, 0.0f);
         private MonsterCharacter[] m_MonsterCharacters;
+
+        [SerializeField]
         private Transform m_Target;
+
         private BoxCollider2D m_BoxCollider;
         private bool startFly;
         private Vector3 DisToTarget;
+
+        [SerializeField]
+        private float m_DestroyDelay = 3.0f;
        
         [SerializeField]
         private float speed;
+
         // Use this for initialization
         void Start()
         {
@@ -22,7 +29,8 @@ namespace Dreammancer
             m_MonsterCharacters = GetComponentsInChildren<MonsterCharacter>();
             
             //m_MonsterCharacter = GetComponent<MonsterCharacter>();
-            m_Target = GameObject.FindGameObjectWithTag("Player").transform;
+            if(m_Target == null)
+                m_Target = GameObject.FindGameObjectWithTag("Player").transform;
             m_BoxCollider = GetComponent<BoxCollider2D>();
         }
 
@@ -38,7 +46,7 @@ namespace Dreammancer
                 foreach (MonsterCharacter m_MonsterCharacter in m_MonsterCharacters) { 
                     m_MonsterCharacter.aimFly(dir.x * speed, dir.y * speed);
                 }
-                Destroy(gameObject, 5);
+                Destroy(gameObject, m_DestroyDelay);
                 startFly = true;
             }         
 
@@ -52,6 +60,11 @@ namespace Dreammancer
 
             return false;
             //return Vector3.Distance(transform.position, m_Target.position) < m_DetectRadius;
+        }
+
+        public void SetTarget(Transform target)
+        {
+            m_Target = target;
         }
     }
 
