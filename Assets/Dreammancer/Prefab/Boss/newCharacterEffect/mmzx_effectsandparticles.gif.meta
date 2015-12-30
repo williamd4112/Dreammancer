@@ -1,0 +1,1475 @@
+fileFormatVersion: 2
+guid: 65a2dfd422e0e4838ab5f0e80d65d755
+timeCreated: 1451458977
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmzx_effectsandparticles_0
+    21300002: mmzx_effectsandparticles_1
+    21300004: mmzx_effectsandparticles_2
+    21300006: mmzx_effectsandparticles_3
+    21300008: mmzx_effectsandparticles_4
+    21300010: mmzx_effectsandparticles_5
+    21300012: mmzx_effectsandparticles_6
+    21300014: mmzx_effectsandparticles_7
+    21300016: mmzx_effectsandparticles_8
+    21300018: mmzx_effectsandparticles_9
+    21300020: mmzx_effectsandparticles_10
+    21300022: mmzx_effectsandparticles_11
+    21300024: mmzx_effectsandparticles_12
+    21300026: mmzx_effectsandparticles_13
+    21300028: mmzx_effectsandparticles_14
+    21300030: mmzx_effectsandparticles_15
+    21300032: mmzx_effectsandparticles_16
+    21300034: mmzx_effectsandparticles_17
+    21300036: mmzx_effectsandparticles_18
+    21300038: mmzx_effectsandparticles_19
+    21300040: mmzx_effectsandparticles_20
+    21300042: mmzx_effectsandparticles_21
+    21300044: mmzx_effectsandparticles_22
+    21300046: mmzx_effectsandparticles_23
+    21300048: mmzx_effectsandparticles_24
+    21300050: mmzx_effectsandparticles_25
+    21300052: mmzx_effectsandparticles_26
+    21300054: mmzx_effectsandparticles_27
+    21300056: mmzx_effectsandparticles_28
+    21300058: mmzx_effectsandparticles_29
+    21300060: mmzx_effectsandparticles_30
+    21300062: mmzx_effectsandparticles_31
+    21300064: mmzx_effectsandparticles_32
+    21300066: mmzx_effectsandparticles_33
+    21300068: mmzx_effectsandparticles_34
+    21300070: mmzx_effectsandparticles_35
+    21300072: mmzx_effectsandparticles_36
+    21300074: mmzx_effectsandparticles_37
+    21300076: mmzx_effectsandparticles_38
+    21300078: mmzx_effectsandparticles_39
+    21300080: mmzx_effectsandparticles_40
+    21300082: mmzx_effectsandparticles_41
+    21300084: mmzx_effectsandparticles_42
+    21300086: mmzx_effectsandparticles_43
+    21300088: mmzx_effectsandparticles_44
+    21300090: mmzx_effectsandparticles_45
+    21300092: mmzx_effectsandparticles_46
+    21300094: mmzx_effectsandparticles_47
+    21300096: mmzx_effectsandparticles_48
+    21300098: mmzx_effectsandparticles_49
+    21300100: mmzx_effectsandparticles_50
+    21300102: mmzx_effectsandparticles_51
+    21300104: mmzx_effectsandparticles_52
+    21300106: mmzx_effectsandparticles_53
+    21300108: mmzx_effectsandparticles_54
+    21300110: mmzx_effectsandparticles_55
+    21300112: mmzx_effectsandparticles_56
+    21300114: mmzx_effectsandparticles_57
+    21300116: mmzx_effectsandparticles_58
+    21300118: mmzx_effectsandparticles_59
+    21300120: mmzx_effectsandparticles_60
+    21300122: mmzx_effectsandparticles_61
+    21300124: mmzx_effectsandparticles_62
+    21300126: mmzx_effectsandparticles_63
+    21300128: mmzx_effectsandparticles_64
+    21300130: mmzx_effectsandparticles_65
+    21300132: mmzx_effectsandparticles_66
+    21300134: mmzx_effectsandparticles_67
+    21300136: mmzx_effectsandparticles_68
+    21300138: mmzx_effectsandparticles_69
+    21300140: mmzx_effectsandparticles_70
+    21300142: mmzx_effectsandparticles_71
+    21300144: mmzx_effectsandparticles_72
+    21300146: mmzx_effectsandparticles_73
+    21300148: mmzx_effectsandparticles_74
+    21300150: mmzx_effectsandparticles_75
+    21300152: mmzx_effectsandparticles_76
+    21300154: mmzx_effectsandparticles_77
+    21300156: mmzx_effectsandparticles_78
+    21300158: mmzx_effectsandparticles_79
+    21300160: mmzx_effectsandparticles_80
+    21300162: mmzx_effectsandparticles_81
+    21300164: mmzx_effectsandparticles_82
+    21300166: mmzx_effectsandparticles_83
+    21300168: mmzx_effectsandparticles_84
+    21300170: mmzx_effectsandparticles_85
+    21300172: mmzx_effectsandparticles_86
+    21300174: mmzx_effectsandparticles_87
+    21300176: mmzx_effectsandparticles_88
+    21300178: mmzx_effectsandparticles_89
+    21300180: mmzx_effectsandparticles_90
+    21300182: mmzx_effectsandparticles_91
+    21300184: mmzx_effectsandparticles_92
+    21300186: mmzx_effectsandparticles_93
+    21300188: mmzx_effectsandparticles_94
+    21300190: mmzx_effectsandparticles_95
+    21300192: mmzx_effectsandparticles_96
+    21300194: mmzx_effectsandparticles_97
+    21300196: mmzx_effectsandparticles_98
+    21300198: mmzx_effectsandparticles_99
+    21300200: mmzx_effectsandparticles_100
+    21300202: mmzx_effectsandparticles_101
+    21300204: mmzx_effectsandparticles_102
+    21300206: mmzx_effectsandparticles_103
+    21300208: mmzx_effectsandparticles_104
+    21300210: mmzx_effectsandparticles_105
+    21300212: mmzx_effectsandparticles_106
+    21300214: mmzx_effectsandparticles_107
+    21300216: mmzx_effectsandparticles_108
+    21300218: mmzx_effectsandparticles_109
+    21300220: mmzx_effectsandparticles_110
+    21300222: mmzx_effectsandparticles_111
+    21300224: mmzx_effectsandparticles_112
+    21300226: mmzx_effectsandparticles_113
+    21300228: mmzx_effectsandparticles_114
+    21300230: mmzx_effectsandparticles_115
+    21300232: mmzx_effectsandparticles_116
+    21300234: mmzx_effectsandparticles_117
+    21300236: mmzx_effectsandparticles_118
+    21300238: mmzx_effectsandparticles_119
+    21300240: mmzx_effectsandparticles_120
+    21300242: mmzx_effectsandparticles_121
+    21300244: mmzx_effectsandparticles_122
+    21300246: mmzx_effectsandparticles_123
+    21300248: mmzx_effectsandparticles_124
+    21300250: mmzx_effectsandparticles_125
+    21300252: mmzx_effectsandparticles_126
+    21300254: mmzx_effectsandparticles_127
+    21300256: mmzx_effectsandparticles_128
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmzx_effectsandparticles_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 428
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 425
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 425
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 425
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 425
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 425
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 425
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 431
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 431
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 431
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_10
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_11
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 431
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 428
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 428
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_14
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 428
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_15
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 429
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 423
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 425
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 424
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_19
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 423
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_20
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 423
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_21
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 423
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 423
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 377
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 377
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_27
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 407
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_28
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 380
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 377
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_30
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 373
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 382
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_32
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 398
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_33
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 377
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_34
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 397
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_35
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 373
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_36
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 373
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_37
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 373
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_38
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 403
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_39
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 376
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_40
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 373
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_41
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 390
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_42
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 382
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_43
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 387
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_44
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 377
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_45
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 382
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_46
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 330
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_47
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 378
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_48
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 386
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_49
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 378
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_50
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 383
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_51
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 373
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_52
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 378
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_53
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 394
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_54
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 373
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_55
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 393
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_56
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 374
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_57
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 322
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_58
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 322
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_59
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 322
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_60
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 323
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_61
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 327
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_62
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 325
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_63
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 329
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_64
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 325
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_65
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 333
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_66
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 329
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_67
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 340
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_68
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 327
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_69
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 346
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_70
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 321
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_71
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 314
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_72
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 310
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_73
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 304
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_74
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 304
+        width: 15
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_75
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 304
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_76
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 346
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_77
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 313
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_78
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 326
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_79
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 251
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_80
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 246
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_81
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 244
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_82
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 239
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_83
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 238
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_84
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 234
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_85
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 236
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_86
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 245
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_87
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 249
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_88
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 253
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_89
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_90
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_91
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_92
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 238
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_93
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 236
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_94
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 246
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_95
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 205
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_96
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 162
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_97
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 178
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_98
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 180
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_99
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 180
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_100
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 178
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_101
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 105
+        width: 71
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_102
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 102
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_103
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 110
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_104
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 108
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_105
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 102
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_106
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 103
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_107
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 169
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_108
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 171
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_109
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 122
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 115
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_111
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 157
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_112
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 139
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_113
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 162
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_114
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_115
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 126
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_116
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 136
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_117
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 143
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_118
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 144
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_119
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 114
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_120
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 119
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_121
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 118
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_122
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 120
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_123
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 102
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_124
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 101
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_125
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 6
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_126
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 8
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_127
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 8
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmzx_effectsandparticles_128
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 9
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
