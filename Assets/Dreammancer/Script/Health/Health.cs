@@ -39,6 +39,7 @@ namespace Dreammancer
 
         public void decreaseHealth(int hp)
         {
+            Debug.Log(gameObject.name);
             if (m_IsImmortal) return;
             else if (m_HasImmortalTime) EnterImmortal();
    

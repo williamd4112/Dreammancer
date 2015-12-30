@@ -23,19 +23,30 @@ namespace Dreammancer
 
         void OnCollisionEnter2D(Collision2D other)
         {
-            CheckDamage(other);
+            CheckDamage(other.gameObject);
         }
 
         void OnCollisionStay2D(Collision2D other)
         {
-            CheckDamage(other);
+            CheckDamage(other.gameObject);
         }
 
-        void CheckDamage(Collision2D other)
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            CheckDamage(other.gameObject);
+        }
+
+        void OnTriggerStay2D(Collider2D other)
+        {
+            CheckDamage(other.gameObject);
+        }
+
+        void CheckDamage(GameObject other)
         {
             Health health = other.gameObject.GetComponent<Health>();
             if (health != null)
             {
+                Debug.Log(other);
                 foreach (string tag in m_DamageTags)
                 {
                     if (other.gameObject.CompareTag(tag))
