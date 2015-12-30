@@ -181,14 +181,14 @@ namespace Dreammancer{
 		}
 
 		IEnumerator shootBu(){
-			yield return new WaitForSeconds (1f);
+			yield return new WaitForSeconds (2f);
 			//Debug.Log ("In isBu");
 			isBu = false;
 			buSho = true;
 		}
 
 		IEnumerator shootBo(){
-			yield return new WaitForSeconds (1.3f);
+			yield return new WaitForSeconds (2f);
 			//Debug.Log ("in IsBo");
 			isBo = false;
 			boSho = true;
