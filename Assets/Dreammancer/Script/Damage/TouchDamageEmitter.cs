@@ -36,6 +36,7 @@ namespace Dreammancer
             Health health = other.gameObject.GetComponent<Health>();
             if (health != null)
             {
+                Debug.Log(other);
                 foreach (string tag in m_DamageTags)
                 {
                     if (other.gameObject.CompareTag(tag))
