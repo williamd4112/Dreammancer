@@ -144,7 +144,7 @@ namespace Dreammancer{
 						pos = new Vector3 (sP4.transform.position.x, sP4.transform.position.y, sP4.transform.position.z);
 					}
 				}
-				if (boCount <= 20) {
+				if (boCount <= 30) {
 					m_Board = Instantiate (board, pos, Quaternion.identity) as GameObject;
 					//m_Board.transform.parent = this.transform;
 					boCount ++;
@@ -188,7 +188,7 @@ namespace Dreammancer{
 		}
 
 		IEnumerator shootBo(){
-			yield return new WaitForSeconds (2f);
+			yield return new WaitForSeconds (1.3f);
 			//Debug.Log ("in IsBo");
 			isBo = false;
 			boSho = true;
