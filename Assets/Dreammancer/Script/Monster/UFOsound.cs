@@ -41,7 +41,8 @@ namespace Dreammancer{
 		}
 		void Update()
 		{
-			speed = rb.velocity.magnitude;
+            if(rb != null)
+			    speed = rb.velocity.magnitude;
 			if (!flag) {
 				StartSound ();
 				flag = true;
