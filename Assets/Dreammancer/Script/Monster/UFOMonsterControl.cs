@@ -6,7 +6,7 @@ namespace Dreammancer
     public class UFOMonsterControl : MonoBehaviour
     {
         [SerializeField]
-        private Vector3 m_DetectRadius = new Vector3(20.0f, 0.0f, 0.0f);
+        private Vector3 m_DetectRadius = new Vector3(5.0f, 5.0f, 0.0f);
 		private PlatformerUFO2D m_PlatformerUFO2D;
         private Transform m_Target;        
         
@@ -36,7 +36,7 @@ namespace Dreammancer
         }
         private bool isInRange()
         {
-            if (Mathf.Abs(transform.position.x - m_Target.position.x) < m_DetectRadius.x)
+			if (Mathf.Abs(transform.position.x - m_Target.position.x) < m_DetectRadius.x && Mathf.Abs(transform.position.y - m_Target.position.y) < m_DetectRadius.y)
             {
                 return true;
             }

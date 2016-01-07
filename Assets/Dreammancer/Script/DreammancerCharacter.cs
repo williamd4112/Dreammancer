@@ -27,6 +27,8 @@ namespace Dreammancer
 
         [SerializeField]
         private AudioClip m_DashSound;
+        [SerializeField]
+        private GameObject m_DashEffect;
 
         [SerializeField]
         private float m_DamageBackoffForce = 3.0f;
@@ -104,6 +106,14 @@ namespace Dreammancer
                 AudioSource.PlayClipAtPoint(m_DashSound, transform.position);
                 m_CountdownRoutine = StartCoroutine(CountDown(m_DashUnitTime * m_DashEnergy));
                 m_DashEnergy = 0;
+
+                GameObject dashEffectInstance = GameObject.Instantiate(m_DashEffect, transform.position, transform.rotation) as GameObject;
+                if (!m_Character.FacingRight)
+                {
+                    Vector3 scale = dashEffectInstance.transform.localScale;
+                    scale.x = -1.0f;
+                    dashEffectInstance.transform.localScale = scale;
+                }
             }
             else if (m_IsDash)
             {

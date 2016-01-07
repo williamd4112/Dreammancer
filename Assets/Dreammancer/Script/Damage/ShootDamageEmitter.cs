@@ -33,9 +33,22 @@ namespace Dreammancer
         // Update is called once per frame
         void Update()
         {
-            if(m_Ready)
+            if (transform.parent.transform.localScale.x < 0)
+            {
+                transform.RotateAround(transform.parent.transform.position, Vector2.right, 180.0f);
+                m_ShootDirection *= -1.0f;
+            }
+
+            if (m_Ready)
             {
                 GameObject obj = GameObject.Instantiate(m_BulletTemplate, transform.position, transform.rotation) as GameObject;
+                if (transform.parent.transform.localScale.x < 0)
+                {
+                    Vector3 s = obj.transform.localScale;
+                    s.x = -1.0f;
+                    obj.transform.localScale = s;
+                }
+
                 SpriteRenderer renderer = obj.GetComponent<SpriteRenderer>();
                 if(renderer != null)
                 {
@@ -44,6 +57,7 @@ namespace Dreammancer
                 }
 
                 Rigidbody2D rigid = obj.GetComponent<Rigidbody2D>();
+
                 rigid.velocity = m_Speed * m_ShootDirection;
                 StartCoroutine(Cooldown(m_CooldownTime));
 
