@@ -59,14 +59,14 @@ namespace Dreammancer{
 					//m_Bullet.transform.parent = this.transform;
 					buCount++;
 					m_Bullet.GetComponent<Rigidbody2D> ().velocity += Vector2.left * bulSpeed;
-					RanNum = Random.Range(0,3);
+					RanNum = Random.Range(0,2);
 					Rand = (int)RanNum;
 
 					if (Rand == 0) {
 						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(1,m_Co,m_Co,transparent);
-					} else if (Rand == 1) {
-						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
 					} else if (Rand == 2) {
+						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
+					} else if (Rand == 1) {
 						m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,m_Co,1,transparent);
 					}
 					//m_Bullet.GetComponent<SpriteRenderer>().color.a = 0.8f;
@@ -78,13 +78,13 @@ namespace Dreammancer{
 						m_Bullet.SetActive(true);
 						m_Bullet.transform.position = new Vector3(sP2.transform.position.x,sP2.transform.position.y,sP2.transform.position.z);
 						m_Bullet.GetComponent<Rigidbody2D> ().velocity += Vector2.left * bulSpeed;
-						RanNum = Random.Range(0,3);
+						RanNum = Random.Range(0,2);
 						Rand = (int)RanNum;
 						if (Rand == 0) {
 							m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(1,m_Co,m_Co,transparent);
-						} else if (Rand == 1) {
-							m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
 						} else if (Rand == 2) {
+							m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
+						} else if (Rand == 1) {
 							m_Bullet.GetComponent<SpriteRenderer> ().color = new Color(m_Co,m_Co,1,transparent);
 						}
 					}
@@ -150,13 +150,13 @@ namespace Dreammancer{
 					boCount ++;
 					//m_Board.SetActive(false);
 					m_Board.GetComponent<Rigidbody2D> ().velocity += Vector2.left * boSpeed;
-					RanNum = Random.Range (0, 3);
+					RanNum = Random.Range (0, 2);
 					Rand = (int)RanNum;
 					if (Rand == 0) {
 						m_Board.GetComponent<SpriteRenderer> ().color = new Color(1,m_Co,m_Co,transparent);
-					} else if (Rand == 1) {
-						m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
 					} else if (Rand == 2) {
+						m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
+					} else if (Rand == 1) {
 						m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,m_Co,1,transparent);
 					}
 				} else {
@@ -165,13 +165,13 @@ namespace Dreammancer{
 						m_Board.SetActive (true);
 						m_Board.transform.position = pos;
 						m_Board.GetComponent<Rigidbody2D> ().velocity += Vector2.left * boSpeed;
-						RanNum = Random.Range (0, 3);
+						RanNum = Random.Range (0, 2);
 						Rand = (int)RanNum;
 						if (Rand == 0) {
 							m_Board.GetComponent<SpriteRenderer> ().color = new Color(1,m_Co,m_Co,transparent);
-						} else if (Rand == 1) {
-							m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
 						} else if (Rand == 2) {
+							m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,1,m_Co,transparent);
+						} else if (Rand == 1) {
 							m_Board.GetComponent<SpriteRenderer> ().color = new Color(m_Co,m_Co,1,transparent);
 						}
 					}

@@ -52,15 +52,15 @@ namespace Dreammancer{
 				DeathR.SetActive(true);
 				//}
 				//m_DeathR.SetActive (true);
-				RanNum = Random.Range(0,3);
+				RanNum = Random.Range(0,2);
 				Rand = (int)RanNum;
 				sr = GetComponentsInChildren<Light2D>();
 				foreach(Light2D tep in sr){
 					if(Rand == 0){
 						tep.LightColor = Color.red;
-					} else if(Rand == 1){
-						tep.LightColor = Color.green;
 					} else if(Rand == 2){
+						tep.LightColor = Color.green;
+					} else if(Rand == 1){
 						tep.LightColor = Color.blue;
 					}
 				}
