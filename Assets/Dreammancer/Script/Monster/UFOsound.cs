@@ -42,17 +42,11 @@ namespace Dreammancer{
 		void Update()
 		{
 			speed = rb.velocity.magnitude;
-			if (speed > 0) {
-				statetype = 1;
-				if (!flag) {
-					StartSound ();
-					flag = true;
-				}
-			} else {
-				StopSound();
-				flag = false;
-				statetype = 0;
+			if (!flag) {
+				StartSound ();
+				flag = true;
 			}
+
 			Debug.Log (speed);
 		}
 		// sets up and adds new audio source to the gane object

@@ -8,6 +8,8 @@ namespace Dreammancer
     {
         [SerializeField]
         public Transform[] m_ToTriggers;
+        [SerializeField]
+        private bool m_TriggerVal = true;
         
         void Start()
         {
@@ -19,7 +21,7 @@ namespace Dreammancer
             if(other.CompareTag("Player"))
             {
                 foreach(Transform g in m_ToTriggers)
-                    g.gameObject.SetActive(true);
+                    g.gameObject.SetActive(m_TriggerVal);
                 Destroy(gameObject);
             }
         }

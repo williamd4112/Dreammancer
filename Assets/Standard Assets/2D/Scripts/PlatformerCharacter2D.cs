@@ -27,6 +27,9 @@ namespace UnityStandardAssets._2D
             set { m_BaseVelocity = value; }
         }
 
+        [SerializeField]
+        private GameObject m_JumpEffect;
+
         public bool FacingRight
         {
             get { return m_FacingRight; }
@@ -112,6 +115,8 @@ namespace UnityStandardAssets._2D
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
                 m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+
+                GameObject.Instantiate(m_JumpEffect, m_GroundCheck.transform.position, m_GroundCheck.transform.rotation);
             }
         }
 
