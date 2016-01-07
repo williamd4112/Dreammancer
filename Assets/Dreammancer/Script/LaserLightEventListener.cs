@@ -63,5 +63,10 @@ namespace Dreammancer
 
             }
         }
+
+		public void ChangeDamageColor(Color newColor)
+		{
+			m_DamageColor = newColor;
+		}
     }
 }

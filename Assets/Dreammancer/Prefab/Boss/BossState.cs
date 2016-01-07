@@ -29,7 +29,7 @@ namespace Dreammancer{
 
 		public void bossHurt(){
 			bossLife -=1;
-			if (bossLife == 0) {
+			if (bossLife <= 0) {
 				m_ani.SetTrigger ("Dead");
 				bp_ani.Stop();
 				e_Explo.SetTrigger("Explo");
@@ -42,6 +42,7 @@ namespace Dreammancer{
 			else if (bossLife > 0) {
 				m_Cs.shakeAndBake();
 				m_ani.SetBool ("Hurt", true);
+				StartCoroutine("returnIdle");
 			}
 		}
 
@@ -49,6 +50,10 @@ namespace Dreammancer{
 			MissionCom.SetActive (true);
 		}
 
+		IEnumerator returnIdle(){
+			yield return new WaitForSeconds (1);
+			m_ani.SetBool ("Hurt", false);
+		}
 
 	}
 }

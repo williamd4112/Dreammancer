@@ -35,8 +35,8 @@ namespace Dreammancer{
 			
 			//for each backgrounds
 			for(int i = 0;i < backgrounds.Length ; i++){
-				float parallex = (previousCamPos.x - cam.position.x) * -1 *speed;
-				float paralley = (previousCamPos.y - cam.position.y) * -1 * speedy;
+				float parallex = (previousCamPos.x - cam.position.x) * -1 *speed*parallaxScales[i];
+				float paralley = (previousCamPos.y - cam.position.y) * -1 * speed*parallaxScales[i];
 				//float parallex = (previousCamPos.x - cam.position.x) * 0.01f;
 				//float backgroundsTargetPosX = backgrounds[i].position.x + parallex;
 				
