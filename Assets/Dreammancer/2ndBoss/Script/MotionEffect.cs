@@ -46,7 +46,7 @@ namespace Dreammancer
 		{
 			PlaySound();
 			PlayAnimation();
-			if(collider.gameObject.GetComponent<Effectable>()!=null)
+			//if(collider.gameObject.GetComponent<Effectable>()!=null)
 
 			Destroy(gameObject);
 		}
