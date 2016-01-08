@@ -21,16 +21,18 @@ namespace Dreammancer
 		[SerializeField]
 		private AudioClip m_OnCollectedSound;
 		[SerializeField]
-		private GameObject m_OnCollectedAnimation;
+		private GameObject m_OnCollectedAnimation; 
+		[SerializeField]
+		private int EnergyAmount = 1;
+		//private GameObject p_EmotionTurret;
 
 		// Use this for initialization
 		void Start () {
-		
+			//p_EmotionTurret = this.transform.parent.gameObject;
 		}
 		
 		// Update is called once per frame
 		void Update () {
-		
 		}
 		void PlaySound()
 		{
@@ -42,13 +44,38 @@ namespace Dreammancer
 			if (m_OnCollectedAnimation != null)
 				GameObject.Instantiate(m_OnCollectedAnimation, transform.position, transform.rotation);
 		}
+
 		void OnTriggerEnter2D(Collider2D collider)
 		{
+			GameObject obj = null;
 			PlaySound();
 			PlayAnimation();
-			//if(collider.gameObject.GetComponent<Effectable>()!=null)
+			if(collider.gameObject.GetComponent<Effectable>()!=null){
+				if(m_Type == EffectType.Blue){
+					collider.gameObject.GetComponent<Effectable>().SadChange(EnergyAmount);
+					//p_EmotionTurret.GetComponent<EmotionTurretShoot>().SaQueue.Enqueue(this.gameObject);
+				}
+				else if(m_Type == EffectType.Red){
+					collider.gameObject.GetComponent<Effectable>().AngerChange(EnergyAmount);;
+					//p_EmotionTurret.GetComponent<EmotionTurretShoot>().AnQueue.Enqueue(this.gameObject);
+				}
+			}
+			if(m_Type == EffectType.Blue){
+				BlueHandler();
+			}
+			else if(m_Type == EffectType.Red){
+				RedHandler();
+			}
+			this.gameObject.SetActive (false);
+		}
 
-			Destroy(gameObject);
+		virtual public void BlueHandler ()
+		{
+
+		}
+		virtual public void RedHandler()
+		{
+
 		}
 	}
 }
