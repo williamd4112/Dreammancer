@@ -9,7 +9,7 @@ namespace Dreammancer
         [SerializeField]
         private int m_MaxHealth;
         [SerializeField]
-        private int m_Health;
+        private int m_Health; //
         public int HealthPoint
         {
             get { return m_Health; }
@@ -47,7 +47,6 @@ namespace Dreammancer
             if(m_HealthEvents != null)
                 m_HealthEvents.Invoke(m_Health, -hp);
         }
-
         public void RegisterHealthEvent(HealthChangeEvent e)
         {
             m_HealthEvents += e;
