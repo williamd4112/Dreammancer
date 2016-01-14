@@ -8,6 +8,9 @@ namespace Dreammancer
     [RequireComponent(typeof(Health))]
     public class Damageable : MonoBehaviour
     {
+
+		public LevelManager levelManager;
+
         [SerializeField]
         private AudioClip m_HitSound;
         [SerializeField]
@@ -23,6 +26,7 @@ namespace Dreammancer
 
         private Health m_Health;
         private DestroyEvent m_DestroyEvents;
+		private Transform spawnPoint;
 
         public void RegisterDestroyEvent(DestroyEvent e)
         {
@@ -36,6 +40,8 @@ namespace Dreammancer
             m_Health.RegisterHealthEvent(OnHealthChange);
 
             m_HitDelay = m_HitDelayMax;
+
+			levelManager = FindObjectOfType<LevelManager> ();
         }
 
         // Update is called once per frame
@@ -63,10 +69,12 @@ namespace Dreammancer
                         m_DestroyEvents.Invoke();
                     }
                     
-                    if(CompareTag("Player"))
-                        Application.LoadLevel(Application.loadedLevelName);
-                    else
+                    if(CompareTag("Player")){
+						LevelManager.Instance.KillPlayer();
+					}
+                    else{
                         Destroy(gameObject);
+					}
                 }
                 m_HitDelay = m_HitDelayMax;
             }

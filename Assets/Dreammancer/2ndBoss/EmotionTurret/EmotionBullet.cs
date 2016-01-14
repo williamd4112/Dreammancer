@@ -10,12 +10,12 @@ namespace Dreammancer{
 
 		public override void BlueHandler(){;
 			m_EmotionTurret.GetComponent<EmotionTurretShoot> ().SaQueue.Enqueue (this.gameObject);
-			Debug.Log ("Come Back Sad");
+			//Debug.Log ("Come Back Sad");
 		}
 
 		public override void RedHandler(){
 			m_EmotionTurret.GetComponent<EmotionTurretShoot> ().AnQueue.Enqueue (this.gameObject);
-			Debug.Log ("Come Back Anger");
+			//Debug.Log ("Come Back Anger");
 		}
 
 	}
