@@ -49,7 +49,7 @@ namespace Dreammancer{
 		
 		// Update is called once per frame
 		void Update () {
-			Debug.Log(AnQueue.Count);
+			//Debug.Log(AnQueue.Count);
 			AnNum = AnQueue.Count;
 			SaNum = SaQueue.Count;
 

@@ -50,7 +50,10 @@ namespace Dreammancer
 			GameObject obj = null;
 			PlaySound();
 			PlayAnimation();
-			if(collider.gameObject.GetComponent<Effectable>()!=null){
+			//Debug.Log (collider.gameObject.name);
+			//Debug.Log (collider.GetComponent<Effectable> ());
+			if(collider.gameObject.GetComponent<Effectable>()!=null||collider.gameObject.GetComponent<SecBossEffectable>()!=null){
+				//Debug.Log ("Found it");
 				if(m_Type == EffectType.Blue){
 					collider.gameObject.GetComponent<Effectable>().SadChange(EnergyAmount);
 					//p_EmotionTurret.GetComponent<EmotionTurretShoot>().SaQueue.Enqueue(this.gameObject);
