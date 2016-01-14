@@ -40,6 +40,7 @@ namespace Dreammancer
         private bool m_IsDash = false;
         private float m_OriginGravityScale;
 
+
         private int id;
         private Collider2D m_Collider;
         private PlatformerCharacter2D m_Character;
@@ -62,6 +63,8 @@ namespace Dreammancer
         {
             m_DashEnergy = Mathf.Clamp(m_DashEnergy + v, 0, k_MaxDashEnergy);
         }
+
+		public bool IsDead{ get; private set;}
 
         // Use this for initialization
         void Start()
@@ -96,29 +99,29 @@ namespace Dreammancer
         void Update()
         {
             // Trigger dash
-            if (Input.GetKeyDown(KeyCode.E) ||
-                CrossPlatformInputManager.GetAxis("Mouse Y") < 0.01f
-                && CrossPlatformInputManager.GetAxis("Mouse X") > 0.8f && !m_IsDash && m_DashEnergy > 0 && !m_IsDash)
-            {
-                m_IsDash = true;
-                m_DashControl.ResetColor(m_LightArea.LightArea.LightColor);
+            if (Input.GetKeyDown (KeyCode.E) ||
+				CrossPlatformInputManager.GetAxis ("Mouse Y") < 0.01f
+				&& CrossPlatformInputManager.GetAxis ("Mouse X") > 0.8f && !m_IsDash && m_DashEnergy > 0 && !m_IsDash) {
+				m_IsDash = true;
+				m_DashControl.ResetColor (m_LightArea.LightArea.LightColor);
 
-                AudioSource.PlayClipAtPoint(m_DashSound, transform.position);
-                m_CountdownRoutine = StartCoroutine(CountDown(m_DashUnitTime * m_DashEnergy));
-                m_DashEnergy = 0;
+				AudioSource.PlayClipAtPoint (m_DashSound, transform.position);
+				m_CountdownRoutine = StartCoroutine (CountDown (m_DashUnitTime * m_DashEnergy));
+				m_DashEnergy = 0;
 
-                GameObject dashEffectInstance = GameObject.Instantiate(m_DashEffect, transform.position, transform.rotation) as GameObject;
-                if (!m_Character.FacingRight)
-                {
-                    Vector3 scale = dashEffectInstance.transform.localScale;
-                    scale.x = -1.0f;
-                    dashEffectInstance.transform.localScale = scale;
-                }
-            }
-            else if (m_IsDash)
-            {
-                m_IsDash = Input.GetKey(KeyCode.E);
-            }
+				GameObject dashEffectInstance = GameObject.Instantiate (m_DashEffect, transform.position, transform.rotation) as GameObject;
+				if (!m_Character.FacingRight) {
+					Vector3 scale = dashEffectInstance.transform.localScale;
+					scale.x = -1.0f;
+					dashEffectInstance.transform.localScale = scale;
+				}
+			} else if (m_IsDash) {
+				m_IsDash = Input.GetKey (KeyCode.E);
+			} 
+//				else if (!IsDead) {
+//				HandleInput();
+//			}
+
         }
 
         // Update is called once per frame
@@ -197,6 +200,22 @@ namespace Dreammancer
                 m_AdditionalVelocity += backDir * m_DamageBackoffForce;
             }
         }
+		public void Kill(){
+			IsDead = true;
+			//Health
+		}
+		public void RespawnAt(Transform spawnPoint){
+
+//			if (!_isFacingRighr) {
+//				LightFlipFollow()
+//			}
+			IsDead = false;
+			//Health
+			//Health.HealthPoint = m
+			Health.increaseHealth (100);
+			transform.position = spawnPoint.position;
+		}
+
 
         IEnumerator CountDown(float t)
         {
