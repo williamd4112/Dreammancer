@@ -46,7 +46,6 @@ namespace Dreammancer
 				s.x = transform.parent.transform.localScale.x ;
 				obj.transform.localScale = s;
 				m_ShootDirection = (s.x < 0) ? 1.0f : -1.0f;
-				Debug.Log(m_ShootDirection);
 
                 SpriteRenderer renderer = obj.GetComponent<SpriteRenderer>();
                 if(renderer != null)
@@ -56,7 +55,6 @@ namespace Dreammancer
                 }
 
                 Rigidbody2D rigid = obj.GetComponent<Rigidbody2D>();
-				Debug.Log(transform.parent.transform.localScale);
 				rigid.velocity = m_Speed * transform.right * m_ShootDirection;
                 StartCoroutine(Cooldown(m_CooldownTime));
 
