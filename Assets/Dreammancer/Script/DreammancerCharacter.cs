@@ -200,6 +200,12 @@ namespace Dreammancer
                 m_AdditionalVelocity += backDir * m_DamageBackoffForce;
             }
         }
+		public void FinishLevel(){
+
+			enabled = false;
+//			ControllerColliderHit 
+//			Collider
+		}
 		public void Kill(){
 			IsDead = true;
 			//Health
