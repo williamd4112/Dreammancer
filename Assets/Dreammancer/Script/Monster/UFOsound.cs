@@ -48,7 +48,7 @@ namespace Dreammancer{
 				flag = true;
 			}
 
-			Debug.Log (speed);
+			//Debug.Log (speed);
 		}
 		// sets up and adds new audio source to the gane object
 		private AudioSource SetUpEngineAudioSource(AudioClip clip)
