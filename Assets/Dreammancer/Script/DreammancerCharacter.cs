@@ -99,9 +99,7 @@ namespace Dreammancer
         void Update()
         {
             // Trigger dash
-            if (Input.GetKeyDown (KeyCode.E) ||
-				CrossPlatformInputManager.GetAxis ("Mouse Y") < 0.01f
-				&& CrossPlatformInputManager.GetAxis ("Mouse X") > 0.8f && !m_IsDash && m_DashEnergy > 0 && !m_IsDash) {
+            if (Input.GetKeyDown (KeyCode.E) && !m_IsDash && m_DashEnergy > 0 && !m_IsDash) {
 				m_IsDash = true;
 				m_DashControl.ResetColor (m_LightArea.LightArea.LightColor);
 
@@ -118,9 +116,6 @@ namespace Dreammancer
 			} else if (m_IsDash) {
 				m_IsDash = Input.GetKey (KeyCode.E);
 			} 
-//				else if (!IsDead) {
-//				HandleInput();
-//			}
 
         }
 
@@ -200,6 +195,12 @@ namespace Dreammancer
                 m_AdditionalVelocity += backDir * m_DamageBackoffForce;
             }
         }
+		public void FinishLevel(){
+
+			enabled = false;
+//			ControllerColliderHit 
+//			Collider
+		}
 		public void Kill(){
 			IsDead = true;
 			//Health

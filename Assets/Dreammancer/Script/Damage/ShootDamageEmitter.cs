@@ -12,7 +12,7 @@ namespace Dreammancer
         private Color[] m_PossiableColor = { Color.white };
 
         [SerializeField]
-        private Vector3 m_ShootDirection = Vector3.left;
+		private float m_ShootDirection = 1.0f;
         [SerializeField]
         private float m_Speed = 1.0f;
         [SerializeField]
@@ -42,12 +42,11 @@ namespace Dreammancer
             if (m_Ready)
             {
                 GameObject obj = GameObject.Instantiate(m_BulletTemplate, transform.position, transform.rotation) as GameObject;
-                if (transform.parent.transform.localScale.x < 0)
-                {
-                    Vector3 s = obj.transform.localScale;
-                    s.x = -1.0f;
-                    obj.transform.localScale = s;
-                }
+				Vector3 s = obj.transform.localScale;
+				s.x = transform.parent.transform.localScale.x ;
+				obj.transform.localScale = s;
+				m_ShootDirection = (s.x < 0) ? 1.0f : -1.0f;
+				Debug.Log(m_ShootDirection);
 
                 SpriteRenderer renderer = obj.GetComponent<SpriteRenderer>();
                 if(renderer != null)
@@ -57,8 +56,8 @@ namespace Dreammancer
                 }
 
                 Rigidbody2D rigid = obj.GetComponent<Rigidbody2D>();
-
-                rigid.velocity = m_Speed * m_ShootDirection;
+				Debug.Log(transform.parent.transform.localScale);
+				rigid.velocity = m_Speed * transform.right * m_ShootDirection;
                 StartCoroutine(Cooldown(m_CooldownTime));
 
                 m_Ready = false;
