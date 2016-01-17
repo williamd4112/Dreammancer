@@ -25,7 +25,7 @@ namespace Dreammancer{
 		{
 			//Debug.Log ("Ouch");
 			if (hp <= 0) {
-				Debug.Log ("Ouch");
+				//Debug.Log ("Ouch");
 				m_Bstate.bossHurt ();
 			}
 		}

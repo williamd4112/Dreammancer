@@ -13,6 +13,7 @@ namespace Dreammancer{
 		public GameObject MissionCom;
 		public GameObject m_Cam;
 		private CamShake m_Cs;
+
 		// Use this for initialization
 		void Start () {
 			m_ani = this.GetComponent<Animator> ();
@@ -20,6 +21,7 @@ namespace Dreammancer{
 			isDead = false;
 			e_Explo = Explo.GetComponent<Animator> ();
 			m_Cs = m_Cam.GetComponent<CamShake> ();
+
 		}
 		
 		// Update is called once per frame

@@ -46,7 +46,7 @@ namespace Dreammancer
             Health health = other.gameObject.GetComponent<Health>();
             if (health != null)
             {
-                Debug.Log(other);
+               
                 foreach (string tag in m_DamageTags)
                 {
                     if (other.gameObject.CompareTag(tag))
@@ -56,9 +56,11 @@ namespace Dreammancer
                     }
                 }
             }
+
             
             if (m_SelfDestroy)
             {
+				Debug.Log(other);
                 ShowEffect();
                 Destroy(gameObject);
             }
@@ -67,10 +69,12 @@ namespace Dreammancer
 
         void ShowEffect()
         {
-            if (m_TouchEffect != null && m_EffectInstance != null)
-                m_EffectInstance = GameObject.Instantiate(m_TouchEffect, transform.position, transform.rotation) as GameObject;
+			if (m_TouchEffect != null) {
+				m_EffectInstance = GameObject.Instantiate (m_TouchEffect, transform.position, transform.rotation) as GameObject;
+			}
             if (m_TouchSound != null)
                 AudioSource.PlayClipAtPoint(m_TouchSound, transform.position);
+
         }
     }
 }
