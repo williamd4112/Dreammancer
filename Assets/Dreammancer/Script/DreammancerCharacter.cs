@@ -117,6 +117,11 @@ namespace Dreammancer
 				m_IsDash = Input.GetKey (KeyCode.E);
 			} 
 
+			if (Input.GetKeyDown (KeyCode.H))
+				SceneManager.ChangeEmotion (30);
+			else if (Input.GetKeyDown (KeyCode.L))
+				SceneManager.ChangeEmotion (-30);
+
         }
 
         // Update is called once per frame
