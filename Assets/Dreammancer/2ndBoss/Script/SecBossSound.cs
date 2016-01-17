@@ -29,6 +29,16 @@ namespace Dreammancer{
 			m_audio.PlayOneShot (sound [2], 1f);
 		}
 
+        public void PlayExplo()
+        {
+            m_audio.PlayOneShot(sound[3], 1f);
+        }
+
+        public void PlayHurt()
+        {
+            m_audio.PlayOneShot(sound[4], 1f);
+        }
+
 		public void Pause(){
 			m_audio.Pause ();
 		}
