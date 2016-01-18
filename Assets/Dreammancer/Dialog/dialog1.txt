@@ -1,0 +1,10 @@
+﻿[Player]
+HI!
+[Slime]
+Hello!
+[Player]
+電燒黃安!
+[Slime]
+亞洲空幹王!
+ 
+ 

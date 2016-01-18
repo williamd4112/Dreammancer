@@ -16,17 +16,17 @@ namespace Dreammancer{
 		}
 		public void PlayReadyToShoot(){
 			m_audio.loop = false;
-			m_audio.PlayOneShot (sound [1], 1f);
+			m_audio.PlayOneShot (sound [1], 0.5f);
 		}
 
 		public void PlayRay(){
 			m_audio.loop = false;
-			m_audio.PlayOneShot (sound [0], 1f);
+			m_audio.PlayOneShot (sound [0], 0.5f);
 		}
 
 		public void PlayTransport(){
 			//Debug.Log ("Transportting");
-			m_audio.PlayOneShot (sound [2], 1f);
+			m_audio.PlayOneShot (sound [2], 0.5f);
 		}
 
         public void PlayExplo()

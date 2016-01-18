@@ -22,6 +22,8 @@ namespace Dreammancer{
 		private int AnNum;
 		[SerializeField]
 		private int SaNum;
+        [SerializeField]
+        private AudioClip shootSound;
 		// Use this for initialization
 		void Start () {
 			GameObject An;
@@ -105,6 +107,7 @@ namespace Dreammancer{
 					//temp.GetComponent<Rigidbody2D> ().velocity =  Vector2.left * Force;
 				}
 			}
+            AudioSource.PlayClipAtPoint(shootSound, new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z));
 		}
 		
 		IEnumerator shoot(){
