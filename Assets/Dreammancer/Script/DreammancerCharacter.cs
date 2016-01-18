@@ -218,7 +218,8 @@ namespace Dreammancer
 			IsDead = false;
 			//Health
 			//Health.HealthPoint = m
-			Health.increaseHealth (100);
+			if(Health != null)
+				Health.increaseHealth (100);
 			transform.position = spawnPoint.position;
 		}
 
