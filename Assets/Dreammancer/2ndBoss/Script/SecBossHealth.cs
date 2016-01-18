@@ -51,6 +51,7 @@ namespace Dreammancer{
                 //PosAni.Stop ();
                 BossExplo.GetComponent<Animator>().SetTrigger("Explo");
                 gameCom.SetActive(true);
+                Debug.Log("Explo before shake");
 				m_Cs.shakeAmt = 5f;
 				m_Cs.shakePeriodTime = 0.2f;
 				m_Cs.dropOffTime = 3f;
