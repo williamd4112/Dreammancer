@@ -1,9 +1,10 @@
-﻿[黃安]
+﻿[Player]
 HI!
-[祥祥]
+[Slime]
 Hello!
-[黃安]
+[Player]
 電燒黃安!
-[祥祥]
+[Slime]
 亞洲空幹王!
-end 
+ 
+ 
