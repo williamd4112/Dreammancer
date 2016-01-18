@@ -27,6 +27,7 @@ namespace Dreammancer{
 				return;
 			}
 			LevelManager.Instance.GotoNextLevel (LevelName);
+			PlayerPrefs.SetInt ("levelUnlock", 2);
 		}
 	}
 }
