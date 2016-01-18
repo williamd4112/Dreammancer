@@ -13,7 +13,7 @@ namespace Dreammancer{
 
 			if (GUI.Button (new Rect (0, 0, sw * .5f, sh), "Level: 1")) {
 				Application.LoadLevel("Stage 1_Real 1");
-				PlayerPrefs.DeleteKey("levelUnlock");
+				//PlayerPrefs.DeleteKey("levelUnlock");
 
 			}
 			if (PlayerPrefs.GetInt ("levelUnlock", 0) >= 2) {
