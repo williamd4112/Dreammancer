@@ -66,7 +66,8 @@ namespace Dreammancer{
 		private IEnumerator GotoNextLevelCo(string levelName){
 
 			Player.FinishLevel ();
-			yield return new WaitForSeconds (2f);
+			//Time.timeScale = 0;
+			yield return new WaitForSeconds (0.5f);
 
 			if (string.IsNullOrEmpty (levelName))
 				Application.LoadLevel ("StartScene");
