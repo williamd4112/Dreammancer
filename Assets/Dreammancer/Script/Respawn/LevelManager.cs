@@ -58,6 +58,24 @@ namespace Dreammancer{
 			// TODO: time bonus
 		}
 
+		public void GotoNextLevel (string levelName){
+
+			StartCoroutine (GotoNextLevelCo (levelName));
+		}
+
+		private IEnumerator GotoNextLevelCo(string levelName){
+
+			Player.FinishLevel ();
+			//Time.timeScale = 0;
+			yield return new WaitForSeconds (0.5f);
+
+			if (string.IsNullOrEmpty (levelName))
+				Application.LoadLevel ("StartScene");
+			else
+				Application.LoadLevel (levelName);
+
+		}
+
 		public void KillPlayer(){
 
 			StartCoroutine (KillPlayerCo ());
