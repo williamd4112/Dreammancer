@@ -3,43 +3,55 @@ using System.Collections;
 
 namespace Dreammancer
 {
-	public class BackgroundEmotionReactor : MonoBehaviour {
+	public class FixedPlatformEmotionReactor : MonoBehaviour {
 
-		private Renderer m_Renderer;
+		[SerializeField]
+		private GameObject m_Spike;
 
 		// Use this for initialization
 		void Start () {
-			m_Renderer = GetComponent<Renderer>();
+			m_Spike.SetActive (false);
 
 			SceneManager.RegisterEmotionEvent (OnEmotionChange);
 		}
 		
 		// Update is called once per frame
 		void Update () {
-
+			
 		}
 
 		void OnEmotionChange(SceneState state, int emotionVal, int emotionDiff)
 		{
-			Color color = m_Renderer.material.color; 
 			switch(state)
 			{
 			case SceneState.NEGATIVE:
-				color = Color.blue;
-				color.a = 1.0f;
+				NegativeChange();
 				break;
 			case SceneState.NORMAL:
-				color = Color.white;
-				color.a = 1.0f;
+				NormalChange();
 				break;
 			case SceneState.POSITIVE:
-				color = Color.red;
-				color.a = 1.0f;
+				PositiveChange();
 				break;
 			default:
 				break;
 			}
-			m_Renderer.material.color = color;
+
+		}
+
+		void PositiveChange()
+		{
+			m_Spike.SetActive (true);
+		}
+
+		void NormalChange()
+		{
+			m_Spike.SetActive (false);
+		}
+
+		void NegativeChange()
+		{
+			m_Spike.SetActive (false);
 		}
 	}
 }
