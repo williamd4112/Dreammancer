@@ -23,16 +23,20 @@ namespace Dreammancer
 
         private bool m_Ready = true;
         private int m_ColorIndex = 0;
+        private GameObject player;
         
         // Use this for initialization
         void Start()
         {
-
+            player = GameObject.Find("Player");
         }
 
         // Update is called once per frame
         void Update()
         {
+            if (Vector3.Distance(player.transform.position, transform.position) > 2.5f)
+                return;
+
             if (transform.parent.transform.localScale.x < 0)
             {
                 transform.RotateAround(transform.parent.transform.position, Vector2.right, 180.0f);
