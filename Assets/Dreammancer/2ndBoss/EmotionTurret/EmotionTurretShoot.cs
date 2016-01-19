@@ -111,7 +111,7 @@ namespace Dreammancer{
 		}
 		
 		IEnumerator shoot(){
-			yield return new WaitForSeconds (4);
+			yield return new WaitForSeconds (5);
 			startShoot = true;
 		}
 	}

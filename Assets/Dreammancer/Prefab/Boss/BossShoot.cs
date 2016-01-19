@@ -54,7 +54,7 @@ namespace Dreammancer{
 				isBu = true;
 			} 	
 			if (buSho) {
-				if(buCount <= 10){
+				if(buCount <= 5){
 					m_Bullet = Instantiate (bullet, sP2.transform.position, Quaternion.identity) as GameObject;
 					//m_Bullet.transform.parent = this.transform;
 					buCount++;
@@ -144,7 +144,7 @@ namespace Dreammancer{
 						pos = new Vector3 (sP4.transform.position.x, sP4.transform.position.y, sP4.transform.position.z);
 					}
 				}
-				if (boCount <= 10) {
+				if (boCount <= 8) {
 					m_Board = Instantiate (board, pos, Quaternion.identity) as GameObject;
 					//m_Board.transform.parent = this.transform;
 					boCount ++;
@@ -181,14 +181,14 @@ namespace Dreammancer{
 		}
 
 		IEnumerator shootBu(){
-			yield return new WaitForSeconds (2f);
+			yield return new WaitForSeconds (5f);
 			//Debug.Log ("In isBu");
 			isBu = false;
 			buSho = true;
 		}
 
 		IEnumerator shootBo(){
-			yield return new WaitForSeconds (2f);
+			yield return new WaitForSeconds (4f);
 			//Debug.Log ("in IsBo");
 			isBo = false;
 			boSho = true;
