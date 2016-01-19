@@ -7,6 +7,8 @@ namespace Dreammancer
     {
         [SerializeField]
         private GameObject m_TrackingTarget;
+        [SerializeField]
+        private float m_Speed = 1.5f;
 
         // Use this for initialization
         void Start()
@@ -18,7 +20,7 @@ namespace Dreammancer
         void LateUpdate()
         {
             float oy = transform.position.y;
-            Vector3 v = Vector3.Lerp(transform.position, m_TrackingTarget.transform.position, Time.deltaTime);
+            Vector3 v = Vector3.Lerp(transform.position, m_TrackingTarget.transform.position, m_Speed * Time.deltaTime);
             v.y = oy;
             transform.position = v;
         }

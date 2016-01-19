@@ -30,13 +30,7 @@ namespace Dreammancer
             float acc = 1.0f;
             if (isInRange())
             {
-                if (isInJumpRange()) {
-                    m_MonsterCharacter.Move(dir * acc, true);
-                }
-                else
-                {
-                    m_MonsterCharacter.Move(dir * acc, false);
-                }
+                m_MonsterCharacter.Move(dir * acc, false);
             }
         }
 
@@ -48,16 +42,7 @@ namespace Dreammancer
             }
 
             return false;
-            //return Vector3.Distance(transform.position, m_Target.position) < m_DetectRadius;
         }        
 
-        private bool isInJumpRange()
-        {
-            if (Mathf.Abs(transform.position.x - m_Target.position.x) < m_DetectJumpRadius.x && Mathf.Abs(transform.position.y - m_Target.position.y) > m_DetectJumpRadius.y)
-            {
-                return true;
-            }
-            return false;
-        }
     }
 }
