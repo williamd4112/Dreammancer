@@ -38,6 +38,7 @@ namespace Dreammancer
         private int m_DamageAmountHitByWhite = 10;
 
         private bool m_IsDash = false;
+        private bool m_DashButtonFlag = false;
         private float m_OriginGravityScale;
 
 
@@ -99,7 +100,8 @@ namespace Dreammancer
         void Update()
         {
             // Trigger dash
-            if (CrossPlatformInputManager.GetButtonDown ("Dash") && !m_IsDash && m_DashEnergy > 0 && !m_IsDash) {
+            if ((CrossPlatformInputManager.GetButtonDown("Dash") || Input.GetKeyDown(KeyCode.E)) 
+                && !m_IsDash && m_DashEnergy > 0 && !m_IsDash) {
 				m_IsDash = true;
 				m_DashControl.ResetColor (m_LightArea.LightArea.LightColor);
 
@@ -113,8 +115,8 @@ namespace Dreammancer
 					scale.x = -1.0f;
 					dashEffectInstance.transform.localScale = scale;
 				}
-			} else if (m_IsDash) {
-				m_IsDash = Input.GetKey (KeyCode.E);
+			} else if (m_IsDash && (CrossPlatformInputManager.GetButtonUp("Dash"))) {
+                m_IsDash = false;
 			} 
 
 			if (Input.GetKeyDown (KeyCode.H))

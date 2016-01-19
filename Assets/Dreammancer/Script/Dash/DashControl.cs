@@ -30,16 +30,11 @@ namespace Dreammancer
             m_Health = GetComponent<Health>();
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-
         public void ResetColor(Color c)
         {
             m_Follow.FollowPos = transform;
             m_Flipfollow.Target = transform;
+            m_Laser.transform.position = transform.position;
             m_Laser.LightBeamRange = 0;
             m_Laser.LightColor = c;
             m_HeadLaser.LightColor = c;

@@ -15,6 +15,11 @@ namespace Dreammancer
         [SerializeField]
         private bool m_FollowRotation = false;
 
+        void OnEnable()
+        {
+            LateUpdate();
+        }
+
         // Use this for initialization
         void Start()
         {
