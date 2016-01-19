@@ -71,13 +71,8 @@ namespace Dreammancer
         // Update is called once per frame
         void Update()
         {
-<<<<<<< HEAD
+
             if(CrossPlatformInputManager.GetButtonDown("ChangeColor"))
-=======
-			//CrossPlatformInputManager.
-            float mouseY = CrossPlatformInputManager.GetAxis("Mouse Y");
-            if(!hasSwitch)
->>>>>>> 1f6305318b358691a85093a7ccbc2b844e642d42
             {
                 m_ColorList.NextColor();
                 m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
