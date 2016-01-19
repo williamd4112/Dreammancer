@@ -13,6 +13,7 @@ namespace Dreammancer{
 		public GameObject MissionCom;
 		public GameObject m_Cam;
 		private CamShake m_Cs;
+		public int levelIndex; 
 
 		// Use this for initialization
 		void Start () {
@@ -40,6 +41,11 @@ namespace Dreammancer{
 				m_Cs.dropOffTime = 3f;
 				m_Cs.shakeAndBake();
 				isDead = true;
+				PlayerPrefs.SetInt("currentlevel",levelIndex);
+				//Debug.Log (PlayerPrefs.GetInt ("currentlevel"));
+				PlayerPrefs.SetInt("lockedlevel",levelIndex+1);
+				//Debug.Log (PlayerPrefs.GetInt ("lockedlevel"));
+				Application.LoadLevel("Level_Select");
 			}
 			else if (bossLife > 0) {
 				m_Cs.shakeAndBake();

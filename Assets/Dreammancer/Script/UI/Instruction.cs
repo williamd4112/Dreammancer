@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -24,7 +24,7 @@ namespace Dreammancer
 		void OnTriggerEnter2D(Collider2D other){
 			if (other.gameObject.tag == "Player") {
 				m_Text.text = m_Message;
-				Debug.Log("Fuck");
+				//Debug.Log("Fuck");
 			}
 			
 		}

@@ -13,6 +13,7 @@ namespace Dreammancer
         [SerializeField]
         private float start_dir;
         private float dir;
+
         // Use this for initialization
         void Start()
         {
@@ -25,30 +26,10 @@ namespace Dreammancer
         // Update is called once per frame
         void FixedUpdate()
         {
-            //int dir = transform.position.x - m_Target.position.x > 0 ? -1 : 1;
             float acc = 1.0f;
             m_MonsterCharacter.Fly(dir * acc);
-            //Debug.Log(m_BoxCollider.size);
         }
-        void OnCollisionEnter2D(Collision2D collision)
-        {
-            Rigidbody2D rigidbody;     
-            ContactPoint2D contact = collision.contacts[0];
-            if ((rigidbody = collision.gameObject.GetComponent<Rigidbody2D>()) != null)
-            {
-                if (rigidbody.velocity.y != 0.0f) {
-                    return;
-                }  
-            }
-            Debug.Log(contact.point);
-            //Debug.Log(Mathf.Abs(contact.point.y - transform.position.y));
-            //Debug.Log(m_BoxCollider.size.y / 2);
 
-            if (Mathf.Abs(contact.point.y - transform.position.y) < (m_BoxCollider.size.y / 2))
-            {
-                dir = dir * -1;
-            }
-        }
     }
 
 }
