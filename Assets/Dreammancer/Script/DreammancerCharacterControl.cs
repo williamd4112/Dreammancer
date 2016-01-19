@@ -71,7 +71,6 @@ namespace Dreammancer
         // Update is called once per frame
         void Update()
         {
-
             if(CrossPlatformInputManager.GetButtonDown("ChangeColor"))
             {
                 m_ColorList.NextColor();
