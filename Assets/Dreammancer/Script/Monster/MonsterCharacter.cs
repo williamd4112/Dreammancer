@@ -26,7 +26,7 @@ namespace Dreammancer
 
         public void Move(float h, bool jump)
         {
-            m_Anim.SetFloat("Speed", Mathf.Abs(h));
+            //m_Anim.SetFloat("Speed", Mathf.Abs(h));
             // If the input is moving the player right and the player is facing left...
             if (h > 0 && !m_FacingRight)
             {
@@ -57,7 +57,7 @@ namespace Dreammancer
         public void aimFly(float x, float y)
         {
            
-            m_Anim.SetFloat("Speed", Mathf.Abs(x));
+           // m_Anim.SetFloat("Speed", Mathf.Abs(x));
             // If the input is moving the player right and the player is facing left...
             if (x > 0 && !m_FacingRight)
             {
