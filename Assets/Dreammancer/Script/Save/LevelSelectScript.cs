@@ -5,7 +5,7 @@ namespace Dreammancer{
 	public class LevelSelectScript : MonoBehaviour {
 		
 		//private int worldIndex;   
-		private int levelIndex;   
+		public int levelIndex;   
 		
 		void  Start (){
 			//loop thorugh all the worlds
@@ -16,6 +16,10 @@ namespace Dreammancer{
 //				}
 //			}
 		}
+
+		void Update(){
+			CheckLockedLevels(); 
+		}
 		
 		//Level to load on button click. Will be used for Level button click event 
 		public void Selectlevel(int levelIndex){
@@ -25,9 +29,6 @@ namespace Dreammancer{
 			else {
 				Application.LoadLevel ("Level" + levelIndex); //load the level
 			}
-			PlayerPrefs.SetInt("currentlevel",levelIndex);
-			PlayerPrefs.SetInt("lockedlevel",levelIndex+1);
-			//CheckLockedLevels(); 
 		}
 		
 		//uncomment the below code if you have a main menu scene to navigate to it on clicking escape when in World1 scene
@@ -38,14 +39,18 @@ namespace Dreammancer{
 	 }*/
 		
 		//function to check for the levels locked
-//		void  CheckLockedLevels (){
-//			//loop through the levels of a particular world
-//			for(int i = 1; i < PlayerPrefs.GetInt("lockedlevel"); i++){
-//				//levelIndex = (j+1);
-//				//if((PlayerPrefs.GetInt("level"+worldIndex.ToString() +":" +levelIndex.ToString()))==1){
-//					GameObject.Find("LockedLevel"+(i+1)).active = false;
-//					Debug.Log ("Unlocked");
-//			}
-//		}
+		void  CheckLockedLevels (){
+			//loop through the levels of a particular world
+			for(int i = 1; i <= PlayerPrefs.GetInt("lockedlevel"); i++){
+				//levelIndex = (j+1);
+				//int varInt = 1; 
+				//string varString = Convert.ToString(varInt); 
+				string varString1 = PlayerPrefs.GetInt("lockedlevel").ToString();
+				Debug.Log(varString1);
+				//if((PlayerPrefs.GetInt("level"+worldIndex.ToString() +":" +levelIndex.ToString()))==1){
+				GameObject.Find("LockedLevel"+varString1).active = false;
+					Debug.Log ("Unlocked");
+			}
+		}
 	}
 }
