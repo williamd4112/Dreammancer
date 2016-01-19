@@ -7,6 +7,7 @@ namespace Dreammancer
     [RequireComponent(typeof(Rigidbody2D))]
     public class MovingPlatform : MonoBehaviour
     {
+        private float k_Epision = 0.3f;
 
         [SerializeField]
         Transform platform;
@@ -33,6 +34,7 @@ namespace Dreammancer
 
         void FixedUpdate()
         {
+            if (platformSpeed == 0) return;
             m_Rigidbody.velocity = direction * platformSpeed;
 
             if (Vector3.Distance(platform.position, destination.position) < platformSpeed)

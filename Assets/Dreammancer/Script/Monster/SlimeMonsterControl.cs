@@ -40,7 +40,7 @@ namespace Dreammancer
             float acc = (isCrazy) ? 2.0f : 1.0f;
             if (isInRange())
             {
-                m_MonsterCharacter.Move(dir * acc, false);
+                //m_MonsterCharacter.Move(dir * acc, false);
             }
         }
 
@@ -68,7 +68,7 @@ namespace Dreammancer
 		{
 			if (g.GetInstanceID() == id)
 			{
-				Debug.Log (l.LightColor+" "+errorLight);
+				//Debug.Log (l.LightColor+" "+errorLight);
 
 				if(ColorUtil.colorCompareQuantRGB(l.LightColor, errorLight, 127)){
 					isCrazy = true;

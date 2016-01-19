@@ -56,6 +56,8 @@ namespace Dreammancer{
 				m_Cs.shakePeriodTime = 0.2f;
 				m_Cs.dropOffTime = 3f;
 				m_Cs.shakeAndBake ();
+                //Application.LoadLevel ("BossFight");
+                StartCoroutine("LoadLevel");
 			} else if (bossLife > 0) {
 				m_Cs.shakeAndBake ();
 				m_ani.SetBool ("BeHurt", true);
@@ -69,5 +71,11 @@ namespace Dreammancer{
 			yield return new WaitForSeconds (1);
 			m_ani.SetBool ("BeHurt", false);
 		}
+
+        IEnumerator LoadLevel()
+        {
+            yield return new WaitForSeconds(10);
+            Application.LoadLevel("BossFight");
+        }
 	}
 }

@@ -17,8 +17,10 @@ namespace Dreammancer
         private AudioClip m_DestroySound;
         [SerializeField]
         private GameObject m_HitAnim;
+        private GameObject m_HitAnimInstance = null;
         [SerializeField]
         private GameObject m_DestroyAnim;
+        private GameObject m_DestroyAnimInstance = null;
 
         [SerializeField]
         private int m_HitDelayMax = 10;
@@ -44,19 +46,13 @@ namespace Dreammancer
 			levelManager = FindObjectOfType<LevelManager> ();
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-
         void OnHealthChange(int hp, int diff)
         {
             if(m_HitDelay <= 0 && diff < 0)
             {
                 if (hp > 0)
                 {
-                    GameObject.Instantiate(m_HitAnim, transform.position, transform.rotation);
+                    m_HitAnimInstance = GameObject.Instantiate(m_HitAnim, transform.position, transform.rotation) as GameObject;
                     AudioSource.PlayClipAtPoint(m_HitSound, transform.position);
                 }
                 else
@@ -65,7 +61,6 @@ namespace Dreammancer
                     AudioSource.PlayClipAtPoint(m_DestroySound, transform.position);
                     if (m_DestroyEvents != null)
                     {
-                        Debug.Log("Drop!");
                         m_DestroyEvents.Invoke();
                     }
                     
