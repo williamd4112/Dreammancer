@@ -20,7 +20,7 @@ namespace Dreammancer{
 		void Update () {
 			if (anim.GetCurrentAnimatorStateInfo(0).shortNameHash == idleStateHash) {
 				isIdle = true;
-				Application.LoadLevel ("Stage 1_DashTesting");
+				Application.LoadLevel ("Level1");
 			}
 		}
 		//		void overIt(){
