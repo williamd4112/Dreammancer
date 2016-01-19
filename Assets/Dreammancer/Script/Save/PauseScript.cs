@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace Dreammancer{
 	public class PauseScript : MonoBehaviour {
@@ -24,7 +24,7 @@ namespace Dreammancer{
 		// Update is called once per frame
 		void Update () {
 
-			if (Input.GetKeyDown (KeyCode.Escape)) {
+			if (CrossPlatformInputManager.GetButtonDown("Pause") || Input.GetKeyDown (KeyCode.Escape)) {
 				paused = !paused;
 
 			}
