@@ -5,7 +5,7 @@ namespace Dreammancer
 {
     public interface CallbackObject
     {
-        void Callback();
+        void Callback(GameObject obj);
     }
 
     public class DestroySelf : MonoBehaviour
@@ -15,7 +15,7 @@ namespace Dreammancer
 
         private bool isDestroy = false;
 
-        private ArrayList m_Callbacks;
+        private ArrayList m_Callbacks = new ArrayList();
         
         public void AddCallback(CallbackObject callback)
         {
@@ -25,12 +25,12 @@ namespace Dreammancer
         public void InvokeCallbacks()
         {
             foreach (CallbackObject obJ in m_Callbacks)
-                obJ.Callback();
+                if(obJ != null)
+                    obJ.Callback(gameObject);
         }
 
         void Start()
         {
-            m_Callbacks = new ArrayList();
             StartCoroutine(CountDown(m_Time));
         }
 

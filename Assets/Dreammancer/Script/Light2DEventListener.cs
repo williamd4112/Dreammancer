@@ -81,7 +81,7 @@ namespace Dreammancer
         {
             if (isDetected)
             {
-                if(m_Renderer != null)
+                if(m_Renderer != null && !m_Renderer.color.Equals(m_FadeInColor))
                     m_Renderer.color = Color.Lerp(
                         m_Renderer.color, m_FadeInColor, Time.deltaTime * m_FadeInSpeed);
                 if (m_IsRecurrsive)
@@ -93,7 +93,7 @@ namespace Dreammancer
             }
             else
             {
-                if (m_Renderer != null)
+                if (m_Renderer != null && !m_Renderer.color.Equals(m_OriginColor))
                     m_Renderer.color = Color.Lerp(
                         m_Renderer.color, m_OriginColor, Time.deltaTime * m_FadeOutSpeed);
                 if (m_IsRecurrsive)

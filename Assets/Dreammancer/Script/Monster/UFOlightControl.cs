@@ -21,19 +21,17 @@ public class UFOlightControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-
+        return;
 		if(m_light.LightRadius >= targetRadius - k_epislon || 
 		   m_light.LightRadius <= initRadius + k_epislon)
 			enlarging = !enlarging;
 
 		if (enlarging) {
-			//Debug.Log ("enlarge");
-			m_light.LightRadius = Mathf.SmoothStep(m_light.LightRadius, targetRadius, Time.deltaTime * speed);
+			m_light.LightRadius = Mathf.Lerp(m_light.LightRadius, targetRadius, Time.deltaTime * speed);
 
 		}
 		else{
-			//Debug.Log ("shrink");
-			m_light.LightRadius = Mathf.SmoothStep(m_light.LightRadius, initRadius, Time.deltaTime * speed);
+			m_light.LightRadius = Mathf.Lerp(m_light.LightRadius, initRadius, Time.deltaTime * speed);
 		}
 	}
 

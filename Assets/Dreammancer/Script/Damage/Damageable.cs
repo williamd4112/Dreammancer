@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 namespace Dreammancer
 {
     public delegate void DestroyEvent();
 
     [RequireComponent(typeof(Health))]
-    public class Damageable : MonoBehaviour
+    public class Damageable : MonoBehaviour, CallbackObject
     {
 
 		public LevelManager levelManager;
@@ -52,16 +53,36 @@ namespace Dreammancer
             {
                 if (hp > 0)
                 {
-                    m_HitAnimInstance = GameObject.Instantiate(m_HitAnim, transform.position, transform.rotation) as GameObject;
-                    AudioSource.PlayClipAtPoint(m_HitSound, transform.position);
+                    if(m_HitAnimInstance == null)
+                    {
+                        m_HitAnimInstance = GameObject.Instantiate(m_HitAnim, transform.position, transform.rotation) as GameObject;
+
+                        DestroySelf destroy = m_HitAnimInstance.GetComponent<DestroySelf>();
+                        if (m_HitAnimInstance.GetComponent<DestroySelf>() != null)
+                        {
+                            destroy.AddCallback(this);
+                        }
+
+                        AudioSource.PlayClipAtPoint(m_HitSound, transform.position);
+                    }
                 }
                 else
-                {
-                    GameObject.Instantiate(m_DestroyAnim, transform.position, transform.rotation);
-                    AudioSource.PlayClipAtPoint(m_DestroySound, transform.position);
-                    if (m_DestroyEvents != null)
+                {   
+                    if(m_DestroyAnimInstance == null)
                     {
-                        m_DestroyEvents.Invoke();
+                        m_DestroyAnimInstance = GameObject.Instantiate(m_DestroyAnim, transform.position, transform.rotation) as GameObject;
+
+                        DestroySelf destroy = m_DestroyAnimInstance.GetComponent<DestroySelf>();
+                        if (m_DestroyAnimInstance.GetComponent<DestroySelf>() != null)
+                        {
+                            destroy.AddCallback(this);
+                        }
+
+                        AudioSource.PlayClipAtPoint(m_DestroySound, transform.position);
+                        if (m_DestroyEvents != null)
+                        {
+                            m_DestroyEvents.Invoke();
+                        }
                     }
                     
                     if(CompareTag("Player")){
@@ -77,6 +98,17 @@ namespace Dreammancer
             {
                 m_HitDelay--;
             }
+        }
+
+        public void Callback(GameObject obj)
+        {
+            if (obj.Equals(m_DestroyAnimInstance))
+            {
+                m_DestroyAnimInstance = null;
+                Debug.Log("Clear instance");
+            }
+            if (obj.Equals(m_HitAnimInstance))
+                m_HitAnimInstance = null;
         }
     }
 }
