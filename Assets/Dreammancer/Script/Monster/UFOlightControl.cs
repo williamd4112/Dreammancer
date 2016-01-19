@@ -27,12 +27,12 @@ public class UFOlightControl : MonoBehaviour {
 			enlarging = !enlarging;
 
 		if (enlarging) {
-			Debug.Log ("enlarge");
+			//Debug.Log ("enlarge");
 			m_light.LightRadius = Mathf.SmoothStep(m_light.LightRadius, targetRadius, Time.deltaTime * speed);
 
 		}
 		else{
-			Debug.Log ("shrink");
+			//Debug.Log ("shrink");
 			m_light.LightRadius = Mathf.SmoothStep(m_light.LightRadius, initRadius, Time.deltaTime * speed);
 		}
 	}
