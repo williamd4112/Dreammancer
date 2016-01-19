@@ -12,11 +12,9 @@ namespace Dreammancer
 		[SerializeField]
 		private Color k_PositiveColor = Color.red;
 
-		private SpriteRenderer[] m_SpriteRenderers;
 
 		// Use this for initialization
 		void Start () {
-			m_SpriteRenderers = GetComponentsInChildren<SpriteRenderer> ();
 
 			SceneManager.RegisterEmotionEvent (OnEmotionChange);	
 		}
@@ -43,7 +41,7 @@ namespace Dreammancer
 
 		void SetColorRecursively(Color c)
 		{
-			foreach (SpriteRenderer render in m_SpriteRenderers) {
+			foreach (SpriteRenderer render in GetComponentsInChildren<SpriteRenderer>()) {
 				render.color = c;
 			}
 		}

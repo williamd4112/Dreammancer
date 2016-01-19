@@ -24,8 +24,11 @@ namespace Dreammancer{
 		private int SaNum;
         [SerializeField]
         private AudioClip shootSound;
+
+        private GameObject player;
 		// Use this for initialization
 		void Start () {
+            player = GameObject.Find("Player");
 			GameObject An;
 			GameObject Sa;
 			AnQueue = new Queue ();
@@ -51,6 +54,8 @@ namespace Dreammancer{
 		
 		// Update is called once per frame
 		void Update () {
+            if (Vector3.Distance(transform.position, player.transform.position) > 1.5f)
+                return;
 			//Debug.Log(AnQueue.Count);
 			AnNum = AnQueue.Count;
 			SaNum = SaQueue.Count;
@@ -111,7 +116,7 @@ namespace Dreammancer{
 		}
 		
 		IEnumerator shoot(){
-			yield return new WaitForSeconds (4);
+			yield return new WaitForSeconds (5);
 			startShoot = true;
 		}
 	}
