@@ -23,6 +23,8 @@ namespace Dreammancer{
         private Color BossColor;
         [SerializeField]
         private GameObject gameCom;
+
+		public int levelIndex; 
 		// Use this for initialization
 		void Start () {
 			m_ani = this.GetComponent<Animator> ();
@@ -75,7 +77,11 @@ namespace Dreammancer{
         IEnumerator LoadLevel()
         {
             yield return new WaitForSeconds(10);
-            Application.LoadLevel("BossFight");
+			PlayerPrefs.SetInt("currentlevel",levelIndex);
+			//Debug.Log (PlayerPrefs.GetInt ("currentlevel"));
+			PlayerPrefs.SetInt("lockedlevel",levelIndex+1);
+			//Debug.Log (PlayerPrefs.GetInt ("lockedlevel"));
+			Application.LoadLevel("Level4");
         }
 	}
 }
