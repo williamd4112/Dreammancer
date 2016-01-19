@@ -41,7 +41,7 @@ namespace Dreammancer{
 			paused = false;
 		}
 		public void MainMenu(){
-			Application.LoadLevel ("StartScene");
+			Application.LoadLevel ("Level_Select");
 		}
 		public void Save(){
 			PlayerPrefs.SetInt ("currentscenesave", Application.loadedLevel);
