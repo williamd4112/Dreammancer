@@ -21,6 +21,8 @@ public class DialogController : MonoBehaviour {
 	private Image m_image;
 	private Text dialog_txt;
 	private string cur_speaker;
+
+	private bool m_StopFlag = false;
 	// Use this for initialization
 
 	void Awake(){
@@ -38,6 +40,9 @@ public class DialogController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (m_StopFlag) {
+			Time.timeScale = 0;
+		}
 
 		if (Application.platform == RuntimePlatform.Android) {
 			if (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Began && (m_image != null && m_image.enabled)) {
@@ -57,6 +62,7 @@ public class DialogController : MonoBehaviour {
 					
 					m_Photo.sprite = speaker_photo [cur_speaker];
 					x = x + 2;
+
 				}
 			}
 		} else {
@@ -74,9 +80,10 @@ public class DialogController : MonoBehaviour {
 					dialog_txt.text = sentence [x];
 					Debug.Log ("s: " + cur_speaker);
 					Debug.Log ("c: " + sentence [x]);
-					
+					Debug.Log ("asd: "+Time.timeScale.ToString());
 					m_Photo.sprite = speaker_photo [cur_speaker];
 					x = x + 2;
+
 				}
 			}
 		}
@@ -143,7 +150,8 @@ public class DialogController : MonoBehaviour {
 
 		if (other.CompareTag("Player"))
 		{
-			Time.timeScale = 0;
+
+			m_StopFlag = true;
 			m_image = m_dialog.GetComponent<Image>();
 			m_image.enabled = true;
 			m_Photo.enabled = true;
