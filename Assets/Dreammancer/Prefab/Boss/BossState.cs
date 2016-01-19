@@ -45,6 +45,9 @@ namespace Dreammancer{
 				m_Cs.shakeAndBake();
 				m_ani.SetBool ("Hurt", true);
 				StartCoroutine("returnIdle");
+                this.gameObject.GetComponent<ShootHeart>().heartExi = false;
+                Debug.Log(this.gameObject.GetComponent<ShootHeart>().heartExi);
+
 			}
 		}
 
