@@ -68,7 +68,7 @@ namespace Dreammancer
 		{
 			if (g.GetInstanceID() == id)
 			{
-				Debug.Log (l.LightColor+" "+errorLight);
+				//Debug.Log (l.LightColor+" "+errorLight);
 
 				if(ColorUtil.colorCompareQuantRGB(l.LightColor, errorLight, 127)){
 					isCrazy = true;

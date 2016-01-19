@@ -100,8 +100,8 @@ namespace Dreammancer
         void Update()
         {
             // Trigger dash
-            m_DashButtonFlag = CrossPlatformInputManager.GetButtonDown("Dash") || Input.GetKeyDown(KeyCode.E);
-            if (m_DashButtonFlag && !m_IsDash && m_DashEnergy > 0 && !m_IsDash) {
+            if ((CrossPlatformInputManager.GetButtonDown("Dash") || Input.GetKeyDown(KeyCode.E)) 
+                && !m_IsDash && m_DashEnergy > 0 && !m_IsDash) {
 				m_IsDash = true;
 				m_DashControl.ResetColor (m_LightArea.LightArea.LightColor);
 
