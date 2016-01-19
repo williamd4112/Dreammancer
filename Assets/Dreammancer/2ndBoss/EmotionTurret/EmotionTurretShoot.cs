@@ -54,13 +54,10 @@ namespace Dreammancer{
 		
 		// Update is called once per frame
 		void Update () {
-            if (Vector3.Distance(transform.position, player.transform.position) > 1.5f)
-                return;
 			//Debug.Log(AnQueue.Count);
 			AnNum = AnQueue.Count;
 			SaNum = SaQueue.Count;
-
-			if (startShoot) {
+            if (startShoot) {
 				FireBullet();
 //				GameObject temp;
 //				Vector2 shootPos = new Vector2 (shootP.transform.position.x, shootP.transform.position.y);
