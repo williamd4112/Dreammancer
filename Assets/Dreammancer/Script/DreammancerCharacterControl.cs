@@ -71,6 +71,7 @@ namespace Dreammancer
         // Update is called once per frame
         void Update()
         {
+			//CrossPlatformInputManager.
             float mouseY = CrossPlatformInputManager.GetAxis("Mouse Y");
             if(!hasSwitch)
             {
