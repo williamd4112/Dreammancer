@@ -71,27 +71,10 @@ namespace Dreammancer
         // Update is called once per frame
         void Update()
         {
-            float mouseY = CrossPlatformInputManager.GetAxis("Mouse Y");
-            if(!hasSwitch)
+            if(CrossPlatformInputManager.GetButtonDown("ChangeColor"))
             {
-                if (mouseY > m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.DownArrow))
-                {
-                    m_ColorList.NextColor();
-                    m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
-                }
-                else if (mouseY < -m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.UpArrow))
-                {
-                    m_ColorList.PreColor();
-                    m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
-                }
-            }
-            else
-            {
-                if (mouseY > m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.DownArrow) ||
-                    mouseY < -m_ColorSwitchThreshold || Input.GetKeyDown(KeyCode.UpArrow))
-                {
-                    hasSwitch = false;
-                }
+                m_ColorList.NextColor();
+                m_LightArea.SwitchLightColor(m_ColorList.SelectedColor);
             }
         }
     }
