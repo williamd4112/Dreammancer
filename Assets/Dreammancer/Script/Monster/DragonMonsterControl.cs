@@ -40,9 +40,6 @@ namespace Dreammancer
                     return;
                 }  
             }
-            Debug.Log(contact.point);
-            //Debug.Log(Mathf.Abs(contact.point.y - transform.position.y));
-            //Debug.Log(m_BoxCollider.size.y / 2);
 
             if (Mathf.Abs(contact.point.y - transform.position.y) < (m_BoxCollider.size.y / 2))
             {
