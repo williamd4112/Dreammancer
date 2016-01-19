@@ -39,26 +39,48 @@ public class DialogController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if ( Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && (m_image != null && m_image.enabled)) {
-			//Debug.Log(x);
-			//if(x >= sentence.Count){
-			if(x >= sentence.Length){
-				dialog_txt.text = "";
-				m_image.enabled = false;
-				m_Photo.enabled = false;
-				Time.timeScale = 1;
-				Destroy (gameObject);
-			}			
-			else{
-				cur_speaker = getSpeaker(sentence[x-1]);
-				dialog_txt.text = sentence [x];
-				Debug.Log("s: " + cur_speaker);
-				Debug.Log("c: "+sentence [x]);
-
-				m_Photo.sprite = speaker_photo[cur_speaker];
-				x = x + 2;
+		if (Application.platform == RuntimePlatform.Android) {
+			if (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Began && (m_image != null && m_image.enabled)) {
+				//Debug.Log(x);
+				//if(x >= sentence.Count){
+				if (x >= sentence.Length) {
+					dialog_txt.text = "";
+					m_image.enabled = false;
+					m_Photo.enabled = false;
+					Time.timeScale = 1;
+					Destroy (gameObject);
+				} else {
+					cur_speaker = getSpeaker (sentence [x - 1]);
+					dialog_txt.text = sentence [x];
+					Debug.Log ("s: " + cur_speaker);
+					Debug.Log ("c: " + sentence [x]);
+					
+					m_Photo.sprite = speaker_photo [cur_speaker];
+					x = x + 2;
+				}
+			}
+		} else {
+			if (Input.GetMouseButtonDown(0) && (m_image != null && m_image.enabled)) {
+				//Debug.Log(x);
+				//if(x >= sentence.Count){
+				if (x >= sentence.Length) {
+					dialog_txt.text = "";
+					m_image.enabled = false;
+					m_Photo.enabled = false;
+					Time.timeScale = 1;
+					Destroy (gameObject);
+				} else {
+					cur_speaker = getSpeaker (sentence [x - 1]);
+					dialog_txt.text = sentence [x];
+					Debug.Log ("s: " + cur_speaker);
+					Debug.Log ("c: " + sentence [x]);
+					
+					m_Photo.sprite = speaker_photo [cur_speaker];
+					x = x + 2;
+				}
 			}
 		}
+
 	}
 	
 	void FixedUpdate(){
