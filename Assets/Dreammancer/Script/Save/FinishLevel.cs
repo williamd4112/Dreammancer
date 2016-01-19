@@ -6,10 +6,17 @@ namespace Dreammancer{
 	public class FinishLevel : MonoBehaviour {
 
 		public string LevelName;
+		public int levelIndex; 
 		//bool flag = false;
 
 		// Use this for initialization
 		void Start () {
+//			PlayerPrefs.SetInt("currentlevel",levelIndex);
+//			PlayerPrefs.SetInt("lockedlevel",levelIndex+1);
+			//Debug.Log(".....");
+//			Debug.Log (PlayerPrefs.GetInt ("currentlevel"));
+//			Debug.Log (PlayerPrefs.GetInt ("lockedlevel"));
+			//Debug.Log(".....");
 		
 		}
 		
@@ -28,8 +35,12 @@ namespace Dreammancer{
 				return;
 			}
 			LevelManager.Instance.GotoNextLevel (LevelName);
+			PlayerPrefs.SetInt("currentlevel",levelIndex);
+			Debug.Log (PlayerPrefs.GetInt ("currentlevel"));
+			PlayerPrefs.SetInt("lockedlevel",levelIndex+1);
+			Debug.Log (PlayerPrefs.GetInt ("lockedlevel"));
 			//PlayerPrefs.SetInt ("levelUnlock", 2);
-			UnlockLevels(); 
+			//UnlockLevels(); 
 		}
 //		public void OnTriggerEnter2D(Collider2D other){
 //			Debug.Log(other.gameObject);
@@ -40,15 +51,15 @@ namespace Dreammancer{
 //			}
 //		}
 		
-		public void  UnlockLevels (){
-			//loop through the levels of a particular world
-			for(int i = 1; i < PlayerPrefs.GetInt("lockedlevel"); i++){
-				//levelIndex = (j+1);
-				//if((PlayerPrefs.GetInt("level"+worldIndex.ToString() +":" +levelIndex.ToString()))==1){
-				GameObject.Find("LockedLevel"+(i+1)).active = false;
-				Debug.Log ("Unlocked");
-			}
-		}
+//		public void  UnlockLevels (){
+//			//loop through the levels of a particular world
+//			for(int i = 1; i < PlayerPrefs.GetInt("lockedlevel"); i++){
+//				//levelIndex = (j+1);
+//				//if((PlayerPrefs.GetInt("level"+worldIndex.ToString() +":" +levelIndex.ToString()))==1){
+//				GameObject.Find("LockedLevel"+(i+1)).active = false;
+//				Debug.Log ("Unlocked");
+//			}
+//		}
 
 	}
 }
