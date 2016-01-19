@@ -51,6 +51,7 @@ namespace Dreammancer{
 						//h_sr.color = Color.blue;
 					heartExi = true;
 					makeHeart = false;
+                    startBuild = true;
 				}
 			}
 
@@ -58,6 +59,7 @@ namespace Dreammancer{
 
 		IEnumerator buildHeart(){
 			yield return new WaitForSeconds (15);
+            Debug.Log("building heart");
 			makeHeart = true;
 		}
 
