@@ -5,11 +5,8 @@ namespace Dreammancer
 {
 	public class BackgroundEmotionReactor : MonoBehaviour {
 
-		private Renderer m_Renderer;
-
 		// Use this for initialization
 		void Start () {
-			m_Renderer = GetComponent<Renderer>();
 
 			SceneManager.RegisterEmotionEvent (OnEmotionChange);
 		}
@@ -21,7 +18,7 @@ namespace Dreammancer
 
 		void OnEmotionChange(SceneState state, int emotionVal, int emotionDiff)
 		{
-			Color color = m_Renderer.material.color; 
+			Color color = GetComponent<Renderer>().material.color; 
 			switch(state)
 			{
 			case SceneState.NEGATIVE:
@@ -39,7 +36,7 @@ namespace Dreammancer
 			default:
 				break;
 			}
-			m_Renderer.material.color = color;
+            GetComponent<Renderer>().material.color = color;
 		}
 	}
 }

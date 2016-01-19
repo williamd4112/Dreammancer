@@ -51,6 +51,30 @@ namespace Dreammancer
 			InvokeEmotionEvent (diff);
 		}
 
+        public static void ChangeState(SceneState state)
+        {
+            int diff = 0;
+            m_SceneState = state;
+            switch(state)
+            {
+                case SceneState.NEGATIVE:
+                    diff = m_SceneEmotion - 0;
+                    m_SceneEmotion = 0;
+                    break;
+                case SceneState.NORMAL:
+                    diff = m_SceneEmotion - k_EmotionGap;
+                    m_SceneEmotion = k_EmotionGap;
+                    break;
+                case SceneState.POSITIVE:
+                    diff = m_SceneEmotion - 2 * k_EmotionGap;
+                    m_SceneEmotion = 2 * k_EmotionGap;
+                    break;
+                default:
+                    break;
+            }
+            InvokeEmotionEvent(diff);
+        }
+
 		public static void RegisterEmotionEvent(EmotionEvent e)
 		{
 			m_EmotionEvents += e;
