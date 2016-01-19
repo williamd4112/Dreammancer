@@ -8,6 +8,10 @@ namespace Dreammancer
     {
         [SerializeField]
         private int m_MaxHealth;
+        public int MaxHealth
+        {
+            get { return m_MaxHealth; }
+        }
         [SerializeField]
         private int m_Health; //
         public int HealthPoint

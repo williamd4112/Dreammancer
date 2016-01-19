@@ -8,7 +8,11 @@ namespace Dreammancer
     {
         public override void OnDamageTrigger(Damage damage)
         {
-            Application.LoadLevel(Application.loadedLevelName);
+            Health health = gameObject.GetComponent<Health>();
+            if(health != null)
+            {
+                health.decreaseHealth(health.MaxHealth);
+            }
         }
 
         // Use this for initialization
