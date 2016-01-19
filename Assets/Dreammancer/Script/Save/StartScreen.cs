@@ -10,9 +10,11 @@ namespace Dreammancer{
 
 		public float guiPlacementY1;
 		public float guiPlacementY2;
+		public float guiPlacementY3;
 
 		public float guiPlacementX1;
 		public float guiPlacementX2;
+		public float guiPlacementX3;
 		// Use this for initialization
 		void Start () {
 		
@@ -35,8 +37,12 @@ namespace Dreammancer{
 			if (GUI.Button (new Rect (Screen.width * guiPlacementX1, Screen.height * guiPlacementY1, Screen.width * .5f, Screen.height * .1f), "Play Game")) {
 				Application.LoadLevel (FirstLevel);
 			}
+			if (GUI.Button (new Rect (Screen.width * guiPlacementX2, Screen.height * guiPlacementY2, Screen.width * .5f, Screen.height * .1f), "Delete Data")) {
+				PlayerPrefs.DeleteAll();
+				//Application.LoadLevel (FirstLevel);
+			}
 
-			if (GUI.Button (new Rect (Screen.width * guiPlacementX2, Screen.height * guiPlacementY2, Screen.width * .5f, Screen.height * .1f), "Quit")) {
+			if (GUI.Button (new Rect (Screen.width * guiPlacementX3, Screen.height * guiPlacementY3, Screen.width * .5f, Screen.height * .1f), "Quit")) {
 				Application.Quit();
 			}
 		}
