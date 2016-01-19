@@ -3,6 +3,11 @@ using System.Collections;
 
 namespace Dreammancer
 {
+    public interface CallbackObject
+    {
+        void Callback();
+    }
+
     public class DestroySelf : MonoBehaviour
     {
         [SerializeField]
@@ -10,8 +15,22 @@ namespace Dreammancer
 
         private bool isDestroy = false;
 
+        private ArrayList m_Callbacks;
+        
+        public void AddCallback(CallbackObject callback)
+        {
+            m_Callbacks.Add(callback);
+        }
+
+        public void InvokeCallbacks()
+        {
+            foreach (CallbackObject obJ in m_Callbacks)
+                obJ.Callback();
+        }
+
         void Start()
         {
+            m_Callbacks = new ArrayList();
             StartCoroutine(CountDown(m_Time));
         }
 
@@ -19,7 +38,10 @@ namespace Dreammancer
         void Update()
         {
             if (isDestroy)
+            {
+                InvokeCallbacks();
                 Destroy(gameObject);
+            }
         }
 
         IEnumerator CountDown(float t)
