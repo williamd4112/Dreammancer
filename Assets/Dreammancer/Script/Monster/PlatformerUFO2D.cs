@@ -18,23 +18,7 @@ namespace Dreammancer
 			m_Anim = GetComponent<Animator>();
 
 		}
-		// Use this for initialization
-		void Start()
-		{
 
-		}
-		
-		// Update is called once per frame
-		void Update()
-		{
-			
-		}
-		
-		private void FixedUpdate()
-		{
-
-
-		}
 		public void drift(float x, Transform target)
 		{
 			
