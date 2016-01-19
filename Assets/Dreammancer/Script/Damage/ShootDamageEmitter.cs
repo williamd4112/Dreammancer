@@ -63,6 +63,11 @@ namespace Dreammancer
 
         }
 
+        public void SetShootingRate(float rate)
+        {
+            m_Speed = rate;
+        }
+
         IEnumerator Cooldown(float t)
         {
             yield return new WaitForSeconds(t);
