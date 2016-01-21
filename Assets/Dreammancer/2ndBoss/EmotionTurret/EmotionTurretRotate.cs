@@ -27,7 +27,7 @@ namespace Dreammancer{
 		// Update is called once per frame
 		void Update () {
 			now = new Vector2 (whichWay * (m_Transform.position.x - p_Transform.position.x), m_Transform.position.y - p_Transform.position.y);
-			mid = Vector2.Lerp (now, last, 0.5f);
+			mid = Vector2.Lerp (now, last, 0.01f);
 			m_Angle = Vector2.Angle (BigParent.transform.right, mid);
 			if (whichWay > 0) {
 				m_Angle = Mathf.Clamp (m_Angle, 0, 90);

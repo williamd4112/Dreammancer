@@ -83,7 +83,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -95,7 +95,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 2
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -108,7 +108,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -126,6 +126,64 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: -338}
+        - {x: 76, y: -340}
+        - {x: 139, y: -106}
+        - {x: 139, y: 107}
+        - {x: 138, y: 108}
+        - {x: 78, y: 111}
+        - {x: 139, y: 294}
+        - {x: 139, y: 328}
+        - {x: 127, y: 369}
+        - {x: 134, y: 400}
+        - {x: 128, y: 436}
+        - {x: 102, y: 459}
+        - {x: 70, y: 470}
+        - {x: 17, y: 470}
+        - {x: -20, y: 464}
+        - {x: -50, y: 424}
+        - {x: -37, y: 381}
+        - {x: -29, y: 334}
+        - {x: 0, y: 319}
+        - {x: -28, y: 260}
+        - {x: -24, y: 231}
+        - {x: -54, y: 182}
+        - {x: -76, y: 177}
+        - {x: -88, y: 158}
+        - {x: -83, y: 153}
+        - {x: -72, y: 154}
+        - {x: -76, y: 143}
+        - {x: -83, y: 143}
+        - {x: -82, y: 143}
+        - {x: -76, y: 144}
+        - {x: -73, y: 151}
+        - {x: -79, y: 153}
+        - {x: -111, y: 147}
+        - {x: -114, y: 150}
+        - {x: -121, y: 148}
+        - {x: -124, y: 125}
+        - {x: -103, y: 121}
+        - {x: -76, y: 128}
+        - {x: -74, y: 89}
+        - {x: -72, y: 88}
+        - {x: -40, y: 88}
+        - {x: -40, y: -100}
+        - {x: -82, y: -97}
+        - {x: -94, y: -145}
+        - {x: -62, y: -155}
+        - {x: -52, y: -148}
+        - {x: -60, y: -280}
+        - {x: 21, y: -339}
+        - {x: -54, y: -340}
+        - {x: -63, y: -339}
+        - {x: -63, y: -414}
+        - {x: -139, y: -420}
+        - {x: -139, y: -440}
+        - {x: -105, y: -470}
+        - {x: 139, y: -470}
+        - {x: 139, y: -409}
+        - {x: 132, y: -342}
     - name: mmx5_sigmahead_1
       rect:
         serializedVersion: 2
@@ -136,6 +194,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_2
       rect:
         serializedVersion: 2
@@ -146,6 +205,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_3
       rect:
         serializedVersion: 2
@@ -156,6 +216,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_4
       rect:
         serializedVersion: 2
@@ -166,6 +227,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_5
       rect:
         serializedVersion: 2
@@ -176,6 +238,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_6
       rect:
         serializedVersion: 2
@@ -186,6 +249,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_7
       rect:
         serializedVersion: 2
@@ -196,6 +260,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_8
       rect:
         serializedVersion: 2
@@ -206,6 +271,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_9
       rect:
         serializedVersion: 2
@@ -216,6 +282,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_10
       rect:
         serializedVersion: 2
@@ -226,6 +293,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_11
       rect:
         serializedVersion: 2
@@ -236,6 +304,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_12
       rect:
         serializedVersion: 2
@@ -246,6 +315,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_13
       rect:
         serializedVersion: 2
@@ -256,6 +326,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_14
       rect:
         serializedVersion: 2
@@ -266,6 +337,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_15
       rect:
         serializedVersion: 2
@@ -276,6 +348,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_16
       rect:
         serializedVersion: 2
@@ -286,6 +359,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_17
       rect:
         serializedVersion: 2
@@ -296,6 +370,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_18
       rect:
         serializedVersion: 2
@@ -306,6 +381,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_19
       rect:
         serializedVersion: 2
@@ -316,6 +392,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_20
       rect:
         serializedVersion: 2
@@ -326,6 +403,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_21
       rect:
         serializedVersion: 2
@@ -336,6 +414,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_22
       rect:
         serializedVersion: 2
@@ -346,6 +425,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_23
       rect:
         serializedVersion: 2
@@ -356,6 +436,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_24
       rect:
         serializedVersion: 2
@@ -366,6 +447,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_25
       rect:
         serializedVersion: 2
@@ -376,6 +458,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 52.5}
+        - {x: -58, y: 46.5}
+        - {x: -59, y: 44.5}
+        - {x: -59, y: -52.5}
+        - {x: 35, y: -52.5}
+        - {x: 59, y: -40.5}
+        - {x: 59, y: 4.5}
+        - {x: 49, y: 52.5}
+      - - {x: -10, y: 52.5}
+        - {x: -9, y: 49.5}
+        - {x: -6, y: 49.5}
+        - {x: -4, y: 51.5}
+        - {x: -4, y: 52.5}
     - name: mmx5_sigmahead_26
       rect:
         serializedVersion: 2
@@ -386,6 +482,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_27
       rect:
         serializedVersion: 2
@@ -396,6 +493,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 73.5}
+        - {x: -27.5, y: -73.5}
+        - {x: 18.5, y: -73.5}
+        - {x: 27.5, y: -72.5}
+        - {x: 27.5, y: 73.5}
     - name: mmx5_sigmahead_28
       rect:
         serializedVersion: 2
@@ -406,6 +509,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: 72}
+        - {x: -79, y: -83}
+        - {x: -74, y: -84}
+        - {x: 79, y: -84}
+        - {x: 79, y: 84}
+        - {x: 14, y: 84}
+        - {x: -40, y: 73}
     - name: mmx5_sigmahead_29
       rect:
         serializedVersion: 2
@@ -416,6 +527,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: 40}
+        - {x: -79, y: -25}
+        - {x: -78, y: -31}
+        - {x: -62, y: -84}
+        - {x: 79, y: -84}
+        - {x: 79, y: 84}
+        - {x: -44, y: 84}
     - name: mmx5_sigmahead_30
       rect:
         serializedVersion: 2
@@ -426,6 +545,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: 45}
+        - {x: -78, y: 42}
+        - {x: -78, y: -58}
+        - {x: -76, y: -66}
+        - {x: -33, y: -85}
+        - {x: 52, y: -85}
+        - {x: 78, y: -81}
+        - {x: 78, y: 85}
+        - {x: -12, y: 85}
+        - {x: -39, y: 80}
     - name: mmx5_sigmahead_31
       rect:
         serializedVersion: 2
@@ -436,6 +566,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: 45}
+        - {x: 74, y: 84}
+        - {x: -49, y: 84}
+        - {x: -79, y: 54}
+        - {x: -79, y: -27}
+        - {x: -50, y: -82}
+        - {x: -42, y: -84}
+        - {x: 79, y: -84}
     - name: mmx5_sigmahead_32
       rect:
         serializedVersion: 2
@@ -446,6 +585,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: 49}
+        - {x: -79, y: -43}
+        - {x: -66, y: -84}
+        - {x: 64, y: -84}
+        - {x: 79, y: -82}
+        - {x: 79, y: 84}
+        - {x: -44, y: 84}
     - name: mmx5_sigmahead_33
       rect:
         serializedVersion: 2
@@ -456,6 +603,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -56}
+        - {x: -61, y: -84}
+        - {x: 65, y: -84}
+        - {x: 79, y: -82}
+        - {x: 79, y: 45}
+        - {x: 74, y: 84}
+        - {x: -44, y: 84}
+        - {x: -79, y: 41}
     - name: mmx5_sigmahead_34
       rect:
         serializedVersion: 2
@@ -466,6 +622,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 84}
+        - {x: -79, y: 51}
+        - {x: -79, y: -51}
+        - {x: -68, y: -83}
+        - {x: -66, y: -84}
+        - {x: 79, y: -84}
+        - {x: 79, y: 84}
     - name: mmx5_sigmahead_35
       rect:
         serializedVersion: 2
@@ -476,6 +640,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: 45}
+        - {x: 74, y: 84}
+        - {x: -49, y: 84}
+        - {x: -79, y: 54}
+        - {x: -79, y: -27}
+        - {x: -50, y: -82}
+        - {x: -42, y: -84}
+        - {x: 79, y: -84}
     - name: mmx5_sigmahead_36
       rect:
         serializedVersion: 2
@@ -486,6 +659,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -129, y: 33}
+        - {x: -129, y: -33}
+        - {x: 129, y: -33}
+        - {x: 129, y: 33}
     - name: mmx5_sigmahead_37
       rect:
         serializedVersion: 2
@@ -496,6 +674,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_38
       rect:
         serializedVersion: 2
@@ -506,6 +685,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -129, y: 33}
+        - {x: -129, y: -33}
+        - {x: 129, y: -33}
+        - {x: 129, y: 33}
     - name: mmx5_sigmahead_39
       rect:
         serializedVersion: 2
@@ -516,6 +700,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_40
       rect:
         serializedVersion: 2
@@ -526,6 +711,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_41
       rect:
         serializedVersion: 2
@@ -536,6 +722,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_42
       rect:
         serializedVersion: 2
@@ -546,6 +733,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_43
       rect:
         serializedVersion: 2
@@ -556,6 +744,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 49}
+        - {x: -30, y: -49}
+        - {x: -14, y: -49}
+        - {x: 30, y: -23}
+        - {x: 30, y: 20}
+        - {x: -2, y: 49}
     - name: mmx5_sigmahead_44
       rect:
         serializedVersion: 2
@@ -566,6 +761,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 46}
+        - {x: -35.5, y: -46}
+        - {x: 2.5, y: -46}
+        - {x: 20.5, y: -42}
+        - {x: 35.5, y: -28}
+        - {x: 35.5, y: 20}
+        - {x: 21.5, y: 46}
     - name: mmx5_sigmahead_45
       rect:
         serializedVersion: 2
@@ -576,6 +779,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 7}
+        - {x: 23.5, y: 24}
+        - {x: -10.5, y: 46}
+        - {x: -30.5, y: 46}
+        - {x: -30.5, y: -46}
+        - {x: -10.5, y: -46}
+        - {x: 20.5, y: -28}
+        - {x: 30.5, y: -13}
     - name: mmx5_sigmahead_46
       rect:
         serializedVersion: 2
@@ -586,6 +798,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 16}
+        - {x: -64, y: -16}
+        - {x: 64, y: -16}
+        - {x: 64, y: 16}
     - name: mmx5_sigmahead_47
       rect:
         serializedVersion: 2
@@ -596,6 +813,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_48
       rect:
         serializedVersion: 2
@@ -606,6 +824,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 31}
+        - {x: -64, y: -31}
+        - {x: 64, y: -31}
+        - {x: 64, y: 31}
     - name: mmx5_sigmahead_49
       rect:
         serializedVersion: 2
@@ -616,6 +839,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_50
       rect:
         serializedVersion: 2
@@ -626,6 +850,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 47}
+        - {x: -64, y: -47}
+        - {x: 64, y: -47}
+        - {x: 64, y: 47}
     - name: mmx5_sigmahead_51
       rect:
         serializedVersion: 2
@@ -636,6 +865,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 47}
+        - {x: -64, y: -47}
+        - {x: 64, y: -47}
+        - {x: 64, y: 47}
     - name: mmx5_sigmahead_52
       rect:
         serializedVersion: 2
@@ -646,6 +880,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 47}
+        - {x: -64, y: -47}
+        - {x: 64, y: -47}
+        - {x: 64, y: 47}
     - name: mmx5_sigmahead_53
       rect:
         serializedVersion: 2
@@ -656,6 +895,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 47}
+        - {x: -64, y: -47}
+        - {x: 64, y: -47}
+        - {x: 64, y: 47}
     - name: mmx5_sigmahead_54
       rect:
         serializedVersion: 2
@@ -666,6 +910,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 47}
+        - {x: -64, y: -47}
+        - {x: 64, y: -47}
+        - {x: 64, y: 47}
     - name: mmx5_sigmahead_55
       rect:
         serializedVersion: 2
@@ -676,6 +925,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_56
       rect:
         serializedVersion: 2
@@ -686,6 +936,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_57
       rect:
         serializedVersion: 2
@@ -696,6 +947,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 5}
+        - {x: -16, y: -7}
+        - {x: -5, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 16}
     - name: mmx5_sigmahead_58
       rect:
         serializedVersion: 2
@@ -706,6 +965,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_59
       rect:
         serializedVersion: 2
@@ -716,6 +976,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_60
       rect:
         serializedVersion: 2
@@ -726,6 +987,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_61
       rect:
         serializedVersion: 2
@@ -736,6 +998,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_62
       rect:
         serializedVersion: 2
@@ -746,6 +1009,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_63
       rect:
         serializedVersion: 2
@@ -756,6 +1020,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_64
       rect:
         serializedVersion: 2
@@ -766,6 +1031,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mmx5_sigmahead_65
       rect:
         serializedVersion: 2
@@ -776,6 +1042,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
