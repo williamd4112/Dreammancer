@@ -74,7 +74,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -86,7 +86,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 2
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -99,9 +99,9 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -115,8 +115,13 @@ TextureImporter:
         width: 50
         height: 48
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -24}
+        - {x: 25, y: -24}
+        - {x: 25, y: 24}
     - name: x3_de_voux_1
       rect:
         serializedVersion: 2
@@ -127,6 +132,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_2
       rect:
         serializedVersion: 2
@@ -137,6 +143,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_3
       rect:
         serializedVersion: 2
@@ -147,6 +154,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24.5}
+        - {x: -25, y: -24.5}
+        - {x: 25, y: -24.5}
+        - {x: 25, y: 24.5}
     - name: x3_de_voux_4
       rect:
         serializedVersion: 2
@@ -157,6 +169,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -24}
+        - {x: 25, y: -24}
+        - {x: 25, y: 24}
     - name: x3_de_voux_5
       rect:
         serializedVersion: 2
@@ -165,8 +182,9 @@ TextureImporter:
         width: 31
         height: 34
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_6
       rect:
         serializedVersion: 2
@@ -175,8 +193,17 @@ TextureImporter:
         width: 33
         height: 36
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 18}
+        - {x: -16.5, y: 13}
+        - {x: -16.5, y: -13}
+        - {x: -10.5, y: -18}
+        - {x: 10.5, y: -18}
+        - {x: 16.5, y: -15}
+        - {x: 16.5, y: 15}
+        - {x: 15.5, y: 18}
     - name: x3_de_voux_7
       rect:
         serializedVersion: 2
@@ -185,8 +212,9 @@ TextureImporter:
         width: 26
         height: 29
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_8
       rect:
         serializedVersion: 2
@@ -195,8 +223,13 @@ TextureImporter:
         width: 32
         height: 34
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17}
+        - {x: -16, y: -17}
+        - {x: 16, y: -17}
+        - {x: 16, y: 17}
     - name: x3_de_voux_9
       rect:
         serializedVersion: 2
@@ -207,6 +240,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 21}
+        - {x: -29.5, y: -1}
+        - {x: -29.5, y: -21}
+        - {x: 29.5, y: -21}
+        - {x: 29.5, y: -3}
+        - {x: 22.5, y: 21}
     - name: x3_de_voux_10
       rect:
         serializedVersion: 2
@@ -217,6 +257,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 18.5}
+        - {x: -16.5, y: -18.5}
+        - {x: 16.5, y: -18.5}
+        - {x: 16.5, y: 18.5}
     - name: x3_de_voux_11
       rect:
         serializedVersion: 2
@@ -227,6 +272,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17}
+        - {x: -16.5, y: -17}
+        - {x: 14.5, y: -17}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 17}
     - name: x3_de_voux_12
       rect:
         serializedVersion: 2
@@ -235,8 +286,16 @@ TextureImporter:
         width: 33
         height: 36
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 18}
+        - {x: -16.5, y: 15}
+        - {x: -16.5, y: -14}
+        - {x: -13.5, y: -18}
+        - {x: 9.5, y: -18}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 18}
     - name: x3_de_voux_13
       rect:
         serializedVersion: 2
@@ -247,6 +306,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_14
       rect:
         serializedVersion: 2
@@ -257,6 +317,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_15
       rect:
         serializedVersion: 2
@@ -267,6 +328,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_16
       rect:
         serializedVersion: 2
@@ -277,6 +339,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_17
       rect:
         serializedVersion: 2
@@ -287,6 +350,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -24}
+        - {x: 25, y: -24}
+        - {x: 25, y: 24}
     - name: x3_de_voux_18
       rect:
         serializedVersion: 2
@@ -297,6 +365,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_19
       rect:
         serializedVersion: 2
@@ -307,6 +376,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_20
       rect:
         serializedVersion: 2
@@ -317,6 +387,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24.5}
+        - {x: -25, y: -24.5}
+        - {x: 25, y: -24.5}
+        - {x: 25, y: 24.5}
     - name: x3_de_voux_21
       rect:
         serializedVersion: 2
@@ -327,6 +402,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -24}
+        - {x: 25, y: -24}
+        - {x: 25, y: 24}
     - name: x3_de_voux_22
       rect:
         serializedVersion: 2
@@ -337,6 +417,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_23
       rect:
         serializedVersion: 2
@@ -347,6 +428,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 18}
+        - {x: -16.5, y: 13}
+        - {x: -16.5, y: -13}
+        - {x: -10.5, y: -18}
+        - {x: 10.5, y: -18}
+        - {x: 16.5, y: -15}
+        - {x: 16.5, y: 15}
+        - {x: 15.5, y: 18}
     - name: x3_de_voux_24
       rect:
         serializedVersion: 2
@@ -357,6 +447,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_25
       rect:
         serializedVersion: 2
@@ -367,6 +458,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17}
+        - {x: -16, y: -17}
+        - {x: 16, y: -17}
+        - {x: 16, y: 17}
     - name: x3_de_voux_26
       rect:
         serializedVersion: 2
@@ -377,6 +473,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 21}
+        - {x: -29.5, y: -1}
+        - {x: -29.5, y: -21}
+        - {x: 29.5, y: -21}
+        - {x: 29.5, y: -3}
+        - {x: 22.5, y: 21}
     - name: x3_de_voux_27
       rect:
         serializedVersion: 2
@@ -387,6 +490,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 18.5}
+        - {x: -16.5, y: -18.5}
+        - {x: 16.5, y: -18.5}
+        - {x: 16.5, y: 18.5}
     - name: x3_de_voux_28
       rect:
         serializedVersion: 2
@@ -397,6 +505,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17}
+        - {x: -16.5, y: -17}
+        - {x: 14.5, y: -17}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 17}
     - name: x3_de_voux_29
       rect:
         serializedVersion: 2
@@ -407,6 +521,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 18}
+        - {x: -16.5, y: 15}
+        - {x: -16.5, y: -14}
+        - {x: -13.5, y: -18}
+        - {x: 9.5, y: -18}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 18}
     - name: x3_de_voux_30
       rect:
         serializedVersion: 2
@@ -417,6 +539,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_31
       rect:
         serializedVersion: 2
@@ -427,6 +550,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_32
       rect:
         serializedVersion: 2
@@ -437,6 +561,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_33
       rect:
         serializedVersion: 2
@@ -447,6 +572,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_34
       rect:
         serializedVersion: 2
@@ -457,6 +583,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_35
       rect:
         serializedVersion: 2
@@ -467,6 +594,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_36
       rect:
         serializedVersion: 2
@@ -477,6 +605,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 17.5}
+        - {x: -16.5, y: 12.5}
+        - {x: -16.5, y: -13.5}
+        - {x: -11.5, y: -17.5}
+        - {x: 10.5, y: -17.5}
+        - {x: 16.5, y: -12.5}
+        - {x: 16.5, y: 15.5}
+        - {x: 12.5, y: 17.5}
     - name: x3_de_voux_37
       rect:
         serializedVersion: 2
@@ -487,6 +624,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_38
       rect:
         serializedVersion: 2
@@ -497,6 +635,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_39
       rect:
         serializedVersion: 2
@@ -507,6 +646,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_40
       rect:
         serializedVersion: 2
@@ -517,6 +657,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_41
       rect:
         serializedVersion: 2
@@ -527,6 +668,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_42
       rect:
         serializedVersion: 2
@@ -537,6 +679,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_43
       rect:
         serializedVersion: 2
@@ -547,6 +690,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 17.5}
+        - {x: -16.5, y: 12.5}
+        - {x: -16.5, y: -13.5}
+        - {x: -11.5, y: -17.5}
+        - {x: 10.5, y: -17.5}
+        - {x: 16.5, y: -12.5}
+        - {x: 16.5, y: 15.5}
+        - {x: 12.5, y: 17.5}
     - name: x3_de_voux_44
       rect:
         serializedVersion: 2
@@ -557,6 +709,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_45
       rect:
         serializedVersion: 2
@@ -567,6 +720,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_46
       rect:
         serializedVersion: 2
@@ -577,6 +731,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_47
       rect:
         serializedVersion: 2
@@ -587,6 +742,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_48
       rect:
         serializedVersion: 2
@@ -597,6 +753,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_49
       rect:
         serializedVersion: 2
@@ -607,6 +764,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_50
       rect:
         serializedVersion: 2
@@ -617,6 +775,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_51
       rect:
         serializedVersion: 2
@@ -627,6 +786,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_52
       rect:
         serializedVersion: 2
@@ -637,6 +797,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_53
       rect:
         serializedVersion: 2
@@ -647,6 +808,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_54
       rect:
         serializedVersion: 2
@@ -657,6 +819,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_55
       rect:
         serializedVersion: 2
@@ -667,6 +830,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: x3_de_voux_56
       rect:
         serializedVersion: 2
@@ -675,8 +839,14 @@ TextureImporter:
         width: 59
         height: 59
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 29.5}
+        - {x: -29.5, y: -29.5}
+        - {x: 29.5, y: -29.5}
+        - {x: 29.5, y: 29.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
