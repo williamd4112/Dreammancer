@@ -2,19 +2,17 @@
 using System.Collections;
 
 namespace Dreammancer{
+	//[RequireComponent(typeof(AudioSource))]
 	public class LevelSelectScript : MonoBehaviour {
 		
 		//private int worldIndex;   
 		public int levelIndex;   
-		
+//
+//		public AudioClip impact;
+//		AudioSource audio;
+
 		void  Start (){
-			//loop thorugh all the worlds
-//			for(int i = 1; i <= LockLevel.worlds; i++){
-//				if(Application.loadedLevelName == "World"+i){
-//					worldIndex = i;
-//					CheckLockedLevels(); 
-//				}
-//			}
+			//audio = GetComponent<AudioSource>();
 		}
 
 		void Update(){
@@ -23,6 +21,12 @@ namespace Dreammancer{
 		
 		//Level to load on button click. Will be used for Level button click event 
 		public void Selectlevel(int levelIndex){
+			Debug.Log("SHIT");
+			//string String1 = levelIndex.ToString();
+			Debug.Log(levelIndex);
+
+//			audio.PlayOneShot(impact, 1.0f);
+
 			if (levelIndex == 1) {
 				Application.LoadLevel ("FirstSceneVedio");
 			}
@@ -46,7 +50,7 @@ namespace Dreammancer{
 				//int varInt = 1; 
 				//string varString = Convert.ToString(varInt); 
 				string varString1 = PlayerPrefs.GetInt("lockedlevel").ToString();
-				Debug.Log(varString1);
+				//Debug.Log(varString1);
 				//if((PlayerPrefs.GetInt("level"+worldIndex.ToString() +":" +levelIndex.ToString()))==1){
 				GameObject.Find("LockedLevel"+varString1).active = false;
 					Debug.Log ("Unlocked");
