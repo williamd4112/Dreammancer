@@ -10,7 +10,10 @@ public class KeepPlayinh : MonoBehaviour {
     }
 
     void Start () {
-	
+        if (!(Application.loadedLevelName.Equals("Opening")||!Application.loadedLevelName.Equals("Level_Select3")))
+        {
+            Destroy(this.gameObject);
+        }
 	}
 	
 	// Update is called once per frame
