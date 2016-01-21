@@ -188,7 +188,7 @@ namespace Dreammancer{
 		}
 
 		IEnumerator shootBo(){
-			yield return new WaitForSeconds (4f);
+			yield return new WaitForSeconds (2.5f);
 			//Debug.Log ("in IsBo");
 			isBo = false;
 			boSho = true;
