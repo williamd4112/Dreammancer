@@ -20,7 +20,7 @@ namespace Dreammancer
 		
 		// Update is called once per frame
 		void Update () {
-			m_ProgressBar.Value = m_LoadOp.progress;
+			m_ProgressBar.Value = m_LoadOp.progress * 1000;
 		}
 	}
 
