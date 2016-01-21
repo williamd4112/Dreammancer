@@ -11,6 +11,8 @@ namespace Dreammancer
     public class DestroySelf : MonoBehaviour
     {
         [SerializeField]
+        private GameObject m_DisappearEffect;
+        [SerializeField]
         private float m_Time;
 
         private bool isDestroy = false;
@@ -40,6 +42,8 @@ namespace Dreammancer
             if (isDestroy)
             {
                 InvokeCallbacks();
+                if(m_DisappearEffect != null)
+                    GameObject.Instantiate(m_DisappearEffect, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
         }
