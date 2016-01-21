@@ -28,10 +28,12 @@ namespace Dreammancer{
 //			audio.PlayOneShot(impact, 1.0f);
 
 			if (levelIndex == 1) {
-				Application.LoadLevel ("FirstSceneVedio");
+				LoadLevelScript.ToLoadLevel = "FirstSceneVedio";
+				Application.LoadLevel ("LoadingScene");
 			}
 			else {
-				Application.LoadLevel ("Level" + levelIndex); //load the level
+				LoadLevelScript.ToLoadLevel = "Level" + levelIndex;
+				Application.LoadLevel ("LoadingScene");
 			}
 		}
 		
@@ -46,14 +48,13 @@ namespace Dreammancer{
 		void  CheckLockedLevels (){
 			//loop through the levels of a particular world
 			for(int i = 1; i <= PlayerPrefs.GetInt("lockedlevel"); i++){
-				//levelIndex = (j+1);
-				//int varInt = 1; 
-				//string varString = Convert.ToString(varInt); 
 				string varString1 = PlayerPrefs.GetInt("lockedlevel").ToString();
-				//Debug.Log(varString1);
-				//if((PlayerPrefs.GetInt("level"+worldIndex.ToString() +":" +levelIndex.ToString()))==1){
-				GameObject.Find("LockedLevel"+varString1).active = false;
-					Debug.Log ("Unlocked");
+
+				Debug.Log("LockedLevel"+varString1);
+				if(GameObject.Find("LockedLevel"+varString1) != null){
+					GameObject.Find("LockedLevel"+varString1).active = false;
+				}
+				Debug.Log ("Unlocked");
 			}
 		}
 	}
