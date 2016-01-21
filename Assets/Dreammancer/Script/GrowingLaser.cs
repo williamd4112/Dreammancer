@@ -12,6 +12,8 @@ namespace Dreammancer
         private Light2D m_Light2D;
         [SerializeField]
         private float m_TargetRadius = 20.0f;
+        [SerializeField]
+        private bool m_GrowOnce = false;
 
         // Use this for initialization
         void Start()
@@ -23,6 +25,8 @@ namespace Dreammancer
         void Update()
         {
             m_Light2D.LightBeamRange = Mathf.Lerp(m_Light2D.LightBeamRange, m_TargetRadius, Time.deltaTime * m_GrowingSpeed);
+            if (m_Light2D.LightBeamRange.Equals(m_TargetRadius))
+                Destroy(gameObject);
         }
     }
 
