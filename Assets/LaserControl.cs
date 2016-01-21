@@ -4,6 +4,7 @@ using System.Collections;
 namespace Dreammancer
 {
     [RequireComponent(typeof(Light2D))]
+    [RequireComponent(typeof(AudioSource))]
     public class LaserControl : MonoBehaviour
     {
         [SerializeField]
@@ -14,6 +15,8 @@ namespace Dreammancer
         private AudioClip m_ShootSound;
         [SerializeField]
         private AudioClip m_KeepShootSound;
+        [SerializeField]
+        private AudioSource m_Source;
 
         private Light2D m_Laser;
 
@@ -23,6 +26,7 @@ namespace Dreammancer
         void Start()
         {
             m_Laser = GetComponent<Light2D>();
+            m_Source = GetComponent<AudioSource>();
         }
 
         // Update is called once per frame
@@ -38,15 +42,17 @@ namespace Dreammancer
             }
         }
 
-        void EnableLaser()
+        public void EnableLaser()
         {
             AudioSource.PlayClipAtPoint(m_ShootSound, transform.position);
             m_Enable = true;
+            m_Source.mute = false;
         }
 
-        void DisbleLaser()
+        public void DisbleLaser()
         {
             m_Enable = false;
+            m_Source.mute = true;
         }
     }
 }
