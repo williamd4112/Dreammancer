@@ -21,7 +21,8 @@ namespace Dreammancer
             if(other.CompareTag("Player"))
             {
                 foreach(Transform g in m_ToTriggers)
-                    g.gameObject.SetActive(m_TriggerVal);
+                    if(g != null)
+                        g.gameObject.SetActive(m_TriggerVal);
                 Destroy(gameObject);
             }
         }

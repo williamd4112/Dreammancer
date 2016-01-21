@@ -41,8 +41,8 @@ namespace Dreammancer
         // Update is called once per frame
         void Update()
         {
-            //if (Vector3.Distance(player.transform.position, transform.position) > m_DetectDistance)
-            //    return;
+            if (Vector3.Distance(player.transform.position, transform.position) > m_DetectDistance)
+                return;
 
             if (transform.parent.transform.localScale.x < 0 && m_FollowFlip)
             {

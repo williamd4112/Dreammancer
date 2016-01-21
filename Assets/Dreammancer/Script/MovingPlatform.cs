@@ -4,19 +4,19 @@ using System;
 
 namespace Dreammancer
 {
-    [RequireComponent(typeof(Rigidbody2D))]
     public class MovingPlatform : MonoBehaviour
     {
         private float k_Epision = 0.3f;
-
+        [SerializeField]
+        private string m_Identity = "Platform";
         [SerializeField]
         Transform platform;
 
         [SerializeField]
-        private Transform startTransform;
+        public Transform startTransform;
 
         [SerializeField]
-        private Transform endTransform;
+        public Transform endTransform;
 
         [SerializeField]
         public float platformSpeed;
@@ -28,13 +28,14 @@ namespace Dreammancer
 
         void Start()
         {
-            m_Rigidbody = GetComponent<Rigidbody2D>();
+            m_Rigidbody = platform.GetComponent<Rigidbody2D>();
             SetDestination(startTransform);
         }
 
         void FixedUpdate()
         {
             if (platformSpeed == 0) return;
+            direction = (destination.position - platform.position).normalized;
             m_Rigidbody.velocity = direction * platformSpeed;
 
             if (Vector3.Distance(platform.position, destination.position) < platformSpeed)
