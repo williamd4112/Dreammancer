@@ -27,14 +27,14 @@ namespace Dreammancer{
 
 //			audio.PlayOneShot(impact, 1.0f);
 
-			if (levelIndex == 1) {
-				LoadLevelScript.ToLoadLevel = "FirstSceneVedio";
-				Application.LoadLevel ("LoadingScene");
-			}
-			else {
+//			if (levelIndex == 1) {
+//				LoadLevelScript.ToLoadLevel = "FirstSceneVedio";
+//				Application.LoadLevel ("LoadingScene");
+//			}
+//			else {
 				LoadLevelScript.ToLoadLevel = "Level" + levelIndex;
 				Application.LoadLevel ("LoadingScene");
-			}
+//			}
 		}
 		
 		//uncomment the below code if you have a main menu scene to navigate to it on clicking escape when in World1 scene

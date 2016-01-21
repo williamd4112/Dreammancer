@@ -26,11 +26,14 @@ namespace Dreammancer
         [SerializeField]
         private float m_Speed = 1.8f;
 
+		private int id;
+
         private MovingPlatform m_MovingPlatform;
 
         // Use this for initialization
         void Start()
         {
+			id = gameObject.GetInstanceID ();
             m_MovingPlatform = GetComponent<MovingPlatform>();
             Light2D.RegisterEventListener(LightEventListenerType.OnStay, OnLightStay);
         }
@@ -60,7 +63,7 @@ namespace Dreammancer
 
         void OnLightStay(Light2D l, GameObject o)
         {
-            if (o.GetInstanceID() == gameObject.GetInstanceID())
+            if (o.GetInstanceID() == id)
             {
                 if (ColorUtil.colorCompareQuantRGB(l.LightColor, Color.red, 127))
                     m_State = DynamicCubeState.POSITIVE;

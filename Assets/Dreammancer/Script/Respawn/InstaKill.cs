@@ -7,7 +7,7 @@ namespace Dreammancer{
 	
 		public void OnTriggerEnter2D(Collider2D other){
 			if (!other.CompareTag ("Player")) {
-                other.gameObject.GetComponent<Health>().decreaseHealth(100);
+                //other.gameObject.GetComponent<Health>().decreaseHealth(100);
 			}
 
 			var player = other.GetComponent<DreammancerCharacter> ();

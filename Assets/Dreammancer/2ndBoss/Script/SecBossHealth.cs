@@ -23,12 +23,14 @@ namespace Dreammancer{
         private Color BossColor;
         [SerializeField]
         private GameObject gameCom;
+		[SerializeField]
+		private GameObject cam;
 
 		public int levelIndex; 
 		// Use this for initialization
 		void Start () {
 			m_ani = this.GetComponent<Animator> ();
-			m_Cs = mainCam.GetComponent<CamShake> ();
+			//m_Cs = cam.GetComponent<CamShake> ();
 			BodyAni = BossBody.GetComponent<Animator> ();
             m_SR = this.gameObject.GetComponent<SpriteRenderer>();
 
@@ -54,14 +56,14 @@ namespace Dreammancer{
                 BossExplo.GetComponent<Animator>().SetTrigger("Explo");
                 gameCom.SetActive(true);
                 Debug.Log("Explo before shake");
-				m_Cs.shakeAmt = 5f;
-				m_Cs.shakePeriodTime = 0.2f;
-				m_Cs.dropOffTime = 3f;
-				m_Cs.shakeAndBake ();
+				//m_Cs.shakeAmt = 5f;
+				//m_Cs.shakePeriodTime = 0.2f;
+				//m_Cs.dropOffTime = 3f;
+				//m_Cs.shakeAndBake ();
                 //Application.LoadLevel ("BossFight");
                 StartCoroutine("LoadLevel");
 			} else if (bossLife > 0) {
-				m_Cs.shakeAndBake ();
+				//m_Cs.shakeAndBake ();
 				m_ani.SetBool ("BeHurt", true);
 				StartCoroutine ("returnIdle");
 				this.GetComponent<SecBossEffectState>().Repair();
