@@ -62,7 +62,7 @@ namespace Dreammancer{
 				onlyOnce = false;
 
 				if (m_BossState == Bstate.Idle) {
-					updatedPos = new Vector2(p_Trasnform.transform.position.x,p_Trasnform.transform.position.y + 1.5f);
+					updatedPos = new Vector2(p_Trasnform.transform.position.x,p_Trasnform.transform.position.y + 1f);
 					this.gameObject.GetComponent<Transform>().position = updatedPos;
 					attackSec = Random.Range (1f, attackFreq);
 					StartCoroutine ("chooseAttack");
