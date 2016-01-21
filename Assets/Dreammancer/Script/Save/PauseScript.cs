@@ -18,6 +18,7 @@ namespace Dreammancer{
 
 			paused = false;
 			PauseMenu = GameObject.Find("PauseMenu");
+			SetActive_r (false);
 		
 		}
 		
@@ -28,12 +29,14 @@ namespace Dreammancer{
 				paused = !paused;
 
 			}
+
 			if(paused){
-				PauseMenu.SetActive(true);
+				SetActive_r(true);
+				//PauseMenu.SetActive(true);
 				Time.timeScale = 0;
 			}
 			else if(!paused){
-				PauseMenu.SetActive(false);
+				SetActive_r(false);
 				Time.timeScale = 1;
 			}
 		}
@@ -51,6 +54,14 @@ namespace Dreammancer{
 		}
 		public void Quit(){
 			Application.Quit ();
+		}
+
+		void SetActive_r(bool b)
+		{
+			foreach (Image obj in PauseMenu.GetComponentsInChildren<Image>()) {
+				obj.GetComponentInChildren<Text>().enabled = b;
+				obj.enabled = b;
+			}
 		}
 
 	}

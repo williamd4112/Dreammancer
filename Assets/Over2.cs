@@ -18,10 +18,10 @@ namespace Dreammancer{
 		
 		// Update is called once per frame
 		void Update () {
-			if (anim.GetCurrentAnimatorStateInfo(0).shortNameHash == idleStateHash) {
-				isIdle = true;
-				Application.LoadLevel ("Level1");
-			}
+			//if (anim.GetCurrentAnimatorStateInfo(0).shortNameHash == idleStateHash) {
+			//	isIdle = true;
+			//	Application.LoadLevel ("Level1");
+			//}
 		}
 		//		void overIt(){
 		//			Application.LoadLevel ("StartScene");
